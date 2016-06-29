@@ -1,0 +1,11 @@
+digraph "0ACDbR5M3ZhBJajygTuf" {
+"start" -> "GetCurrentProcessId";
+"start" -> "GetCurrentThreadId";
+"start" -> "GetTickCount";
+"start" -> "QueryPerformanceCounter";
+"start" -> "glInterleavedArrays";
+"start" -> "sub_471C4F";
+"start" -> "sub_470050";
+"start" -> "[ebp+var_4]";
+"start" -> "VirtualAlloc";
+}
