@@ -1,0 +1,1972 @@
+	|*pthread_getspecific| <#index-_002apthread_005fgetspecific>:	 
+Thread-specific Data <#Thread_002dspecific-Data>
+	|*sbrk| <#index-_002asbrk>:	 	Resizing the Data Segment
+<#Resizing-the-Data-Segment>
+	|*sem_open| <#index-_002asem_005fopen>:	 	Semaphores <#Semaphores>
+------------------------------------------------------------------------
+_		
+	|_exit| <#index-_005fexit>:	 	Termination Internals
+<#Termination-Internals>
+	|_Exit| <#index-_005fExit>:	 	Termination Internals
+<#Termination-Internals>
+	|_flushlbf| <#index-_005fflushlbf>:	 	Flushing Buffers <#Flushing-Buffers>
+	|_tolower| <#index-_005ftolower>:	 	Case Conversion <#Case-Conversion>
+	|_toupper| <#index-_005ftoupper>:	 	Case Conversion <#Case-Conversion>
+	|__fbufsize| <#index-_005f_005ffbufsize>:	 	Controlling Buffering
+<#Controlling-Buffering>
+	|__flbf| <#index-_005f_005fflbf>:	 	Controlling Buffering
+<#Controlling-Buffering>
+	|__fpending| <#index-_005f_005ffpending>:	 	Controlling Buffering
+<#Controlling-Buffering>
+	|__fpurge| <#index-_005f_005ffpurge>:	 	Flushing Buffers
+<#Flushing-Buffers>
+	|__freadable| <#index-_005f_005ffreadable>:	 	Opening Streams
+<#Opening-Streams>
+	|__freading| <#index-_005f_005ffreading>:	 	Opening Streams
+<#Opening-Streams>
+	|__fsetlocking| <#index-_005f_005ffsetlocking>:	 	Streams and Threads
+<#Streams-and-Threads>
+	|__fwritable| <#index-_005f_005ffwritable>:	 	Opening Streams
+<#Opening-Streams>
+	|__fwriting| <#index-_005f_005ffwriting>:	 	Opening Streams
+<#Opening-Streams>
+	|__ppc_get_timebase| <#index-_005f_005fppc_005fget_005ftimebase>:	 
+PowerPC <#PowerPC>
+	|__ppc_get_timebase_freq|
+<#index-_005f_005fppc_005fget_005ftimebase_005ffreq>:	 	PowerPC <#PowerPC>
+	|__ppc_mdoio| <#index-_005f_005fppc_005fmdoio>:	 	PowerPC <#PowerPC>
+	|__ppc_mdoom| <#index-_005f_005fppc_005fmdoom>:	 	PowerPC <#PowerPC>
+	|__ppc_set_ppr_low| <#index-_005f_005fppc_005fset_005fppr_005flow>:	 
+PowerPC <#PowerPC>
+	|__ppc_set_ppr_med| <#index-_005f_005fppc_005fset_005fppr_005fmed>:	 
+PowerPC <#PowerPC>
+	|__ppc_set_ppr_med_high|
+<#index-_005f_005fppc_005fset_005fppr_005fmed_005fhigh>:	 	PowerPC
+<#PowerPC>
+	|__ppc_set_ppr_med_low|
+<#index-_005f_005fppc_005fset_005fppr_005fmed_005flow>:	 	PowerPC <#PowerPC>
+	|__ppc_set_ppr_very_low|
+<#index-_005f_005fppc_005fset_005fppr_005fvery_005flow>:	 	PowerPC
+<#PowerPC>
+	|__ppc_yield| <#index-_005f_005fppc_005fyield>:	 	PowerPC <#PowerPC>
+	|__va_copy| <#index-_005f_005fva_005fcopy>:	 	Argument Macros
+<#Argument-Macros>
+------------------------------------------------------------------------
+A		
+	|a64l| <#index-a64l>:	 	Encode Binary Data <#Encode-Binary-Data>
+	|abort| <#index-abort>:	 	Aborting a Program <#Aborting-a-Program>
+	|abs| <#index-abs>:	 	Absolute Value <#Absolute-Value>
+	|accept| <#index-accept>:	 	Accepting Connections <#Accepting-Connections>
+	|access| <#index-access>:	 	Testing File Access <#Testing-File-Access>
+	|acos| <#index-acos>:	 	Inverse Trig Functions <#Inverse-Trig-Functions>
+	|acosf| <#index-acosf>:	 	Inverse Trig Functions <#Inverse-Trig-Functions>
+	|acosh| <#index-acosh>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|acoshf| <#index-acoshf>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|acoshl| <#index-acoshl>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|acosl| <#index-acosl>:	 	Inverse Trig Functions <#Inverse-Trig-Functions>
+	|addmntent| <#index-addmntent>:	 	mtab <#mtab>
+	|addseverity| <#index-addseverity>:	 	Adding Severity Classes
+<#Adding-Severity-Classes>
+	|adjtime| <#index-adjtime>:	 	High-Resolution Calendar
+<#High_002dResolution-Calendar>
+	|adjtimex| <#index-adjtimex>:	 	High-Resolution Calendar
+<#High_002dResolution-Calendar>
+	|aio_cancel| <#index-aio_005fcancel>:	 	Cancel AIO Operations
+<#Cancel-AIO-Operations>
+	|aio_cancel64| <#index-aio_005fcancel64>:	 	Cancel AIO Operations
+<#Cancel-AIO-Operations>
+	|aio_error| <#index-aio_005ferror>:	 	Status of AIO Operations
+<#Status-of-AIO-Operations>
+	|aio_error64| <#index-aio_005ferror64>:	 	Status of AIO Operations
+<#Status-of-AIO-Operations>
+	|aio_fsync| <#index-aio_005ffsync>:	 	Synchronizing AIO Operations
+<#Synchronizing-AIO-Operations>
+	|aio_fsync64| <#index-aio_005ffsync64>:	 	Synchronizing AIO Operations
+<#Synchronizing-AIO-Operations>
+	|aio_init| <#index-aio_005finit>:	 	Configuration of AIO
+<#Configuration-of-AIO>
+	|aio_read| <#index-aio_005fread>:	 	Asynchronous Reads/Writes
+<#Asynchronous-Reads_002fWrites>
+	|aio_read64| <#index-aio_005fread64>:	 	Asynchronous Reads/Writes
+<#Asynchronous-Reads_002fWrites>
+	|aio_return| <#index-aio_005freturn>:	 	Status of AIO Operations
+<#Status-of-AIO-Operations>
+	|aio_return64| <#index-aio_005freturn64>:	 	Status of AIO Operations
+<#Status-of-AIO-Operations>
+	|aio_suspend| <#index-aio_005fsuspend>:	 	Synchronizing AIO Operations
+<#Synchronizing-AIO-Operations>
+	|aio_suspend64| <#index-aio_005fsuspend64>:	 	Synchronizing AIO
+Operations <#Synchronizing-AIO-Operations>
+	|aio_write| <#index-aio_005fwrite>:	 	Asynchronous Reads/Writes
+<#Asynchronous-Reads_002fWrites>
+	|aio_write64| <#index-aio_005fwrite64>:	 	Asynchronous Reads/Writes
+<#Asynchronous-Reads_002fWrites>
+	|alarm| <#index-alarm>:	 	Setting an Alarm <#Setting-an-Alarm>
+	|aligned_alloc| <#index-aligned_005falloc>:	 	Aligned Memory Blocks
+<#Aligned-Memory-Blocks>
+	|alloca| <#index-alloca>:	 	Variable Size Automatic
+<#Variable-Size-Automatic>
+	|alphasort| <#index-alphasort>:	 	Scanning Directory Content
+<#Scanning-Directory-Content>
+	|alphasort64| <#index-alphasort64>:	 	Scanning Directory Content
+<#Scanning-Directory-Content>
+	|argp_error| <#index-argp_005ferror>:	 	Argp Helper Functions
+<#Argp-Helper-Functions>
+	|argp_failure| <#index-argp_005ffailure>:	 	Argp Helper Functions
+<#Argp-Helper-Functions>
+	|argp_help| <#index-argp_005fhelp>:	 	Argp Help <#Argp-Help>
+	|argp_parse| <#index-argp_005fparse>:	 	Argp <#Argp>
+	|argp_state_help| <#index-argp_005fstate_005fhelp>:	 	Argp Helper
+Functions <#Argp-Helper-Functions>
+	|argp_usage| <#index-argp_005fusage>:	 	Argp Helper Functions
+<#Argp-Helper-Functions>
+	|argz_add| <#index-argz_005fadd>:	 	Argz Functions <#Argz-Functions>
+	|argz_add_sep| <#index-argz_005fadd_005fsep>:	 	Argz Functions
+<#Argz-Functions>
+	|argz_append| <#index-argz_005fappend>:	 	Argz Functions <#Argz-Functions>
+	|argz_count| <#index-argz_005fcount>:	 	Argz Functions <#Argz-Functions>
+	|argz_create| <#index-argz_005fcreate>:	 	Argz Functions <#Argz-Functions>
+	|argz_create_sep| <#index-argz_005fcreate_005fsep>:	 	Argz Functions
+<#Argz-Functions>
+	|argz_delete| <#index-argz_005fdelete>:	 	Argz Functions <#Argz-Functions>
+	|argz_extract| <#index-argz_005fextract>:	 	Argz Functions
+<#Argz-Functions>
+	|argz_insert| <#index-argz_005finsert>:	 	Argz Functions <#Argz-Functions>
+	|argz_next| <#index-argz_005fnext>:	 	Argz Functions <#Argz-Functions>
+	|argz_replace| <#index-argz_005freplace>:	 	Argz Functions
+<#Argz-Functions>
+	|argz_stringify| <#index-argz_005fstringify>:	 	Argz Functions
+<#Argz-Functions>
+	|asctime| <#index-asctime>:	 	Formatting Calendar Time
+<#Formatting-Calendar-Time>
+	|asctime_r| <#index-asctime_005fr>:	 	Formatting Calendar Time
+<#Formatting-Calendar-Time>
+	|asin| <#index-asin>:	 	Inverse Trig Functions <#Inverse-Trig-Functions>
+	|asinf| <#index-asinf>:	 	Inverse Trig Functions <#Inverse-Trig-Functions>
+	|asinh| <#index-asinh>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|asinhf| <#index-asinhf>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|asinhl| <#index-asinhl>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|asinl| <#index-asinl>:	 	Inverse Trig Functions <#Inverse-Trig-Functions>
+	|asprintf| <#index-asprintf>:	 	Dynamic Output <#Dynamic-Output>
+	|assert| <#index-assert>:	 	Consistency Checking <#Consistency-Checking>
+	|assert_perror| <#index-assert_005fperror>:	 	Consistency Checking
+<#Consistency-Checking>
+	|atan| <#index-atan>:	 	Inverse Trig Functions <#Inverse-Trig-Functions>
+	|atan2| <#index-atan2>:	 	Inverse Trig Functions <#Inverse-Trig-Functions>
+	|atan2f| <#index-atan2f>:	 	Inverse Trig Functions
+<#Inverse-Trig-Functions>
+	|atan2l| <#index-atan2l>:	 	Inverse Trig Functions
+<#Inverse-Trig-Functions>
+	|atanf| <#index-atanf>:	 	Inverse Trig Functions <#Inverse-Trig-Functions>
+	|atanh| <#index-atanh>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|atanhf| <#index-atanhf>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|atanhl| <#index-atanhl>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|atanl| <#index-atanl>:	 	Inverse Trig Functions <#Inverse-Trig-Functions>
+	|atexit| <#index-atexit>:	 	Cleanups on Exit <#Cleanups-on-Exit>
+	|atof| <#index-atof>:	 	Parsing of Floats <#Parsing-of-Floats>
+	|atoi| <#index-atoi>:	 	Parsing of Integers <#Parsing-of-Integers>
+	|atol| <#index-atol>:	 	Parsing of Integers <#Parsing-of-Integers>
+	|atoll| <#index-atoll>:	 	Parsing of Integers <#Parsing-of-Integers>
+------------------------------------------------------------------------
+B		
+	|backtrace| <#index-backtrace-1>:	 	Backtraces <#Backtraces>
+	|backtrace_symbols| <#index-backtrace_005fsymbols-1>:	 	Backtraces
+<#Backtraces>
+	|backtrace_symbols_fd| <#index-backtrace_005fsymbols_005ffd>:	 
+Backtraces <#Backtraces>
+	|basename| <#index-basename>:	 	Finding Tokens in a String
+<#Finding-Tokens-in-a-String>
+	|basename| <#index-basename-1>:	 	Finding Tokens in a String
+<#Finding-Tokens-in-a-String>
+	|bcmp| <#index-bcmp>:	 	String/Array Comparison
+<#String_002fArray-Comparison>
+	|bcopy| <#index-bcopy>:	 	Copying Strings and Arrays
+<#Copying-Strings-and-Arrays>
+	|bind| <#index-bind>:	 	Setting Address <#Setting-Address>
+	|bindtextdomain| <#index-bindtextdomain>:	 	Locating gettext catalog
+<#Locating-gettext-catalog>
+	|bind_textdomain_codeset| <#index-bind_005ftextdomain_005fcodeset>:	 
+Charset conversion in gettext <#Charset-conversion-in-gettext>
+	|brk| <#index-brk>:	 	Resizing the Data Segment
+<#Resizing-the-Data-Segment>
+	|bsearch| <#index-bsearch>:	 	Array Search Function
+<#Array-Search-Function>
+	|btowc| <#index-btowc>:	 	Converting a Character <#Converting-a-Character>
+	|bzero| <#index-bzero>:	 	Copying Strings and Arrays
+<#Copying-Strings-and-Arrays>
+------------------------------------------------------------------------
+C		
+	|cabs| <#index-cabs>:	 	Absolute Value <#Absolute-Value>
+	|cabsf| <#index-cabsf>:	 	Absolute Value <#Absolute-Value>
+	|cabsl| <#index-cabsl>:	 	Absolute Value <#Absolute-Value>
+	|cacos| <#index-cacos>:	 	Inverse Trig Functions <#Inverse-Trig-Functions>
+	|cacosf| <#index-cacosf>:	 	Inverse Trig Functions
+<#Inverse-Trig-Functions>
+	|cacosh| <#index-cacosh>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|cacoshf| <#index-cacoshf>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|cacoshl| <#index-cacoshl>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|cacosl| <#index-cacosl>:	 	Inverse Trig Functions
+<#Inverse-Trig-Functions>
+	|calloc| <#index-calloc>:	 	Allocating Cleared Space
+<#Allocating-Cleared-Space>
+	|canonicalize_file_name| <#index-canonicalize_005ffile_005fname>:	 
+Symbolic Links <#Symbolic-Links>
+	|carg| <#index-carg>:	 	Operations on Complex <#Operations-on-Complex>
+	|cargf| <#index-cargf>:	 	Operations on Complex <#Operations-on-Complex>
+	|cargl| <#index-cargl>:	 	Operations on Complex <#Operations-on-Complex>
+	|casin| <#index-casin>:	 	Inverse Trig Functions <#Inverse-Trig-Functions>
+	|casinf| <#index-casinf>:	 	Inverse Trig Functions
+<#Inverse-Trig-Functions>
+	|casinh| <#index-casinh>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|casinhf| <#index-casinhf>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|casinhl| <#index-casinhl>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|casinl| <#index-casinl>:	 	Inverse Trig Functions
+<#Inverse-Trig-Functions>
+	|catan| <#index-catan>:	 	Inverse Trig Functions <#Inverse-Trig-Functions>
+	|catanf| <#index-catanf>:	 	Inverse Trig Functions
+<#Inverse-Trig-Functions>
+	|catanh| <#index-catanh>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|catanhf| <#index-catanhf>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|catanhl| <#index-catanhl>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|catanl| <#index-catanl>:	 	Inverse Trig Functions
+<#Inverse-Trig-Functions>
+	|catclose| <#index-catclose>:	 	The catgets Functions
+<#The-catgets-Functions>
+	|catgets| <#index-catgets>:	 	The catgets Functions
+<#The-catgets-Functions>
+	|catopen| <#index-catopen>:	 	The catgets Functions
+<#The-catgets-Functions>
+	|cbc_crypt| <#index-cbc_005fcrypt>:	 	DES Encryption <#DES-Encryption>
+	|cbrt| <#index-cbrt>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|cbrtf| <#index-cbrtf>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|cbrtl| <#index-cbrtl>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|ccos| <#index-ccos>:	 	Trig Functions <#Trig-Functions>
+	|ccosf| <#index-ccosf>:	 	Trig Functions <#Trig-Functions>
+	|ccosh| <#index-ccosh>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|ccoshf| <#index-ccoshf>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|ccoshl| <#index-ccoshl>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|ccosl| <#index-ccosl>:	 	Trig Functions <#Trig-Functions>
+	|ceil| <#index-ceil>:	 	Rounding Functions <#Rounding-Functions>
+	|ceilf| <#index-ceilf>:	 	Rounding Functions <#Rounding-Functions>
+	|ceill| <#index-ceill>:	 	Rounding Functions <#Rounding-Functions>
+	|cexp| <#index-cexp>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|cexpf| <#index-cexpf>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|cexpl| <#index-cexpl>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|cfgetispeed| <#index-cfgetispeed>:	 	Line Speed <#Line-Speed>
+	|cfgetospeed| <#index-cfgetospeed>:	 	Line Speed <#Line-Speed>
+	|cfmakeraw| <#index-cfmakeraw>:	 	Noncanonical Input <#Noncanonical-Input>
+	|cfree| <#index-cfree>:	 	Freeing after Malloc <#Freeing-after-Malloc>
+	|cfsetispeed| <#index-cfsetispeed>:	 	Line Speed <#Line-Speed>
+	|cfsetospeed| <#index-cfsetospeed>:	 	Line Speed <#Line-Speed>
+	|cfsetspeed| <#index-cfsetspeed>:	 	Line Speed <#Line-Speed>
+	|chdir| <#index-chdir>:	 	Working Directory <#Working-Directory>
+	|chmod| <#index-chmod>:	 	Setting Permissions <#Setting-Permissions>
+	|chmod| <#index-chmod-1>:	 	Setting Permissions <#Setting-Permissions>
+	|chown| <#index-chown>:	 	File Owner <#File-Owner>
+	|cimag| <#index-cimag>:	 	Operations on Complex <#Operations-on-Complex>
+	|cimagf| <#index-cimagf>:	 	Operations on Complex <#Operations-on-Complex>
+	|cimagl| <#index-cimagl>:	 	Operations on Complex <#Operations-on-Complex>
+	|clearenv| <#index-clearenv>:	 	Environment Access <#Environment-Access>
+	|clearerr| <#index-clearerr>:	 	Error Recovery <#Error-Recovery>
+	|clearerr_unlocked| <#index-clearerr_005funlocked>:	 	Error Recovery
+<#Error-Recovery>
+	|clock| <#index-clock>:	 	CPU Time <#CPU-Time>
+	|clog| <#index-clog>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|clog10| <#index-clog10>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|clog10f| <#index-clog10f>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|clog10l| <#index-clog10l>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|clogf| <#index-clogf>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|clogl| <#index-clogl>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|close| <#index-close>:	 	Opening and Closing Files
+<#Opening-and-Closing-Files>
+	|closedir| <#index-closedir>:	 	Reading/Closing Directory
+<#Reading_002fClosing-Directory>
+	|closelog| <#index-closelog>:	 	closelog <#closelog>
+	|confstr| <#index-confstr>:	 	String Parameters <#String-Parameters>
+	|conj| <#index-conj>:	 	Operations on Complex <#Operations-on-Complex>
+	|conjf| <#index-conjf>:	 	Operations on Complex <#Operations-on-Complex>
+	|conjl| <#index-conjl>:	 	Operations on Complex <#Operations-on-Complex>
+	|connect| <#index-connect>:	 	Connecting <#Connecting>
+	|continue| <#index-continue>:	 	Actions in the NSS configuration
+<#Actions-in-the-NSS-configuration>
+	|copysign| <#index-copysign>:	 	FP Bit Twiddling <#FP-Bit-Twiddling>
+	|copysignf| <#index-copysignf>:	 	FP Bit Twiddling <#FP-Bit-Twiddling>
+	|copysignl| <#index-copysignl>:	 	FP Bit Twiddling <#FP-Bit-Twiddling>
+	|cos| <#index-cos>:	 	Trig Functions <#Trig-Functions>
+	|cosf| <#index-cosf>:	 	Trig Functions <#Trig-Functions>
+	|cosh| <#index-cosh>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|coshf| <#index-coshf>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|coshl| <#index-coshl>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|cosl| <#index-cosl>:	 	Trig Functions <#Trig-Functions>
+	|cpow| <#index-cpow>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|cpowf| <#index-cpowf>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|cpowl| <#index-cpowl>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|cproj| <#index-cproj>:	 	Operations on Complex <#Operations-on-Complex>
+	|cprojf| <#index-cprojf>:	 	Operations on Complex <#Operations-on-Complex>
+	|cprojl| <#index-cprojl>:	 	Operations on Complex <#Operations-on-Complex>
+	|CPU_CLR| <#index-CPU_005fCLR>:	 	CPU Affinity <#CPU-Affinity>
+	|CPU_ISSET| <#index-CPU_005fISSET>:	 	CPU Affinity <#CPU-Affinity>
+	|CPU_SET| <#index-CPU_005fSET>:	 	CPU Affinity <#CPU-Affinity>
+	|CPU_ZERO| <#index-CPU_005fZERO>:	 	CPU Affinity <#CPU-Affinity>
+	|creal| <#index-creal>:	 	Operations on Complex <#Operations-on-Complex>
+	|crealf| <#index-crealf>:	 	Operations on Complex <#Operations-on-Complex>
+	|creall| <#index-creall>:	 	Operations on Complex <#Operations-on-Complex>
+	|creat| <#index-creat>:	 	Opening and Closing Files
+<#Opening-and-Closing-Files>
+	|creat64| <#index-creat64>:	 	Opening and Closing Files
+<#Opening-and-Closing-Files>
+	|crypt| <#index-crypt>:	 	crypt <#crypt>
+	|crypt_r| <#index-crypt_005fr>:	 	crypt <#crypt>
+	|csin| <#index-csin>:	 	Trig Functions <#Trig-Functions>
+	|csinf| <#index-csinf>:	 	Trig Functions <#Trig-Functions>
+	|csinh| <#index-csinh>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|csinhf| <#index-csinhf>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|csinhl| <#index-csinhl>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|csinl| <#index-csinl>:	 	Trig Functions <#Trig-Functions>
+	|csqrt| <#index-csqrt>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|csqrtf| <#index-csqrtf>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|csqrtl| <#index-csqrtl>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|ctan| <#index-ctan>:	 	Trig Functions <#Trig-Functions>
+	|ctanf| <#index-ctanf>:	 	Trig Functions <#Trig-Functions>
+	|ctanh| <#index-ctanh>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|ctanhf| <#index-ctanhf>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|ctanhl| <#index-ctanhl>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|ctanl| <#index-ctanl>:	 	Trig Functions <#Trig-Functions>
+	|ctermid| <#index-ctermid>:	 	Identifying the Terminal
+<#Identifying-the-Terminal>
+	|ctime| <#index-ctime>:	 	Formatting Calendar Time
+<#Formatting-Calendar-Time>
+	|ctime_r| <#index-ctime_005fr>:	 	Formatting Calendar Time
+<#Formatting-Calendar-Time>
+	|cuserid| <#index-cuserid>:	 	Who Logged In <#Who-Logged-In>
+------------------------------------------------------------------------
+D		
+	|dcgettext| <#index-dcgettext>:	 	Translation with gettext
+<#Translation-with-gettext>
+	|dcngettext| <#index-dcngettext>:	 	Advanced gettext functions
+<#Advanced-gettext-functions>
+	|DES_FAILED| <#index-DES_005fFAILED>:	 	DES Encryption <#DES-Encryption>
+	|des_setparity| <#index-des_005fsetparity>:	 	DES Encryption
+<#DES-Encryption>
+	|dgettext| <#index-dgettext>:	 	Translation with gettext
+<#Translation-with-gettext>
+	|difftime| <#index-difftime>:	 	Elapsed Time <#Elapsed-Time>
+	|dirfd| <#index-dirfd>:	 	Opening a Directory <#Opening-a-Directory>
+	|dirname| <#index-dirname>:	 	Finding Tokens in a String
+<#Finding-Tokens-in-a-String>
+	|div| <#index-div>:	 	Integer Division <#Integer-Division>
+	|dngettext| <#index-dngettext>:	 	Advanced gettext functions
+<#Advanced-gettext-functions>
+	|drand48| <#index-drand48>:	 	SVID Random <#SVID-Random>
+	|drand48_r| <#index-drand48_005fr>:	 	SVID Random <#SVID-Random>
+	|drem| <#index-drem>:	 	Remainder Functions <#Remainder-Functions>
+	|dremf| <#index-dremf>:	 	Remainder Functions <#Remainder-Functions>
+	|dreml| <#index-dreml>:	 	Remainder Functions <#Remainder-Functions>
+	|DTTOIF| <#index-DTTOIF>:	 	Directory Entries <#Directory-Entries>
+	|dup| <#index-dup>:	 	Duplicating Descriptors <#Duplicating-Descriptors>
+	|dup2| <#index-dup2>:	 	Duplicating Descriptors <#Duplicating-Descriptors>
+------------------------------------------------------------------------
+E		
+	|ecb_crypt| <#index-ecb_005fcrypt>:	 	DES Encryption <#DES-Encryption>
+	|ecvt| <#index-ecvt>:	 	System V Number Conversion
+<#System-V-Number-Conversion>
+	|ecvt_r| <#index-ecvt_005fr>:	 	System V Number Conversion
+<#System-V-Number-Conversion>
+	|encrypt| <#index-encrypt>:	 	DES Encryption <#DES-Encryption>
+	|encrypt_r| <#index-encrypt_005fr>:	 	DES Encryption <#DES-Encryption>
+	|endfsent| <#index-endfsent>:	 	fstab <#fstab>
+	|endgrent| <#index-endgrent>:	 	Scanning All Groups <#Scanning-All-Groups>
+	|endhostent| <#index-endhostent>:	 	Host Names <#Host-Names>
+	|endmntent| <#index-endmntent>:	 	mtab <#mtab>
+	|endnetent| <#index-endnetent>:	 	Networks Database <#Networks-Database>
+	|endnetgrent| <#index-endnetgrent>:	 	Lookup Netgroup <#Lookup-Netgroup>
+	|endprotoent| <#index-endprotoent>:	 	Protocols Database
+<#Protocols-Database>
+	|endpwent| <#index-endpwent>:	 	Scanning All Users <#Scanning-All-Users>
+	|endservent| <#index-endservent>:	 	Services Database <#Services-Database>
+	|endutent| <#index-endutent>:	 	Manipulating the Database
+<#Manipulating-the-Database>
+	|endutxent| <#index-endutxent>:	 	XPG Functions <#XPG-Functions>
+	|envz_add| <#index-envz_005fadd>:	 	Envz Functions <#Envz-Functions>
+	|envz_entry| <#index-envz_005fentry>:	 	Envz Functions <#Envz-Functions>
+	|envz_get| <#index-envz_005fget>:	 	Envz Functions <#Envz-Functions>
+	|envz_merge| <#index-envz_005fmerge>:	 	Envz Functions <#Envz-Functions>
+	|envz_remove| <#index-envz_005fremove>:	 	Envz Functions <#Envz-Functions>
+	|envz_strip| <#index-envz_005fstrip>:	 	Envz Functions <#Envz-Functions>
+	|erand48| <#index-erand48>:	 	SVID Random <#SVID-Random>
+	|erand48_r| <#index-erand48_005fr>:	 	SVID Random <#SVID-Random>
+	|erf| <#index-erf>:	 	Special Functions <#Special-Functions>
+	|erfc| <#index-erfc>:	 	Special Functions <#Special-Functions>
+	|erfcf| <#index-erfcf>:	 	Special Functions <#Special-Functions>
+	|erfcl| <#index-erfcl>:	 	Special Functions <#Special-Functions>
+	|erff| <#index-erff>:	 	Special Functions <#Special-Functions>
+	|erfl| <#index-erfl>:	 	Special Functions <#Special-Functions>
+	|err| <#index-err>:	 	Error Messages <#Error-Messages>
+	|error| <#index-error>:	 	Error Messages <#Error-Messages>
+	|error_at_line| <#index-error_005fat_005fline>:	 	Error Messages
+<#Error-Messages>
+	|errx| <#index-errx>:	 	Error Messages <#Error-Messages>
+	|execl| <#index-execl>:	 	Executing a File <#Executing-a-File>
+	|execle| <#index-execle>:	 	Executing a File <#Executing-a-File>
+	|execlp| <#index-execlp>:	 	Executing a File <#Executing-a-File>
+	|execv| <#index-execv>:	 	Executing a File <#Executing-a-File>
+	|execve| <#index-execve>:	 	Executing a File <#Executing-a-File>
+	|execvp| <#index-execvp>:	 	Executing a File <#Executing-a-File>
+	|exit| <#index-exit>:	 	Normal Termination <#Normal-Termination>
+	|exp| <#index-exp>:	 	Exponents and Logarithms <#Exponents-and-Logarithms>
+	|exp10| <#index-exp10>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|exp10f| <#index-exp10f>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|exp10l| <#index-exp10l>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|exp2| <#index-exp2>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|exp2f| <#index-exp2f>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|exp2l| <#index-exp2l>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|expf| <#index-expf>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|expl| <#index-expl>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|expm1| <#index-expm1>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|expm1f| <#index-expm1f>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|expm1l| <#index-expm1l>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+------------------------------------------------------------------------
+F		
+	|fabs| <#index-fabs>:	 	Absolute Value <#Absolute-Value>
+	|fabsf| <#index-fabsf>:	 	Absolute Value <#Absolute-Value>
+	|fabsl| <#index-fabsl>:	 	Absolute Value <#Absolute-Value>
+	|fchdir| <#index-fchdir>:	 	Working Directory <#Working-Directory>
+	|fchmod| <#index-fchmod>:	 	Setting Permissions <#Setting-Permissions>
+	|fchown| <#index-fchown>:	 	File Owner <#File-Owner>
+	|fclose| <#index-fclose>:	 	Closing Streams <#Closing-Streams>
+	|fcloseall| <#index-fcloseall>:	 	Closing Streams <#Closing-Streams>
+	|fcntl| <#index-fcntl>:	 	Control Operations <#Control-Operations>
+	|fcvt| <#index-fcvt>:	 	System V Number Conversion
+<#System-V-Number-Conversion>
+	|fcvt_r| <#index-fcvt_005fr>:	 	System V Number Conversion
+<#System-V-Number-Conversion>
+	|fdatasync| <#index-fdatasync>:	 	Synchronizing I/O
+<#Synchronizing-I_002fO>
+	|fdim| <#index-fdim>:	 	Misc FP Arithmetic <#Misc-FP-Arithmetic>
+	|fdimf| <#index-fdimf>:	 	Misc FP Arithmetic <#Misc-FP-Arithmetic>
+	|fdiml| <#index-fdiml>:	 	Misc FP Arithmetic <#Misc-FP-Arithmetic>
+	|fdopen| <#index-fdopen>:	 	Descriptors and Streams
+<#Descriptors-and-Streams>
+	|fdopendir| <#index-fdopendir>:	 	Opening a Directory
+<#Opening-a-Directory>
+	|FD_CLR| <#index-FD_005fCLR>:	 	Waiting for I/O <#Waiting-for-I_002fO>
+	|FD_ISSET| <#index-FD_005fISSET>:	 	Waiting for I/O <#Waiting-for-I_002fO>
+	|FD_SET| <#index-FD_005fSET>:	 	Waiting for I/O <#Waiting-for-I_002fO>
+	|FD_ZERO| <#index-FD_005fZERO>:	 	Waiting for I/O <#Waiting-for-I_002fO>
+	|feclearexcept| <#index-feclearexcept>:	 	Status bit operations
+<#Status-bit-operations>
+	|fedisableexcept| <#index-fedisableexcept>:	 	Control Functions
+<#Control-Functions>
+	|feenableexcept| <#index-feenableexcept>:	 	Control Functions
+<#Control-Functions>
+	|fegetenv| <#index-fegetenv>:	 	Control Functions <#Control-Functions>
+	|fegetexcept| <#index-fegetexcept>:	 	Control Functions
+<#Control-Functions>
+	|fegetexceptflag| <#index-fegetexceptflag>:	 	Status bit operations
+<#Status-bit-operations>
+	|fegetround| <#index-fegetround>:	 	Rounding <#Rounding>
+	|feholdexcept| <#index-feholdexcept>:	 	Control Functions
+<#Control-Functions>
+	|feof| <#index-feof>:	 	EOF and Errors <#EOF-and-Errors>
+	|feof_unlocked| <#index-feof_005funlocked>:	 	EOF and Errors
+<#EOF-and-Errors>
+	|feraiseexcept| <#index-feraiseexcept>:	 	Status bit operations
+<#Status-bit-operations>
+	|ferror| <#index-ferror>:	 	EOF and Errors <#EOF-and-Errors>
+	|ferror_unlocked| <#index-ferror_005funlocked>:	 	EOF and Errors
+<#EOF-and-Errors>
+	|fesetenv| <#index-fesetenv>:	 	Control Functions <#Control-Functions>
+	|fesetexceptflag| <#index-fesetexceptflag>:	 	Status bit operations
+<#Status-bit-operations>
+	|fesetround| <#index-fesetround>:	 	Rounding <#Rounding>
+	|fetestexcept| <#index-fetestexcept>:	 	Status bit operations
+<#Status-bit-operations>
+	|feupdateenv| <#index-feupdateenv>:	 	Control Functions
+<#Control-Functions>
+	|fflush| <#index-fflush>:	 	Flushing Buffers <#Flushing-Buffers>
+	|fflush_unlocked| <#index-fflush_005funlocked>:	 	Flushing Buffers
+<#Flushing-Buffers>
+	|fgetc| <#index-fgetc>:	 	Character Input <#Character-Input>
+	|fgetc_unlocked| <#index-fgetc_005funlocked>:	 	Character Input
+<#Character-Input>
+	|fgetgrent| <#index-fgetgrent>:	 	Scanning All Groups
+<#Scanning-All-Groups>
+	|fgetgrent_r| <#index-fgetgrent_005fr>:	 	Scanning All Groups
+<#Scanning-All-Groups>
+	|fgetpos| <#index-fgetpos>:	 	Portable Positioning <#Portable-Positioning>
+	|fgetpos64| <#index-fgetpos64>:	 	Portable Positioning
+<#Portable-Positioning>
+	|fgetpwent| <#index-fgetpwent>:	 	Scanning All Users <#Scanning-All-Users>
+	|fgetpwent_r| <#index-fgetpwent_005fr>:	 	Scanning All Users
+<#Scanning-All-Users>
+	|fgets| <#index-fgets>:	 	Line Input <#Line-Input>
+	|fgets_unlocked| <#index-fgets_005funlocked>:	 	Line Input <#Line-Input>
+	|fgetwc| <#index-fgetwc>:	 	Character Input <#Character-Input>
+	|fgetwc_unlocked| <#index-fgetwc_005funlocked>:	 	Character Input
+<#Character-Input>
+	|fgetws| <#index-fgetws>:	 	Line Input <#Line-Input>
+	|fgetws_unlocked| <#index-fgetws_005funlocked>:	 	Line Input <#Line-Input>
+	|fileno| <#index-fileno>:	 	Descriptors and Streams
+<#Descriptors-and-Streams>
+	|fileno_unlocked| <#index-fileno_005funlocked>:	 	Descriptors and
+Streams <#Descriptors-and-Streams>
+	|finite| <#index-finite>:	 	Floating Point Classes
+<#Floating-Point-Classes>
+	|finitef| <#index-finitef>:	 	Floating Point Classes
+<#Floating-Point-Classes>
+	|finitel| <#index-finitel>:	 	Floating Point Classes
+<#Floating-Point-Classes>
+	|flockfile| <#index-flockfile>:	 	Streams and Threads
+<#Streams-and-Threads>
+	|floor| <#index-floor>:	 	Rounding Functions <#Rounding-Functions>
+	|floorf| <#index-floorf>:	 	Rounding Functions <#Rounding-Functions>
+	|floorl| <#index-floorl>:	 	Rounding Functions <#Rounding-Functions>
+	|fma| <#index-fma>:	 	Misc FP Arithmetic <#Misc-FP-Arithmetic>
+	|fmaf| <#index-fmaf>:	 	Misc FP Arithmetic <#Misc-FP-Arithmetic>
+	|fmal| <#index-fmal>:	 	Misc FP Arithmetic <#Misc-FP-Arithmetic>
+	|fmax| <#index-fmax>:	 	Misc FP Arithmetic <#Misc-FP-Arithmetic>
+	|fmaxf| <#index-fmaxf>:	 	Misc FP Arithmetic <#Misc-FP-Arithmetic>
+	|fmaxl| <#index-fmaxl>:	 	Misc FP Arithmetic <#Misc-FP-Arithmetic>
+	|fmemopen| <#index-fmemopen>:	 	String Streams <#String-Streams>
+	|fmin| <#index-fmin>:	 	Misc FP Arithmetic <#Misc-FP-Arithmetic>
+	|fminf| <#index-fminf>:	 	Misc FP Arithmetic <#Misc-FP-Arithmetic>
+	|fminl| <#index-fminl>:	 	Misc FP Arithmetic <#Misc-FP-Arithmetic>
+	|fmod| <#index-fmod>:	 	Remainder Functions <#Remainder-Functions>
+	|fmodf| <#index-fmodf>:	 	Remainder Functions <#Remainder-Functions>
+	|fmodl| <#index-fmodl>:	 	Remainder Functions <#Remainder-Functions>
+	|fmtmsg| <#index-fmtmsg>:	 	Printing Formatted Messages
+<#Printing-Formatted-Messages>
+	|fnmatch| <#index-fnmatch>:	 	Wildcard Matching <#Wildcard-Matching>
+	|fopen| <#index-fopen>:	 	Opening Streams <#Opening-Streams>
+	|fopen64| <#index-fopen64>:	 	Opening Streams <#Opening-Streams>
+	|fopencookie| <#index-fopencookie>:	 	Streams and Cookies
+<#Streams-and-Cookies>
+	|fork| <#index-fork>:	 	Creating a Process <#Creating-a-Process>
+	|forkpty| <#index-forkpty>:	 	Pseudo-Terminal Pairs
+<#Pseudo_002dTerminal-Pairs>
+	|fpathconf| <#index-fpathconf>:	 	Pathconf <#Pathconf>
+	|fpclassify| <#index-fpclassify>:	 	Floating Point Classes
+<#Floating-Point-Classes>
+	|fprintf| <#index-fprintf>:	 	Formatted Output Functions
+<#Formatted-Output-Functions>
+	|fputc| <#index-fputc>:	 	Simple Output <#Simple-Output>
+	|fputc_unlocked| <#index-fputc_005funlocked>:	 	Simple Output
+<#Simple-Output>
+	|fputs| <#index-fputs>:	 	Simple Output <#Simple-Output>
+	|fputs_unlocked| <#index-fputs_005funlocked>:	 	Simple Output
+<#Simple-Output>
+	|fputwc| <#index-fputwc>:	 	Simple Output <#Simple-Output>
+	|fputwc_unlocked| <#index-fputwc_005funlocked>:	 	Simple Output
+<#Simple-Output>
+	|fputws| <#index-fputws>:	 	Simple Output <#Simple-Output>
+	|fputws_unlocked| <#index-fputws_005funlocked>:	 	Simple Output
+<#Simple-Output>
+	|fread| <#index-fread>:	 	Block Input/Output <#Block-Input_002fOutput>
+	|fread_unlocked| <#index-fread_005funlocked>:	 	Block Input/Output
+<#Block-Input_002fOutput>
+	|free| <#index-free>:	 	Freeing after Malloc <#Freeing-after-Malloc>
+	|freopen| <#index-freopen>:	 	Opening Streams <#Opening-Streams>
+	|freopen64| <#index-freopen64>:	 	Opening Streams <#Opening-Streams>
+	|frexp| <#index-frexp>:	 	Normalization Functions
+<#Normalization-Functions>
+	|frexpf| <#index-frexpf>:	 	Normalization Functions
+<#Normalization-Functions>
+	|frexpl| <#index-frexpl>:	 	Normalization Functions
+<#Normalization-Functions>
+	|fscanf| <#index-fscanf>:	 	Formatted Input Functions
+<#Formatted-Input-Functions>
+	|fseek| <#index-fseek>:	 	File Positioning <#File-Positioning>
+	|fseeko| <#index-fseeko>:	 	File Positioning <#File-Positioning>
+	|fseeko64| <#index-fseeko64>:	 	File Positioning <#File-Positioning>
+	|fsetpos| <#index-fsetpos>:	 	Portable Positioning <#Portable-Positioning>
+	|fsetpos64| <#index-fsetpos64>:	 	Portable Positioning
+<#Portable-Positioning>
+	|fstat| <#index-fstat>:	 	Reading Attributes <#Reading-Attributes>
+	|fstat64| <#index-fstat64>:	 	Reading Attributes <#Reading-Attributes>
+	|fsync| <#index-fsync>:	 	Synchronizing I/O <#Synchronizing-I_002fO>
+	|ftell| <#index-ftell>:	 	File Positioning <#File-Positioning>
+	|ftello| <#index-ftello>:	 	File Positioning <#File-Positioning>
+	|ftello64| <#index-ftello64>:	 	File Positioning <#File-Positioning>
+	|ftruncate| <#index-ftruncate>:	 	File Size <#File-Size>
+	|ftruncate64| <#index-ftruncate64>:	 	File Size <#File-Size>
+	|ftrylockfile| <#index-ftrylockfile>:	 	Streams and Threads
+<#Streams-and-Threads>
+	|ftw| <#index-ftw>:	 	Working with Directory Trees
+<#Working-with-Directory-Trees>
+	|ftw64| <#index-ftw64>:	 	Working with Directory Trees
+<#Working-with-Directory-Trees>
+	|funlockfile| <#index-funlockfile>:	 	Streams and Threads
+<#Streams-and-Threads>
+	|futimes| <#index-futimes>:	 	File Times <#File-Times>
+	|fwide| <#index-fwide>:	 	Streams and I18N <#Streams-and-I18N>
+	|fwprintf| <#index-fwprintf>:	 	Formatted Output Functions
+<#Formatted-Output-Functions>
+	|fwrite| <#index-fwrite>:	 	Block Input/Output <#Block-Input_002fOutput>
+	|fwrite_unlocked| <#index-fwrite_005funlocked>:	 	Block Input/Output
+<#Block-Input_002fOutput>
+	|fwscanf| <#index-fwscanf>:	 	Formatted Input Functions
+<#Formatted-Input-Functions>
+------------------------------------------------------------------------
+G		
+	|gamma| <#index-gamma>:	 	Special Functions <#Special-Functions>
+	|gammaf| <#index-gammaf>:	 	Special Functions <#Special-Functions>
+	|gammal| <#index-gammal>:	 	Special Functions <#Special-Functions>
+	|gcvt| <#index-gcvt>:	 	System V Number Conversion
+<#System-V-Number-Conversion>
+	|getauxval| <#index-getauxval>:	 	Auxiliary Vector <#Auxiliary-Vector>
+	|getc| <#index-getc>:	 	Character Input <#Character-Input>
+	|getchar| <#index-getchar>:	 	Character Input <#Character-Input>
+	|getchar_unlocked| <#index-getchar_005funlocked>:	 	Character Input
+<#Character-Input>
+	|getcontext| <#index-getcontext>:	 	System V contexts <#System-V-contexts>
+	|getcwd| <#index-getcwd>:	 	Working Directory <#Working-Directory>
+	|getc_unlocked| <#index-getc_005funlocked>:	 	Character Input
+<#Character-Input>
+	|getdate| <#index-getdate>:	 	General Time String Parsing
+<#General-Time-String-Parsing>
+	|getdate_r| <#index-getdate_005fr>:	 	General Time String Parsing
+<#General-Time-String-Parsing>
+	|getdelim| <#index-getdelim>:	 	Line Input <#Line-Input>
+	|getdomainnname| <#index-getdomainnname>:	 	Host Identification
+<#Host-Identification>
+	|getegid| <#index-getegid>:	 	Reading Persona <#Reading-Persona>
+	|getenv| <#index-getenv>:	 	Environment Access <#Environment-Access>
+	|geteuid| <#index-geteuid>:	 	Reading Persona <#Reading-Persona>
+	|getfsent| <#index-getfsent>:	 	fstab <#fstab>
+	|getfsfile| <#index-getfsfile>:	 	fstab <#fstab>
+	|getfsspec| <#index-getfsspec>:	 	fstab <#fstab>
+	|getgid| <#index-getgid>:	 	Reading Persona <#Reading-Persona>
+	|getgrent| <#index-getgrent>:	 	Scanning All Groups <#Scanning-All-Groups>
+	|getgrent_r| <#index-getgrent_005fr>:	 	Scanning All Groups
+<#Scanning-All-Groups>
+	|getgrgid| <#index-getgrgid>:	 	Lookup Group <#Lookup-Group>
+	|getgrgid_r| <#index-getgrgid_005fr>:	 	Lookup Group <#Lookup-Group>
+	|getgrnam| <#index-getgrnam>:	 	Lookup Group <#Lookup-Group>
+	|getgrnam_r| <#index-getgrnam_005fr>:	 	Lookup Group <#Lookup-Group>
+	|getgrouplist| <#index-getgrouplist>:	 	Setting Groups <#Setting-Groups>
+	|getgroups| <#index-getgroups>:	 	Reading Persona <#Reading-Persona>
+	|gethostbyaddr| <#index-gethostbyaddr>:	 	Host Names <#Host-Names>
+	|gethostbyaddr_r| <#index-gethostbyaddr_005fr>:	 	Host Names <#Host-Names>
+	|gethostbyname| <#index-gethostbyname>:	 	Host Names <#Host-Names>
+	|gethostbyname2| <#index-gethostbyname2>:	 	Host Names <#Host-Names>
+	|gethostbyname2_r| <#index-gethostbyname2_005fr>:	 	Host Names
+<#Host-Names>
+	|gethostbyname_r| <#index-gethostbyname_005fr>:	 	Host Names <#Host-Names>
+	|gethostent| <#index-gethostent>:	 	Host Names <#Host-Names>
+	|gethostid| <#index-gethostid>:	 	Host Identification
+<#Host-Identification>
+	|gethostname| <#index-gethostname>:	 	Host Identification
+<#Host-Identification>
+	|getitimer| <#index-getitimer>:	 	Setting an Alarm <#Setting-an-Alarm>
+	|getline| <#index-getline>:	 	Line Input <#Line-Input>
+	|getloadavg| <#index-getloadavg>:	 	Processor Resources
+<#Processor-Resources>
+	|getlogin| <#index-getlogin>:	 	Who Logged In <#Who-Logged-In>
+	|getmntent| <#index-getmntent>:	 	mtab <#mtab>
+	|getmntent_r| <#index-getmntent_005fr>:	 	mtab <#mtab>
+	|getnetbyaddr| <#index-getnetbyaddr>:	 	Networks Database
+<#Networks-Database>
+	|getnetbyname| <#index-getnetbyname>:	 	Networks Database
+<#Networks-Database>
+	|getnetent| <#index-getnetent>:	 	Networks Database <#Networks-Database>
+	|getnetgrent| <#index-getnetgrent>:	 	Lookup Netgroup <#Lookup-Netgroup>
+	|getnetgrent_r| <#index-getnetgrent_005fr>:	 	Lookup Netgroup
+<#Lookup-Netgroup>
+	|getopt| <#index-getopt>:	 	Using Getopt <#Using-Getopt>
+	|getopt_long| <#index-getopt_005flong>:	 	Getopt Long Options
+<#Getopt-Long-Options>
+	|getopt_long_only| <#index-getopt_005flong_005fonly>:	 	Getopt Long
+Options <#Getopt-Long-Options>
+	|getpagesize| <#index-getpagesize>:	 	Query Memory Parameters
+<#Query-Memory-Parameters>
+	|getpass| <#index-getpass>:	 	getpass <#getpass>
+	|getpeername| <#index-getpeername>:	 	Who is Connected <#Who-is-Connected>
+	|getpgid| <#index-getpgid>:	 	Process Group Functions
+<#Process-Group-Functions>
+	|getpgrp| <#index-getpgrp>:	 	Process Group Functions
+<#Process-Group-Functions>
+	|getpid| <#index-getpid>:	 	Process Identification
+<#Process-Identification>
+	|getppid| <#index-getppid>:	 	Process Identification
+<#Process-Identification>
+	|getpriority| <#index-getpriority>:	 	Traditional Scheduling Functions
+<#Traditional-Scheduling-Functions>
+	|getprotobyname| <#index-getprotobyname>:	 	Protocols Database
+<#Protocols-Database>
+	|getprotobynumber| <#index-getprotobynumber>:	 	Protocols Database
+<#Protocols-Database>
+	|getprotoent| <#index-getprotoent>:	 	Protocols Database
+<#Protocols-Database>
+	|getpt| <#index-getpt>:	 	Allocation <#Allocation>
+	|getpwent| <#index-getpwent>:	 	Scanning All Users <#Scanning-All-Users>
+	|getpwent_r| <#index-getpwent_005fr>:	 	Scanning All Users
+<#Scanning-All-Users>
+	|getpwnam| <#index-getpwnam>:	 	Lookup User <#Lookup-User>
+	|getpwnam_r| <#index-getpwnam_005fr>:	 	Lookup User <#Lookup-User>
+	|getpwuid| <#index-getpwuid>:	 	Lookup User <#Lookup-User>
+	|getpwuid_r| <#index-getpwuid_005fr>:	 	Lookup User <#Lookup-User>
+	|getrlimit| <#index-getrlimit>:	 	Limits on Resources
+<#Limits-on-Resources>
+	|getrlimit64| <#index-getrlimit64>:	 	Limits on Resources
+<#Limits-on-Resources>
+	|getrusage| <#index-getrusage>:	 	Resource Usage <#Resource-Usage>
+	|gets| <#index-gets>:	 	Line Input <#Line-Input>
+	|getservbyname| <#index-getservbyname>:	 	Services Database
+<#Services-Database>
+	|getservbyport| <#index-getservbyport>:	 	Services Database
+<#Services-Database>
+	|getservent| <#index-getservent>:	 	Services Database <#Services-Database>
+	|getsid| <#index-getsid>:	 	Process Group Functions
+<#Process-Group-Functions>
+	|getsockname| <#index-getsockname>:	 	Reading Address <#Reading-Address>
+	|getsockopt| <#index-getsockopt>:	 	Socket Option Functions
+<#Socket-Option-Functions>
+	|getsubopt| <#index-getsubopt>:	 	Suboptions <#Suboptions>
+	|gettext| <#index-gettext>:	 	Translation with gettext
+<#Translation-with-gettext>
+	|gettimeofday| <#index-gettimeofday>:	 	High-Resolution Calendar
+<#High_002dResolution-Calendar>
+	|getuid| <#index-getuid>:	 	Reading Persona <#Reading-Persona>
+	|getumask| <#index-getumask>:	 	Setting Permissions <#Setting-Permissions>
+	|getutent| <#index-getutent>:	 	Manipulating the Database
+<#Manipulating-the-Database>
+	|getutent_r| <#index-getutent_005fr>:	 	Manipulating the Database
+<#Manipulating-the-Database>
+	|getutid| <#index-getutid>:	 	Manipulating the Database
+<#Manipulating-the-Database>
+	|getutid_r| <#index-getutid_005fr>:	 	Manipulating the Database
+<#Manipulating-the-Database>
+	|getutline| <#index-getutline>:	 	Manipulating the Database
+<#Manipulating-the-Database>
+	|getutline_r| <#index-getutline_005fr>:	 	Manipulating the Database
+<#Manipulating-the-Database>
+	|getutmp| <#index-getutmp>:	 	XPG Functions <#XPG-Functions>
+	|getutmpx| <#index-getutmpx>:	 	XPG Functions <#XPG-Functions>
+	|getutxent| <#index-getutxent>:	 	XPG Functions <#XPG-Functions>
+	|getutxid| <#index-getutxid>:	 	XPG Functions <#XPG-Functions>
+	|getutxline| <#index-getutxline>:	 	XPG Functions <#XPG-Functions>
+	|getw| <#index-getw>:	 	Character Input <#Character-Input>
+	|getwc| <#index-getwc>:	 	Character Input <#Character-Input>
+	|getwchar| <#index-getwchar>:	 	Character Input <#Character-Input>
+	|getwchar_unlocked| <#index-getwchar_005funlocked>:	 	Character Input
+<#Character-Input>
+	|getwc_unlocked| <#index-getwc_005funlocked>:	 	Character Input
+<#Character-Input>
+	|getwd| <#index-getwd>:	 	Working Directory <#Working-Directory>
+	|get_avphys_pages| <#index-get_005favphys_005fpages>:	 	Query Memory
+Parameters <#Query-Memory-Parameters>
+	|get_current_dir_name| <#index-get_005fcurrent_005fdir_005fname>:	 
+Working Directory <#Working-Directory>
+	|get_nprocs| <#index-get_005fnprocs>:	 	Processor Resources
+<#Processor-Resources>
+	|get_nprocs_conf| <#index-get_005fnprocs_005fconf>:	 	Processor
+Resources <#Processor-Resources>
+	|get_phys_pages| <#index-get_005fphys_005fpages>:	 	Query Memory
+Parameters <#Query-Memory-Parameters>
+	|glob| <#index-glob>:	 	Calling Glob <#Calling-Glob>
+	|glob64| <#index-glob64>:	 	Calling Glob <#Calling-Glob>
+	|globfree| <#index-globfree>:	 	More Flags for Globbing
+<#More-Flags-for-Globbing>
+	|globfree64| <#index-globfree64>:	 	More Flags for Globbing
+<#More-Flags-for-Globbing>
+	|gmtime| <#index-gmtime>:	 	Broken-down Time <#Broken_002ddown-Time>
+	|gmtime_r| <#index-gmtime_005fr>:	 	Broken-down Time
+<#Broken_002ddown-Time>
+	|grantpt| <#index-grantpt>:	 	Allocation <#Allocation>
+	|grantpt| <#index-grantpt-1>:	 	Configuring and compiling
+<#Configuring-and-compiling>
+	|gsignal| <#index-gsignal>:	 	Signaling Yourself <#Signaling-Yourself>
+	|gtty| <#index-gtty>:	 	BSD Terminal Modes <#BSD-Terminal-Modes>
+------------------------------------------------------------------------
+H		
+	|hasmntopt| <#index-hasmntopt>:	 	mtab <#mtab>
+	|hcreate| <#index-hcreate>:	 	Hash Search Function <#Hash-Search-Function>
+	|hcreate_r| <#index-hcreate_005fr>:	 	Hash Search Function
+<#Hash-Search-Function>
+	|hdestroy| <#index-hdestroy>:	 	Hash Search Function
+<#Hash-Search-Function>
+	|hdestroy_r| <#index-hdestroy_005fr>:	 	Hash Search Function
+<#Hash-Search-Function>
+	|hsearch| <#index-hsearch>:	 	Hash Search Function <#Hash-Search-Function>
+	|hsearch_r| <#index-hsearch_005fr>:	 	Hash Search Function
+<#Hash-Search-Function>
+	|htonl| <#index-htonl>:	 	Byte Order <#Byte-Order>
+	|htons| <#index-htons>:	 	Byte Order <#Byte-Order>
+	|hypot| <#index-hypot>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|hypotf| <#index-hypotf>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|hypotl| <#index-hypotl>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+------------------------------------------------------------------------
+I		
+	|iconv| <#index-iconv-1>:	 	Generic Conversion Interface
+<#Generic-Conversion-Interface>
+	|iconv_close| <#index-iconv_005fclose>:	 	Generic Conversion Interface
+<#Generic-Conversion-Interface>
+	|iconv_open| <#index-iconv_005fopen>:	 	Generic Conversion Interface
+<#Generic-Conversion-Interface>
+	|IFTODT| <#index-IFTODT>:	 	Directory Entries <#Directory-Entries>
+	|if_freenameindex| <#index-if_005ffreenameindex>:	 	Interface Naming
+<#Interface-Naming>
+	|if_indextoname| <#index-if_005findextoname>:	 	Interface Naming
+<#Interface-Naming>
+	|if_nameindex| <#index-if_005fnameindex>:	 	Interface Naming
+<#Interface-Naming>
+	|if_nametoindex| <#index-if_005fnametoindex>:	 	Interface Naming
+<#Interface-Naming>
+	|ilogb| <#index-ilogb>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|ilogbf| <#index-ilogbf>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|ilogbl| <#index-ilogbl>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|imaxabs| <#index-imaxabs>:	 	Absolute Value <#Absolute-Value>
+	|imaxdiv| <#index-imaxdiv>:	 	Integer Division <#Integer-Division>
+	|index| <#index-index>:	 	Search Functions <#Search-Functions>
+	|inet_addr| <#index-inet_005faddr>:	 	Host Address Functions
+<#Host-Address-Functions>
+	|inet_aton| <#index-inet_005faton>:	 	Host Address Functions
+<#Host-Address-Functions>
+	|inet_lnaof| <#index-inet_005flnaof>:	 	Host Address Functions
+<#Host-Address-Functions>
+	|inet_makeaddr| <#index-inet_005fmakeaddr>:	 	Host Address Functions
+<#Host-Address-Functions>
+	|inet_netof| <#index-inet_005fnetof>:	 	Host Address Functions
+<#Host-Address-Functions>
+	|inet_network| <#index-inet_005fnetwork>:	 	Host Address Functions
+<#Host-Address-Functions>
+	|inet_ntoa| <#index-inet_005fntoa>:	 	Host Address Functions
+<#Host-Address-Functions>
+	|inet_ntop| <#index-inet_005fntop>:	 	Host Address Functions
+<#Host-Address-Functions>
+	|inet_pton| <#index-inet_005fpton>:	 	Host Address Functions
+<#Host-Address-Functions>
+	|initgroups| <#index-initgroups>:	 	Setting Groups <#Setting-Groups>
+	|initstate| <#index-initstate>:	 	BSD Random <#BSD-Random>
+	|initstate_r| <#index-initstate_005fr>:	 	BSD Random <#BSD-Random>
+	|innetgr| <#index-innetgr>:	 	Netgroup Membership <#Netgroup-Membership>
+	|ioctl| <#index-ioctl>:	 	IOCTLs <#IOCTLs>
+	|isalnum| <#index-isalnum>:	 	Classification of Characters
+<#Classification-of-Characters>
+	|isalpha| <#index-isalpha>:	 	Classification of Characters
+<#Classification-of-Characters>
+	|isascii| <#index-isascii>:	 	Classification of Characters
+<#Classification-of-Characters>
+	|isatty| <#index-isatty>:	 	Is It a Terminal <#Is-It-a-Terminal>
+	|isblank| <#index-isblank>:	 	Classification of Characters
+<#Classification-of-Characters>
+	|iscntrl| <#index-iscntrl>:	 	Classification of Characters
+<#Classification-of-Characters>
+	|isdigit| <#index-isdigit>:	 	Classification of Characters
+<#Classification-of-Characters>
+	|isfinite| <#index-isfinite>:	 	Floating Point Classes
+<#Floating-Point-Classes>
+	|isgraph| <#index-isgraph>:	 	Classification of Characters
+<#Classification-of-Characters>
+	|isgreater| <#index-isgreater>:	 	FP Comparison Functions
+<#FP-Comparison-Functions>
+	|isgreaterequal| <#index-isgreaterequal>:	 	FP Comparison Functions
+<#FP-Comparison-Functions>
+	|isinf| <#index-isinf>:	 	Floating Point Classes <#Floating-Point-Classes>
+	|isinff| <#index-isinff>:	 	Floating Point Classes
+<#Floating-Point-Classes>
+	|isinfl| <#index-isinfl>:	 	Floating Point Classes
+<#Floating-Point-Classes>
+	|isless| <#index-isless>:	 	FP Comparison Functions
+<#FP-Comparison-Functions>
+	|islessequal| <#index-islessequal>:	 	FP Comparison Functions
+<#FP-Comparison-Functions>
+	|islessgreater| <#index-islessgreater>:	 	FP Comparison Functions
+<#FP-Comparison-Functions>
+	|islower| <#index-islower>:	 	Classification of Characters
+<#Classification-of-Characters>
+	|isnan| <#index-isnan>:	 	Floating Point Classes <#Floating-Point-Classes>
+	|isnan| <#index-isnan-1>:	 	Floating Point Classes
+<#Floating-Point-Classes>
+	|isnanf| <#index-isnanf>:	 	Floating Point Classes
+<#Floating-Point-Classes>
+	|isnanl| <#index-isnanl>:	 	Floating Point Classes
+<#Floating-Point-Classes>
+	|isnormal| <#index-isnormal>:	 	Floating Point Classes
+<#Floating-Point-Classes>
+	|isprint| <#index-isprint>:	 	Classification of Characters
+<#Classification-of-Characters>
+	|ispunct| <#index-ispunct>:	 	Classification of Characters
+<#Classification-of-Characters>
+	|issignaling| <#index-issignaling>:	 	Floating Point Classes
+<#Floating-Point-Classes>
+	|isspace| <#index-isspace>:	 	Classification of Characters
+<#Classification-of-Characters>
+	|isunordered| <#index-isunordered>:	 	FP Comparison Functions
+<#FP-Comparison-Functions>
+	|isupper| <#index-isupper>:	 	Classification of Characters
+<#Classification-of-Characters>
+	|iswalnum| <#index-iswalnum>:	 	Classification of Wide Characters
+<#Classification-of-Wide-Characters>
+	|iswalpha| <#index-iswalpha>:	 	Classification of Wide Characters
+<#Classification-of-Wide-Characters>
+	|iswblank| <#index-iswblank>:	 	Classification of Wide Characters
+<#Classification-of-Wide-Characters>
+	|iswcntrl| <#index-iswcntrl>:	 	Classification of Wide Characters
+<#Classification-of-Wide-Characters>
+	|iswctype| <#index-iswctype>:	 	Classification of Wide Characters
+<#Classification-of-Wide-Characters>
+	|iswdigit| <#index-iswdigit>:	 	Classification of Wide Characters
+<#Classification-of-Wide-Characters>
+	|iswgraph| <#index-iswgraph>:	 	Classification of Wide Characters
+<#Classification-of-Wide-Characters>
+	|iswlower| <#index-iswlower>:	 	Classification of Wide Characters
+<#Classification-of-Wide-Characters>
+	|iswprint| <#index-iswprint>:	 	Classification of Wide Characters
+<#Classification-of-Wide-Characters>
+	|iswpunct| <#index-iswpunct>:	 	Classification of Wide Characters
+<#Classification-of-Wide-Characters>
+	|iswspace| <#index-iswspace>:	 	Classification of Wide Characters
+<#Classification-of-Wide-Characters>
+	|iswupper| <#index-iswupper>:	 	Classification of Wide Characters
+<#Classification-of-Wide-Characters>
+	|iswxdigit| <#index-iswxdigit>:	 	Classification of Wide Characters
+<#Classification-of-Wide-Characters>
+	|isxdigit| <#index-isxdigit>:	 	Classification of Characters
+<#Classification-of-Characters>
+------------------------------------------------------------------------
+J		
+	|j0| <#index-j0>:	 	Special Functions <#Special-Functions>
+	|j0f| <#index-j0f>:	 	Special Functions <#Special-Functions>
+	|j0l| <#index-j0l>:	 	Special Functions <#Special-Functions>
+	|j1| <#index-j1>:	 	Special Functions <#Special-Functions>
+	|j1f| <#index-j1f>:	 	Special Functions <#Special-Functions>
+	|j1l| <#index-j1l>:	 	Special Functions <#Special-Functions>
+	|jn| <#index-jn>:	 	Special Functions <#Special-Functions>
+	|jnf| <#index-jnf>:	 	Special Functions <#Special-Functions>
+	|jnl| <#index-jnl>:	 	Special Functions <#Special-Functions>
+	|jrand48| <#index-jrand48>:	 	SVID Random <#SVID-Random>
+	|jrand48_r| <#index-jrand48_005fr>:	 	SVID Random <#SVID-Random>
+------------------------------------------------------------------------
+K		
+	|kill| <#index-kill>:	 	Signaling Another Process
+<#Signaling-Another-Process>
+	|killpg| <#index-killpg>:	 	Signaling Another Process
+<#Signaling-Another-Process>
+------------------------------------------------------------------------
+L		
+	|l64a| <#index-l64a>:	 	Encode Binary Data <#Encode-Binary-Data>
+	|labs| <#index-labs>:	 	Absolute Value <#Absolute-Value>
+	|lcong48| <#index-lcong48>:	 	SVID Random <#SVID-Random>
+	|lcong48_r| <#index-lcong48_005fr>:	 	SVID Random <#SVID-Random>
+	|ldexp| <#index-ldexp>:	 	Normalization Functions
+<#Normalization-Functions>
+	|ldexpf| <#index-ldexpf>:	 	Normalization Functions
+<#Normalization-Functions>
+	|ldexpl| <#index-ldexpl>:	 	Normalization Functions
+<#Normalization-Functions>
+	|ldiv| <#index-ldiv>:	 	Integer Division <#Integer-Division>
+	|lfind| <#index-lfind>:	 	Array Search Function <#Array-Search-Function>
+	|lgamma| <#index-lgamma>:	 	Special Functions <#Special-Functions>
+	|lgammaf| <#index-lgammaf>:	 	Special Functions <#Special-Functions>
+	|lgammaf_r| <#index-lgammaf_005fr>:	 	Special Functions
+<#Special-Functions>
+	|lgammal| <#index-lgammal>:	 	Special Functions <#Special-Functions>
+	|lgammal_r| <#index-lgammal_005fr>:	 	Special Functions
+<#Special-Functions>
+	|lgamma_r| <#index-lgamma_005fr>:	 	Special Functions <#Special-Functions>
+	|link| <#index-link-1>:	 	Hard Links <#Hard-Links>
+	|lio_listio| <#index-lio_005flistio>:	 	Asynchronous Reads/Writes
+<#Asynchronous-Reads_002fWrites>
+	|lio_listio64| <#index-lio_005flistio64>:	 	Asynchronous Reads/Writes
+<#Asynchronous-Reads_002fWrites>
+	|listen| <#index-listen>:	 	Listening <#Listening>
+	|llabs| <#index-llabs>:	 	Absolute Value <#Absolute-Value>
+	|lldiv| <#index-lldiv>:	 	Integer Division <#Integer-Division>
+	|llrint| <#index-llrint>:	 	Rounding Functions <#Rounding-Functions>
+	|llrintf| <#index-llrintf>:	 	Rounding Functions <#Rounding-Functions>
+	|llrintl| <#index-llrintl>:	 	Rounding Functions <#Rounding-Functions>
+	|llround| <#index-llround>:	 	Rounding Functions <#Rounding-Functions>
+	|llroundf| <#index-llroundf>:	 	Rounding Functions <#Rounding-Functions>
+	|llroundl| <#index-llroundl>:	 	Rounding Functions <#Rounding-Functions>
+	|localeconv| <#index-localeconv>:	 	The Lame Way to Locale Data
+<#The-Lame-Way-to-Locale-Data>
+	|localtime| <#index-localtime>:	 	Broken-down Time <#Broken_002ddown-Time>
+	|localtime_r| <#index-localtime_005fr>:	 	Broken-down Time
+<#Broken_002ddown-Time>
+	|log| <#index-log>:	 	Exponents and Logarithms <#Exponents-and-Logarithms>
+	|log10| <#index-log10>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|log10f| <#index-log10f>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|log10l| <#index-log10l>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|log1p| <#index-log1p>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|log1pf| <#index-log1pf>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|log1pl| <#index-log1pl>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|log2| <#index-log2>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|log2f| <#index-log2f>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|log2l| <#index-log2l>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|logb| <#index-logb>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|logbf| <#index-logbf>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|logbl| <#index-logbl>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|logf| <#index-logf>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|login| <#index-login>:	 	Logging In and Out <#Logging-In-and-Out>
+	|login_tty| <#index-login_005ftty>:	 	Logging In and Out
+<#Logging-In-and-Out>
+	|logl| <#index-logl>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|logout| <#index-logout>:	 	Logging In and Out <#Logging-In-and-Out>
+	|logwtmp| <#index-logwtmp>:	 	Logging In and Out <#Logging-In-and-Out>
+	|longjmp| <#index-longjmp-1>:	 	Non-Local Details <#Non_002dLocal-Details>
+	|lrand48| <#index-lrand48>:	 	SVID Random <#SVID-Random>
+	|lrand48_r| <#index-lrand48_005fr>:	 	SVID Random <#SVID-Random>
+	|lrint| <#index-lrint>:	 	Rounding Functions <#Rounding-Functions>
+	|lrintf| <#index-lrintf>:	 	Rounding Functions <#Rounding-Functions>
+	|lrintl| <#index-lrintl>:	 	Rounding Functions <#Rounding-Functions>
+	|lround| <#index-lround>:	 	Rounding Functions <#Rounding-Functions>
+	|lroundf| <#index-lroundf>:	 	Rounding Functions <#Rounding-Functions>
+	|lroundl| <#index-lroundl>:	 	Rounding Functions <#Rounding-Functions>
+	|lsearch| <#index-lsearch>:	 	Array Search Function
+<#Array-Search-Function>
+	|lseek| <#index-lseek>:	 	File Position Primitive
+<#File-Position-Primitive>
+	|lseek64| <#index-lseek64>:	 	File Position Primitive
+<#File-Position-Primitive>
+	|lstat| <#index-lstat>:	 	Reading Attributes <#Reading-Attributes>
+	|lstat64| <#index-lstat64>:	 	Reading Attributes <#Reading-Attributes>
+	|lutimes| <#index-lutimes>:	 	File Times <#File-Times>
+------------------------------------------------------------------------
+M		
+	|madvise| <#index-madvise>:	 	Memory-mapped I/O
+<#Memory_002dmapped-I_002fO>
+	|main| <#index-main>:	 	Program Arguments <#Program-Arguments>
+	|makecontext| <#index-makecontext>:	 	System V contexts
+<#System-V-contexts>
+	|mallinfo| <#index-mallinfo>:	 	Statistics of Malloc
+<#Statistics-of-Malloc>
+	|malloc| <#index-malloc>:	 	Basic Allocation <#Basic-Allocation>
+	|mallopt| <#index-mallopt>:	 	Malloc Tunable Parameters
+<#Malloc-Tunable-Parameters>
+	|matherr| <#index-matherr>:	 	FP Exceptions <#FP-Exceptions>
+	|mblen| <#index-mblen>:	 	Non-reentrant Character Conversion
+<#Non_002dreentrant-Character-Conversion>
+	|mbrlen| <#index-mbrlen>:	 	Converting a Character
+<#Converting-a-Character>
+	|mbrtowc| <#index-mbrtowc>:	 	Converting a Character
+<#Converting-a-Character>
+	|mbsinit| <#index-mbsinit>:	 	Keeping the state <#Keeping-the-state>
+	|mbsnrtowcs| <#index-mbsnrtowcs>:	 	Converting Strings
+<#Converting-Strings>
+	|mbsrtowcs| <#index-mbsrtowcs>:	 	Converting Strings <#Converting-Strings>
+	|mbstowcs| <#index-mbstowcs>:	 	Non-reentrant String Conversion
+<#Non_002dreentrant-String-Conversion>
+	|mbtowc| <#index-mbtowc>:	 	Non-reentrant Character Conversion
+<#Non_002dreentrant-Character-Conversion>
+	|mcheck| <#index-mcheck>:	 	Heap Consistency Checking
+<#Heap-Consistency-Checking>
+	|memalign| <#index-memalign>:	 	Aligned Memory Blocks
+<#Aligned-Memory-Blocks>
+	|memccpy| <#index-memccpy>:	 	Copying Strings and Arrays
+<#Copying-Strings-and-Arrays>
+	|memchr| <#index-memchr>:	 	Search Functions <#Search-Functions>
+	|memcmp| <#index-memcmp>:	 	String/Array Comparison
+<#String_002fArray-Comparison>
+	|memcpy| <#index-memcpy>:	 	Copying Strings and Arrays
+<#Copying-Strings-and-Arrays>
+	|memfrob| <#index-memfrob>:	 	Trivial Encryption <#Trivial-Encryption>
+	|memmem| <#index-memmem>:	 	Search Functions <#Search-Functions>
+	|memmove| <#index-memmove>:	 	Copying Strings and Arrays
+<#Copying-Strings-and-Arrays>
+	|mempcpy| <#index-mempcpy>:	 	Copying Strings and Arrays
+<#Copying-Strings-and-Arrays>
+	|memrchr| <#index-memrchr>:	 	Search Functions <#Search-Functions>
+	|memset| <#index-memset>:	 	Copying Strings and Arrays
+<#Copying-Strings-and-Arrays>
+	|merge| <#index-merge>:	 	Actions in the NSS configuration
+<#Actions-in-the-NSS-configuration>
+	|mkdir| <#index-mkdir>:	 	Creating Directories <#Creating-Directories>
+	|mkdtemp| <#index-mkdtemp>:	 	Temporary Files <#Temporary-Files>
+	|mkfifo| <#index-mkfifo>:	 	FIFO Special Files <#FIFO-Special-Files>
+	|mknod| <#index-mknod>:	 	Making Special Files <#Making-Special-Files>
+	|mkstemp| <#index-mkstemp>:	 	Temporary Files <#Temporary-Files>
+	|mktemp| <#index-mktemp>:	 	Temporary Files <#Temporary-Files>
+	|mktime| <#index-mktime>:	 	Broken-down Time <#Broken_002ddown-Time>
+	|mlock| <#index-mlock>:	 	Page Lock Functions <#Page-Lock-Functions>
+	|mlockall| <#index-mlockall>:	 	Page Lock Functions <#Page-Lock-Functions>
+	|mmap| <#index-mmap>:	 	Memory-mapped I/O <#Memory_002dmapped-I_002fO>
+	|mmap64| <#index-mmap64>:	 	Memory-mapped I/O <#Memory_002dmapped-I_002fO>
+	|modf| <#index-modf>:	 	Rounding Functions <#Rounding-Functions>
+	|modff| <#index-modff>:	 	Rounding Functions <#Rounding-Functions>
+	|modfl| <#index-modfl>:	 	Rounding Functions <#Rounding-Functions>
+	|mount| <#index-mount>:	 	Mount-Unmount-Remount
+<#Mount_002dUnmount_002dRemount>
+	|mprobe| <#index-mprobe>:	 	Heap Consistency Checking
+<#Heap-Consistency-Checking>
+	|mrand48| <#index-mrand48>:	 	SVID Random <#SVID-Random>
+	|mrand48_r| <#index-mrand48_005fr>:	 	SVID Random <#SVID-Random>
+	|mremap| <#index-mremap>:	 	Memory-mapped I/O <#Memory_002dmapped-I_002fO>
+	|msync| <#index-msync>:	 	Memory-mapped I/O <#Memory_002dmapped-I_002fO>
+	|mtrace| <#index-mtrace>:	 	Tracing malloc <#Tracing-malloc>
+	|munlock| <#index-munlock>:	 	Page Lock Functions <#Page-Lock-Functions>
+	|munlockall| <#index-munlockall>:	 	Page Lock Functions
+<#Page-Lock-Functions>
+	|munmap| <#index-munmap>:	 	Memory-mapped I/O <#Memory_002dmapped-I_002fO>
+	|muntrace| <#index-muntrace>:	 	Tracing malloc <#Tracing-malloc>
+------------------------------------------------------------------------
+N		
+	|nan| <#index-nan>:	 	FP Bit Twiddling <#FP-Bit-Twiddling>
+	|nanf| <#index-nanf>:	 	FP Bit Twiddling <#FP-Bit-Twiddling>
+	|nanl| <#index-nanl>:	 	FP Bit Twiddling <#FP-Bit-Twiddling>
+	|nanosleep| <#index-nanosleep>:	 	Sleeping <#Sleeping>
+	|nearbyint| <#index-nearbyint>:	 	Rounding Functions <#Rounding-Functions>
+	|nearbyintf| <#index-nearbyintf>:	 	Rounding Functions
+<#Rounding-Functions>
+	|nearbyintl| <#index-nearbyintl>:	 	Rounding Functions
+<#Rounding-Functions>
+	|nextafter| <#index-nextafter>:	 	FP Bit Twiddling <#FP-Bit-Twiddling>
+	|nextafterf| <#index-nextafterf>:	 	FP Bit Twiddling <#FP-Bit-Twiddling>
+	|nextafterl| <#index-nextafterl>:	 	FP Bit Twiddling <#FP-Bit-Twiddling>
+	|nextdown| <#index-nextdown>:	 	FP Bit Twiddling <#FP-Bit-Twiddling>
+	|nextdownf| <#index-nextdownf>:	 	FP Bit Twiddling <#FP-Bit-Twiddling>
+	|nextdownl| <#index-nextdownl>:	 	FP Bit Twiddling <#FP-Bit-Twiddling>
+	|nexttoward| <#index-nexttoward>:	 	FP Bit Twiddling <#FP-Bit-Twiddling>
+	|nexttowardf| <#index-nexttowardf>:	 	FP Bit Twiddling <#FP-Bit-Twiddling>
+	|nexttowardl| <#index-nexttowardl>:	 	FP Bit Twiddling <#FP-Bit-Twiddling>
+	|nextup| <#index-nextup>:	 	FP Bit Twiddling <#FP-Bit-Twiddling>
+	|nextupf| <#index-nextupf>:	 	FP Bit Twiddling <#FP-Bit-Twiddling>
+	|nextupl| <#index-nextupl>:	 	FP Bit Twiddling <#FP-Bit-Twiddling>
+	|nftw| <#index-nftw>:	 	Working with Directory Trees
+<#Working-with-Directory-Trees>
+	|nftw64| <#index-nftw64>:	 	Working with Directory Trees
+<#Working-with-Directory-Trees>
+	|ngettext| <#index-ngettext>:	 	Advanced gettext functions
+<#Advanced-gettext-functions>
+	|nice| <#index-nice>:	 	Traditional Scheduling Functions
+<#Traditional-Scheduling-Functions>
+	|nl_langinfo| <#index-nl_005flanginfo>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|notfound| <#index-notfound>:	 	Actions in the NSS configuration
+<#Actions-in-the-NSS-configuration>
+	|nrand48| <#index-nrand48>:	 	SVID Random <#SVID-Random>
+	|nrand48_r| <#index-nrand48_005fr>:	 	SVID Random <#SVID-Random>
+	|ntohl| <#index-ntohl>:	 	Byte Order <#Byte-Order>
+	|ntohs| <#index-ntohs>:	 	Byte Order <#Byte-Order>
+	|ntp_adjtime| <#index-ntp_005fadjtime>:	 	High Accuracy Clock
+<#High-Accuracy-Clock>
+	|ntp_gettime| <#index-ntp_005fgettime>:	 	High Accuracy Clock
+<#High-Accuracy-Clock>
+------------------------------------------------------------------------
+O		
+	|obstack_1grow| <#index-obstack_005f1grow>:	 	Growing Objects
+<#Growing-Objects>
+	|obstack_1grow_fast| <#index-obstack_005f1grow_005ffast>:	 	Extra Fast
+Growing <#Extra-Fast-Growing>
+	|obstack_alignment_mask| <#index-obstack_005falignment_005fmask>:	 
+Obstacks Data Alignment <#Obstacks-Data-Alignment>
+	|obstack_alloc| <#index-obstack_005falloc>:	 	Allocation in an Obstack
+<#Allocation-in-an-Obstack>
+	|obstack_base| <#index-obstack_005fbase>:	 	Status of an Obstack
+<#Status-of-an-Obstack>
+	|obstack_blank| <#index-obstack_005fblank>:	 	Growing Objects
+<#Growing-Objects>
+	|obstack_blank_fast| <#index-obstack_005fblank_005ffast>:	 	Extra Fast
+Growing <#Extra-Fast-Growing>
+	|obstack_chunk_alloc| <#index-obstack_005fchunk_005falloc>:	 	Preparing
+for Obstacks <#Preparing-for-Obstacks>
+	|obstack_chunk_free| <#index-obstack_005fchunk_005ffree>:	 	Preparing
+for Obstacks <#Preparing-for-Obstacks>
+	|obstack_chunk_size| <#index-obstack_005fchunk_005fsize>:	 	Obstack
+Chunks <#Obstack-Chunks>
+	|obstack_copy| <#index-obstack_005fcopy>:	 	Allocation in an Obstack
+<#Allocation-in-an-Obstack>
+	|obstack_copy0| <#index-obstack_005fcopy0>:	 	Allocation in an Obstack
+<#Allocation-in-an-Obstack>
+	|obstack_finish| <#index-obstack_005ffinish>:	 	Growing Objects
+<#Growing-Objects>
+	|obstack_free| <#index-obstack_005ffree>:	 	Freeing Obstack Objects
+<#Freeing-Obstack-Objects>
+	|obstack_grow| <#index-obstack_005fgrow>:	 	Growing Objects
+<#Growing-Objects>
+	|obstack_grow0| <#index-obstack_005fgrow0>:	 	Growing Objects
+<#Growing-Objects>
+	|obstack_init| <#index-obstack_005finit>:	 	Preparing for Obstacks
+<#Preparing-for-Obstacks>
+	|obstack_int_grow| <#index-obstack_005fint_005fgrow>:	 	Growing Objects
+<#Growing-Objects>
+	|obstack_int_grow_fast| <#index-obstack_005fint_005fgrow_005ffast>:	 
+Extra Fast Growing <#Extra-Fast-Growing>
+	|obstack_next_free| <#index-obstack_005fnext_005ffree>:	 	Status of an
+Obstack <#Status-of-an-Obstack>
+	|obstack_object_size| <#index-obstack_005fobject_005fsize>:	 	Growing
+Objects <#Growing-Objects>
+	|obstack_object_size| <#index-obstack_005fobject_005fsize-1>:	 	Status
+of an Obstack <#Status-of-an-Obstack>
+	|obstack_printf| <#index-obstack_005fprintf>:	 	Dynamic Output
+<#Dynamic-Output>
+	|obstack_ptr_grow| <#index-obstack_005fptr_005fgrow>:	 	Growing Objects
+<#Growing-Objects>
+	|obstack_ptr_grow_fast| <#index-obstack_005fptr_005fgrow_005ffast>:	 
+Extra Fast Growing <#Extra-Fast-Growing>
+	|obstack_room| <#index-obstack_005froom>:	 	Extra Fast Growing
+<#Extra-Fast-Growing>
+	|obstack_vprintf| <#index-obstack_005fvprintf>:	 	Variable Arguments
+Output <#Variable-Arguments-Output>
+	|offsetof| <#index-offsetof>:	 	Structure Measurement
+<#Structure-Measurement>
+	|on_exit| <#index-on_005fexit>:	 	Cleanups on Exit <#Cleanups-on-Exit>
+	|open| <#index-open>:	 	Opening and Closing Files
+<#Opening-and-Closing-Files>
+	|open64| <#index-open64>:	 	Opening and Closing Files
+<#Opening-and-Closing-Files>
+	|opendir| <#index-opendir>:	 	Opening a Directory <#Opening-a-Directory>
+	|openlog| <#index-openlog>:	 	openlog <#openlog>
+	|openpty| <#index-openpty>:	 	Pseudo-Terminal Pairs
+<#Pseudo_002dTerminal-Pairs>
+	|open_memstream| <#index-open_005fmemstream>:	 	String Streams
+<#String-Streams>
+------------------------------------------------------------------------
+P		
+	|parse_printf_format| <#index-parse_005fprintf_005fformat>:	 	Parsing a
+Template String <#Parsing-a-Template-String>
+	|pathconf| <#index-pathconf>:	 	Pathconf <#Pathconf>
+	|pause| <#index-pause>:	 	Using Pause <#Using-Pause>
+	|pclose| <#index-pclose>:	 	Pipe to a Subprocess <#Pipe-to-a-Subprocess>
+	|perror| <#index-perror>:	 	Error Messages <#Error-Messages>
+	|pipe| <#index-pipe-1>:	 	Creating a Pipe <#Creating-a-Pipe>
+	|popen| <#index-popen>:	 	Pipe to a Subprocess <#Pipe-to-a-Subprocess>
+	|posix_fallocate| <#index-posix_005ffallocate>:	 	Storage Allocation
+<#Storage-Allocation>
+	|posix_fallocate64| <#index-posix_005ffallocate64>:	 	Storage
+Allocation <#Storage-Allocation>
+	|posix_memalign| <#index-posix_005fmemalign>:	 	Aligned Memory Blocks
+<#Aligned-Memory-Blocks>
+	|pow| <#index-pow>:	 	Exponents and Logarithms <#Exponents-and-Logarithms>
+	|pow10| <#index-pow10>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|pow10f| <#index-pow10f>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|pow10l| <#index-pow10l>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|powf| <#index-powf>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|powl| <#index-powl>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|pread| <#index-pread>:	 	I/O Primitives <#I_002fO-Primitives>
+	|pread64| <#index-pread64>:	 	I/O Primitives <#I_002fO-Primitives>
+	|printf| <#index-printf>:	 	Formatted Output Functions
+<#Formatted-Output-Functions>
+	|printf_size| <#index-printf_005fsize>:	 	Predefined Printf Handlers
+<#Predefined-Printf-Handlers>
+	|printf_size_info| <#index-printf_005fsize_005finfo>:	 	Predefined
+Printf Handlers <#Predefined-Printf-Handlers>
+	|psignal| <#index-psignal>:	 	Signal Messages <#Signal-Messages>
+	|pthread_getattr_default_np|
+<#index-pthread_005fgetattr_005fdefault_005fnp>:	 	Default Thread
+Attributes <#Default-Thread-Attributes>
+	|pthread_key_create| <#index-pthread_005fkey_005fcreate>:	 
+Thread-specific Data <#Thread_002dspecific-Data>
+	|pthread_key_delete| <#index-pthread_005fkey_005fdelete>:	 
+Thread-specific Data <#Thread_002dspecific-Data>
+	|pthread_setattr_default_np|
+<#index-pthread_005fsetattr_005fdefault_005fnp>:	 	Default Thread
+Attributes <#Default-Thread-Attributes>
+	|pthread_setspecific| <#index-pthread_005fsetspecific>:	 
+Thread-specific Data <#Thread_002dspecific-Data>
+	|ptsname| <#index-ptsname>:	 	Allocation <#Allocation>
+	|ptsname_r| <#index-ptsname_005fr>:	 	Allocation <#Allocation>
+	|putc| <#index-putc>:	 	Simple Output <#Simple-Output>
+	|putchar| <#index-putchar>:	 	Simple Output <#Simple-Output>
+	|putchar_unlocked| <#index-putchar_005funlocked>:	 	Simple Output
+<#Simple-Output>
+	|putc_unlocked| <#index-putc_005funlocked>:	 	Simple Output
+<#Simple-Output>
+	|putenv| <#index-putenv>:	 	Environment Access <#Environment-Access>
+	|putpwent| <#index-putpwent>:	 	Writing a User Entry
+<#Writing-a-User-Entry>
+	|puts| <#index-puts>:	 	Simple Output <#Simple-Output>
+	|pututline| <#index-pututline>:	 	Manipulating the Database
+<#Manipulating-the-Database>
+	|pututxline| <#index-pututxline>:	 	XPG Functions <#XPG-Functions>
+	|putw| <#index-putw>:	 	Simple Output <#Simple-Output>
+	|putwc| <#index-putwc>:	 	Simple Output <#Simple-Output>
+	|putwchar| <#index-putwchar>:	 	Simple Output <#Simple-Output>
+	|putwchar_unlocked| <#index-putwchar_005funlocked>:	 	Simple Output
+<#Simple-Output>
+	|putwc_unlocked| <#index-putwc_005funlocked>:	 	Simple Output
+<#Simple-Output>
+	|pwrite| <#index-pwrite>:	 	I/O Primitives <#I_002fO-Primitives>
+	|pwrite64| <#index-pwrite64>:	 	I/O Primitives <#I_002fO-Primitives>
+------------------------------------------------------------------------
+Q		
+	|qecvt| <#index-qecvt>:	 	System V Number Conversion
+<#System-V-Number-Conversion>
+	|qecvt_r| <#index-qecvt_005fr>:	 	System V Number Conversion
+<#System-V-Number-Conversion>
+	|qfcvt| <#index-qfcvt>:	 	System V Number Conversion
+<#System-V-Number-Conversion>
+	|qfcvt_r| <#index-qfcvt_005fr>:	 	System V Number Conversion
+<#System-V-Number-Conversion>
+	|qgcvt| <#index-qgcvt>:	 	System V Number Conversion
+<#System-V-Number-Conversion>
+	|qsort| <#index-qsort>:	 	Array Sort Function <#Array-Sort-Function>
+------------------------------------------------------------------------
+R		
+	|raise| <#index-raise>:	 	Signaling Yourself <#Signaling-Yourself>
+	|rand| <#index-rand>:	 	ISO Random <#ISO-Random>
+	|random| <#index-random>:	 	BSD Random <#BSD-Random>
+	|random_r| <#index-random_005fr>:	 	BSD Random <#BSD-Random>
+	|rand_r| <#index-rand_005fr>:	 	ISO Random <#ISO-Random>
+	|rawmemchr| <#index-rawmemchr>:	 	Search Functions <#Search-Functions>
+	|read| <#index-read>:	 	I/O Primitives <#I_002fO-Primitives>
+	|readdir| <#index-readdir>:	 	Reading/Closing Directory
+<#Reading_002fClosing-Directory>
+	|readdir64| <#index-readdir64>:	 	Reading/Closing Directory
+<#Reading_002fClosing-Directory>
+	|readdir64_r| <#index-readdir64_005fr>:	 	Reading/Closing Directory
+<#Reading_002fClosing-Directory>
+	|readdir_r| <#index-readdir_005fr>:	 	Reading/Closing Directory
+<#Reading_002fClosing-Directory>
+	|readlink| <#index-readlink>:	 	Symbolic Links <#Symbolic-Links>
+	|readv| <#index-readv>:	 	Scatter-Gather <#Scatter_002dGather>
+	|realloc| <#index-realloc>:	 	Changing Block Size <#Changing-Block-Size>
+	|realpath| <#index-realpath>:	 	Symbolic Links <#Symbolic-Links>
+	|recv| <#index-recv>:	 	Receiving Data <#Receiving-Data>
+	|recvfrom| <#index-recvfrom>:	 	Receiving Datagrams <#Receiving-Datagrams>
+	|regcomp| <#index-regcomp>:	 	POSIX Regexp Compilation
+<#POSIX-Regexp-Compilation>
+	|regerror| <#index-regerror>:	 	Regexp Cleanup <#Regexp-Cleanup>
+	|regexec| <#index-regexec>:	 	Matching POSIX Regexps
+<#Matching-POSIX-Regexps>
+	|regfree| <#index-regfree>:	 	Regexp Cleanup <#Regexp-Cleanup>
+	|register_printf_function|
+<#index-register_005fprintf_005ffunction>:	 	Registering New Conversions
+<#Registering-New-Conversions>
+	|remainder| <#index-remainder>:	 	Remainder Functions
+<#Remainder-Functions>
+	|remainderf| <#index-remainderf>:	 	Remainder Functions
+<#Remainder-Functions>
+	|remainderl| <#index-remainderl>:	 	Remainder Functions
+<#Remainder-Functions>
+	|remove| <#index-remove>:	 	Deleting Files <#Deleting-Files>
+	|rename| <#index-rename>:	 	Renaming Files <#Renaming-Files>
+	|return| <#index-return>:	 	Actions in the NSS configuration
+<#Actions-in-the-NSS-configuration>
+	|rewind| <#index-rewind>:	 	File Positioning <#File-Positioning>
+	|rewinddir| <#index-rewinddir>:	 	Random Access Directory
+<#Random-Access-Directory>
+	|rindex| <#index-rindex>:	 	Search Functions <#Search-Functions>
+	|rint| <#index-rint>:	 	Rounding Functions <#Rounding-Functions>
+	|rintf| <#index-rintf>:	 	Rounding Functions <#Rounding-Functions>
+	|rintl| <#index-rintl>:	 	Rounding Functions <#Rounding-Functions>
+	|rmdir| <#index-rmdir>:	 	Deleting Files <#Deleting-Files>
+	|round| <#index-round>:	 	Rounding Functions <#Rounding-Functions>
+	|roundf| <#index-roundf>:	 	Rounding Functions <#Rounding-Functions>
+	|roundl| <#index-roundl>:	 	Rounding Functions <#Rounding-Functions>
+	|rpmatch| <#index-rpmatch>:	 	Yes-or-No Questions
+<#Yes_002dor_002dNo-Questions>
+------------------------------------------------------------------------
+S		
+	|scalb| <#index-scalb>:	 	Normalization Functions
+<#Normalization-Functions>
+	|scalbf| <#index-scalbf>:	 	Normalization Functions
+<#Normalization-Functions>
+	|scalbl| <#index-scalbl>:	 	Normalization Functions
+<#Normalization-Functions>
+	|scalbln| <#index-scalbln>:	 	Normalization Functions
+<#Normalization-Functions>
+	|scalblnf| <#index-scalblnf>:	 	Normalization Functions
+<#Normalization-Functions>
+	|scalblnl| <#index-scalblnl>:	 	Normalization Functions
+<#Normalization-Functions>
+	|scalbn| <#index-scalbn>:	 	Normalization Functions
+<#Normalization-Functions>
+	|scalbnf| <#index-scalbnf>:	 	Normalization Functions
+<#Normalization-Functions>
+	|scalbnl| <#index-scalbnl>:	 	Normalization Functions
+<#Normalization-Functions>
+	|scandir| <#index-scandir>:	 	Scanning Directory Content
+<#Scanning-Directory-Content>
+	|scandir64| <#index-scandir64>:	 	Scanning Directory Content
+<#Scanning-Directory-Content>
+	|scanf| <#index-scanf>:	 	Formatted Input Functions
+<#Formatted-Input-Functions>
+	|sched_getaffinity| <#index-sched_005fgetaffinity>:	 	CPU Affinity
+<#CPU-Affinity>
+	|sched_getparam| <#index-sched_005fgetparam>:	 	Basic Scheduling
+Functions <#Basic-Scheduling-Functions>
+	|sched_getscheduler| <#index-sched_005fgetscheduler>:	 	Basic
+Scheduling Functions <#Basic-Scheduling-Functions>
+	|sched_get_priority_max|
+<#index-sched_005fget_005fpriority_005fmax>:	 	Basic Scheduling
+Functions <#Basic-Scheduling-Functions>
+	|sched_get_priority_min|
+<#index-sched_005fget_005fpriority_005fmin>:	 	Basic Scheduling
+Functions <#Basic-Scheduling-Functions>
+	|sched_rr_get_interval| <#index-sched_005frr_005fget_005finterval>:	 
+Basic Scheduling Functions <#Basic-Scheduling-Functions>
+	|sched_setaffinity| <#index-sched_005fsetaffinity>:	 	CPU Affinity
+<#CPU-Affinity>
+	|sched_setparam| <#index-sched_005fsetparam>:	 	Basic Scheduling
+Functions <#Basic-Scheduling-Functions>
+	|sched_setscheduler| <#index-sched_005fsetscheduler>:	 	Basic
+Scheduling Functions <#Basic-Scheduling-Functions>
+	|sched_yield| <#index-sched_005fyield>:	 	Basic Scheduling Functions
+<#Basic-Scheduling-Functions>
+	|secure_getenv| <#index-secure_005fgetenv>:	 	Environment Access
+<#Environment-Access>
+	|seed48| <#index-seed48>:	 	SVID Random <#SVID-Random>
+	|seed48_r| <#index-seed48_005fr>:	 	SVID Random <#SVID-Random>
+	|seekdir| <#index-seekdir>:	 	Random Access Directory
+<#Random-Access-Directory>
+	|select| <#index-select>:	 	Waiting for I/O <#Waiting-for-I_002fO>
+	|semctl| <#index-semctl>:	 	Semaphores <#Semaphores>
+	|semget| <#index-semget>:	 	Semaphores <#Semaphores>
+	|semop| <#index-semop>:	 	Semaphores <#Semaphores>
+	|semtimedop| <#index-semtimedop>:	 	Semaphores <#Semaphores>
+	|sem_close| <#index-sem_005fclose>:	 	Semaphores <#Semaphores>
+	|sem_destroy| <#index-sem_005fdestroy>:	 	Semaphores <#Semaphores>
+	|sem_getvalue| <#index-sem_005fgetvalue>:	 	Semaphores <#Semaphores>
+	|sem_init| <#index-sem_005finit>:	 	Semaphores <#Semaphores>
+	|sem_post| <#index-sem_005fpost>:	 	Semaphores <#Semaphores>
+	|sem_timedwait| <#index-sem_005ftimedwait>:	 	Semaphores <#Semaphores>
+	|sem_trywait| <#index-sem_005ftrywait>:	 	Semaphores <#Semaphores>
+	|sem_unlink| <#index-sem_005funlink>:	 	Semaphores <#Semaphores>
+	|sem_wait| <#index-sem_005fwait>:	 	Semaphores <#Semaphores>
+	|send| <#index-send>:	 	Sending Data <#Sending-Data>
+	|sendto| <#index-sendto>:	 	Sending Datagrams <#Sending-Datagrams>
+	|setbuf| <#index-setbuf>:	 	Controlling Buffering <#Controlling-Buffering>
+	|setbuffer| <#index-setbuffer>:	 	Controlling Buffering
+<#Controlling-Buffering>
+	|setcontext| <#index-setcontext>:	 	System V contexts <#System-V-contexts>
+	|setdomainname| <#index-setdomainname>:	 	Host Identification
+<#Host-Identification>
+	|setegid| <#index-setegid>:	 	Setting Groups <#Setting-Groups>
+	|setenv| <#index-setenv>:	 	Environment Access <#Environment-Access>
+	|seteuid| <#index-seteuid>:	 	Setting User ID <#Setting-User-ID>
+	|setfsent| <#index-setfsent>:	 	fstab <#fstab>
+	|setgid| <#index-setgid>:	 	Setting Groups <#Setting-Groups>
+	|setgrent| <#index-setgrent>:	 	Scanning All Groups <#Scanning-All-Groups>
+	|setgroups| <#index-setgroups>:	 	Setting Groups <#Setting-Groups>
+	|sethostent| <#index-sethostent>:	 	Host Names <#Host-Names>
+	|sethostid| <#index-sethostid>:	 	Host Identification
+<#Host-Identification>
+	|sethostname| <#index-sethostname>:	 	Host Identification
+<#Host-Identification>
+	|setitimer| <#index-setitimer>:	 	Setting an Alarm <#Setting-an-Alarm>
+	|setjmp| <#index-setjmp>:	 	Non-Local Details <#Non_002dLocal-Details>
+	|setkey| <#index-setkey>:	 	DES Encryption <#DES-Encryption>
+	|setkey_r| <#index-setkey_005fr>:	 	DES Encryption <#DES-Encryption>
+	|setlinebuf| <#index-setlinebuf>:	 	Controlling Buffering
+<#Controlling-Buffering>
+	|setlocale| <#index-setlocale>:	 	Setting the Locale <#Setting-the-Locale>
+	|setlogmask| <#index-setlogmask>:	 	setlogmask <#setlogmask>
+	|setmntent| <#index-setmntent>:	 	mtab <#mtab>
+	|setnetent| <#index-setnetent>:	 	Networks Database <#Networks-Database>
+	|setnetgrent| <#index-setnetgrent>:	 	Lookup Netgroup <#Lookup-Netgroup>
+	|setpgid| <#index-setpgid>:	 	Process Group Functions
+<#Process-Group-Functions>
+	|setpgrp| <#index-setpgrp>:	 	Process Group Functions
+<#Process-Group-Functions>
+	|setpriority| <#index-setpriority>:	 	Traditional Scheduling Functions
+<#Traditional-Scheduling-Functions>
+	|setprotoent| <#index-setprotoent>:	 	Protocols Database
+<#Protocols-Database>
+	|setpwent| <#index-setpwent>:	 	Scanning All Users <#Scanning-All-Users>
+	|setregid| <#index-setregid>:	 	Setting Groups <#Setting-Groups>
+	|setreuid| <#index-setreuid>:	 	Setting User ID <#Setting-User-ID>
+	|setrlimit| <#index-setrlimit>:	 	Limits on Resources
+<#Limits-on-Resources>
+	|setrlimit64| <#index-setrlimit64>:	 	Limits on Resources
+<#Limits-on-Resources>
+	|setservent| <#index-setservent>:	 	Services Database <#Services-Database>
+	|setsid| <#index-setsid>:	 	Process Group Functions
+<#Process-Group-Functions>
+	|setsockopt| <#index-setsockopt>:	 	Socket Option Functions
+<#Socket-Option-Functions>
+	|setstate| <#index-setstate>:	 	BSD Random <#BSD-Random>
+	|setstate_r| <#index-setstate_005fr>:	 	BSD Random <#BSD-Random>
+	|settimeofday| <#index-settimeofday>:	 	High-Resolution Calendar
+<#High_002dResolution-Calendar>
+	|setuid| <#index-setuid>:	 	Setting User ID <#Setting-User-ID>
+	|setutent| <#index-setutent>:	 	Manipulating the Database
+<#Manipulating-the-Database>
+	|setutxent| <#index-setutxent>:	 	XPG Functions <#XPG-Functions>
+	|setvbuf| <#index-setvbuf>:	 	Controlling Buffering
+<#Controlling-Buffering>
+	|shm_open| <#index-shm_005fopen>:	 	Memory-mapped I/O
+<#Memory_002dmapped-I_002fO>
+	|shm_unlink| <#index-shm_005funlink>:	 	Memory-mapped I/O
+<#Memory_002dmapped-I_002fO>
+	|shutdown| <#index-shutdown>:	 	Closing a Socket <#Closing-a-Socket>
+	|sigaction| <#index-sigaction>:	 	Advanced Signal Handling
+<#Advanced-Signal-Handling>
+	|sigaddset| <#index-sigaddset>:	 	Signal Sets <#Signal-Sets>
+	|sigaltstack| <#index-sigaltstack>:	 	Signal Stack <#Signal-Stack>
+	|sigblock| <#index-sigblock>:	 	BSD Signal Handling <#BSD-Signal-Handling>
+	|sigdelset| <#index-sigdelset>:	 	Signal Sets <#Signal-Sets>
+	|sigemptyset| <#index-sigemptyset>:	 	Signal Sets <#Signal-Sets>
+	|sigfillset| <#index-sigfillset>:	 	Signal Sets <#Signal-Sets>
+	|siginterrupt| <#index-siginterrupt>:	 	BSD Signal Handling
+<#BSD-Signal-Handling>
+	|sigismember| <#index-sigismember>:	 	Signal Sets <#Signal-Sets>
+	|siglongjmp| <#index-siglongjmp>:	 	Non-Local Exits and Signals
+<#Non_002dLocal-Exits-and-Signals>
+	|sigmask| <#index-sigmask>:	 	BSD Signal Handling <#BSD-Signal-Handling>
+	|signal| <#index-signal-2>:	 	Basic Signal Handling
+<#Basic-Signal-Handling>
+	|signbit| <#index-signbit>:	 	FP Bit Twiddling <#FP-Bit-Twiddling>
+	|significand| <#index-significand>:	 	Normalization Functions
+<#Normalization-Functions>
+	|significandf| <#index-significandf>:	 	Normalization Functions
+<#Normalization-Functions>
+	|significandl| <#index-significandl>:	 	Normalization Functions
+<#Normalization-Functions>
+	|sigpause| <#index-sigpause>:	 	BSD Signal Handling <#BSD-Signal-Handling>
+	|sigpending| <#index-sigpending>:	 	Checking for Pending Signals
+<#Checking-for-Pending-Signals>
+	|sigprocmask| <#index-sigprocmask>:	 	Process Signal Mask
+<#Process-Signal-Mask>
+	|sigsetjmp| <#index-sigsetjmp>:	 	Non-Local Exits and Signals
+<#Non_002dLocal-Exits-and-Signals>
+	|sigsetmask| <#index-sigsetmask>:	 	BSD Signal Handling
+<#BSD-Signal-Handling>
+	|sigstack| <#index-sigstack>:	 	Signal Stack <#Signal-Stack>
+	|sigsuspend| <#index-sigsuspend>:	 	Sigsuspend <#Sigsuspend>
+	|sin| <#index-sin>:	 	Trig Functions <#Trig-Functions>
+	|sincos| <#index-sincos>:	 	Trig Functions <#Trig-Functions>
+	|sincosf| <#index-sincosf>:	 	Trig Functions <#Trig-Functions>
+	|sincosl| <#index-sincosl>:	 	Trig Functions <#Trig-Functions>
+	|sinf| <#index-sinf>:	 	Trig Functions <#Trig-Functions>
+	|sinh| <#index-sinh>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|sinhf| <#index-sinhf>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|sinhl| <#index-sinhl>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|sinl| <#index-sinl>:	 	Trig Functions <#Trig-Functions>
+	|sleep| <#index-sleep>:	 	Sleeping <#Sleeping>
+	|snprintf| <#index-snprintf>:	 	Formatted Output Functions
+<#Formatted-Output-Functions>
+	|socket| <#index-socket-1>:	 	Creating a Socket <#Creating-a-Socket>
+	|socketpair| <#index-socketpair>:	 	Socket Pairs <#Socket-Pairs>
+	|sprintf| <#index-sprintf>:	 	Formatted Output Functions
+<#Formatted-Output-Functions>
+	|sqrt| <#index-sqrt>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|sqrtf| <#index-sqrtf>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|sqrtl| <#index-sqrtl>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|srand| <#index-srand>:	 	ISO Random <#ISO-Random>
+	|srand48| <#index-srand48>:	 	SVID Random <#SVID-Random>
+	|srand48_r| <#index-srand48_005fr>:	 	SVID Random <#SVID-Random>
+	|srandom| <#index-srandom>:	 	BSD Random <#BSD-Random>
+	|srandom_r| <#index-srandom_005fr>:	 	BSD Random <#BSD-Random>
+	|sscanf| <#index-sscanf>:	 	Formatted Input Functions
+<#Formatted-Input-Functions>
+	|ssignal| <#index-ssignal>:	 	Basic Signal Handling
+<#Basic-Signal-Handling>
+	|stat| <#index-stat>:	 	Reading Attributes <#Reading-Attributes>
+	|stat64| <#index-stat64>:	 	Reading Attributes <#Reading-Attributes>
+	|stime| <#index-stime>:	 	Simple Calendar Time <#Simple-Calendar-Time>
+	|stpcpy| <#index-stpcpy>:	 	Copying Strings and Arrays
+<#Copying-Strings-and-Arrays>
+	|stpncpy| <#index-stpncpy>:	 	Truncating Strings <#Truncating-Strings>
+	|strcasecmp| <#index-strcasecmp>:	 	String/Array Comparison
+<#String_002fArray-Comparison>
+	|strcasestr| <#index-strcasestr>:	 	Search Functions <#Search-Functions>
+	|strcat| <#index-strcat>:	 	Concatenating Strings <#Concatenating-Strings>
+	|strchr| <#index-strchr>:	 	Search Functions <#Search-Functions>
+	|strchrnul| <#index-strchrnul>:	 	Search Functions <#Search-Functions>
+	|strcmp| <#index-strcmp>:	 	String/Array Comparison
+<#String_002fArray-Comparison>
+	|strcoll| <#index-strcoll>:	 	Collation Functions <#Collation-Functions>
+	|strcpy| <#index-strcpy>:	 	Copying Strings and Arrays
+<#Copying-Strings-and-Arrays>
+	|strcspn| <#index-strcspn>:	 	Search Functions <#Search-Functions>
+	|strdup| <#index-strdup>:	 	Copying Strings and Arrays
+<#Copying-Strings-and-Arrays>
+	|strdupa| <#index-strdupa>:	 	Copying Strings and Arrays
+<#Copying-Strings-and-Arrays>
+	|strerror| <#index-strerror>:	 	Error Messages <#Error-Messages>
+	|strerror_r| <#index-strerror_005fr>:	 	Error Messages <#Error-Messages>
+	|strfmon| <#index-strfmon>:	 	Formatting Numbers <#Formatting-Numbers>
+	|strfry| <#index-strfry>:	 	strfry <#strfry>
+	|strftime| <#index-strftime>:	 	Formatting Calendar Time
+<#Formatting-Calendar-Time>
+	|strlen| <#index-strlen>:	 	String Length <#String-Length>
+	|strncasecmp| <#index-strncasecmp>:	 	String/Array Comparison
+<#String_002fArray-Comparison>
+	|strncat| <#index-strncat>:	 	Truncating Strings <#Truncating-Strings>
+	|strncmp| <#index-strncmp>:	 	String/Array Comparison
+<#String_002fArray-Comparison>
+	|strncpy| <#index-strncpy>:	 	Truncating Strings <#Truncating-Strings>
+	|strndup| <#index-strndup>:	 	Truncating Strings <#Truncating-Strings>
+	|strndupa| <#index-strndupa>:	 	Truncating Strings <#Truncating-Strings>
+	|strnlen| <#index-strnlen>:	 	String Length <#String-Length>
+	|strpbrk| <#index-strpbrk>:	 	Search Functions <#Search-Functions>
+	|strptime| <#index-strptime>:	 	Low-Level Time String Parsing
+<#Low_002dLevel-Time-String-Parsing>
+	|strrchr| <#index-strrchr>:	 	Search Functions <#Search-Functions>
+	|strsep| <#index-strsep>:	 	Finding Tokens in a String
+<#Finding-Tokens-in-a-String>
+	|strsignal| <#index-strsignal>:	 	Signal Messages <#Signal-Messages>
+	|strspn| <#index-strspn>:	 	Search Functions <#Search-Functions>
+	|strstr| <#index-strstr>:	 	Search Functions <#Search-Functions>
+	|strtod| <#index-strtod>:	 	Parsing of Floats <#Parsing-of-Floats>
+	|strtof| <#index-strtof>:	 	Parsing of Floats <#Parsing-of-Floats>
+	|strtoimax| <#index-strtoimax>:	 	Parsing of Integers
+<#Parsing-of-Integers>
+	|strtok| <#index-strtok>:	 	Finding Tokens in a String
+<#Finding-Tokens-in-a-String>
+	|strtok_r| <#index-strtok_005fr>:	 	Finding Tokens in a String
+<#Finding-Tokens-in-a-String>
+	|strtol| <#index-strtol>:	 	Parsing of Integers <#Parsing-of-Integers>
+	|strtold| <#index-strtold>:	 	Parsing of Floats <#Parsing-of-Floats>
+	|strtoll| <#index-strtoll>:	 	Parsing of Integers <#Parsing-of-Integers>
+	|strtoq| <#index-strtoq>:	 	Parsing of Integers <#Parsing-of-Integers>
+	|strtoul| <#index-strtoul>:	 	Parsing of Integers <#Parsing-of-Integers>
+	|strtoull| <#index-strtoull>:	 	Parsing of Integers <#Parsing-of-Integers>
+	|strtoumax| <#index-strtoumax>:	 	Parsing of Integers
+<#Parsing-of-Integers>
+	|strtouq| <#index-strtouq>:	 	Parsing of Integers <#Parsing-of-Integers>
+	|strverscmp| <#index-strverscmp>:	 	String/Array Comparison
+<#String_002fArray-Comparison>
+	|strxfrm| <#index-strxfrm>:	 	Collation Functions <#Collation-Functions>
+	|stty| <#index-stty>:	 	BSD Terminal Modes <#BSD-Terminal-Modes>
+	|success| <#index-success>:	 	Actions in the NSS configuration
+<#Actions-in-the-NSS-configuration>
+	|SUN_LEN| <#index-SUN_005fLEN>:	 	Local Namespace Details
+<#Local-Namespace-Details>
+	|swapcontext| <#index-swapcontext>:	 	System V contexts
+<#System-V-contexts>
+	|swprintf| <#index-swprintf>:	 	Formatted Output Functions
+<#Formatted-Output-Functions>
+	|swscanf| <#index-swscanf>:	 	Formatted Input Functions
+<#Formatted-Input-Functions>
+	|symlink| <#index-symlink>:	 	Symbolic Links <#Symbolic-Links>
+	|sync| <#index-sync>:	 	Synchronizing I/O <#Synchronizing-I_002fO>
+	|syscall| <#index-syscall>:	 	System Calls <#System-Calls>
+	|sysconf| <#index-sysconf-4>:	 	Sysconf Definition <#Sysconf-Definition>
+	|sysctl| <#index-sysctl>:	 	System Parameters <#System-Parameters>
+	|syslog| <#index-syslog>:	 	syslog; vsyslog <#syslog_003b-vsyslog>
+	|system| <#index-system>:	 	Running a Command <#Running-a-Command>
+	|sysv_signal| <#index-sysv_005fsignal>:	 	Basic Signal Handling
+<#Basic-Signal-Handling>
+	|S_ISBLK| <#index-S_005fISBLK>:	 	Testing File Type <#Testing-File-Type>
+	|S_ISCHR| <#index-S_005fISCHR>:	 	Testing File Type <#Testing-File-Type>
+	|S_ISDIR| <#index-S_005fISDIR>:	 	Testing File Type <#Testing-File-Type>
+	|S_ISFIFO| <#index-S_005fISFIFO>:	 	Testing File Type <#Testing-File-Type>
+	|S_ISLNK| <#index-S_005fISLNK>:	 	Testing File Type <#Testing-File-Type>
+	|S_ISREG| <#index-S_005fISREG>:	 	Testing File Type <#Testing-File-Type>
+	|S_ISSOCK| <#index-S_005fISSOCK>:	 	Testing File Type <#Testing-File-Type>
+	|S_TYPEISMQ| <#index-S_005fTYPEISMQ>:	 	Testing File Type
+<#Testing-File-Type>
+	|S_TYPEISSEM| <#index-S_005fTYPEISSEM>:	 	Testing File Type
+<#Testing-File-Type>
+	|S_TYPEISSHM| <#index-S_005fTYPEISSHM>:	 	Testing File Type
+<#Testing-File-Type>
+------------------------------------------------------------------------
+T		
+	|tan| <#index-tan>:	 	Trig Functions <#Trig-Functions>
+	|tanf| <#index-tanf>:	 	Trig Functions <#Trig-Functions>
+	|tanh| <#index-tanh>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|tanhf| <#index-tanhf>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|tanhl| <#index-tanhl>:	 	Hyperbolic Functions <#Hyperbolic-Functions>
+	|tanl| <#index-tanl>:	 	Trig Functions <#Trig-Functions>
+	|tcdrain| <#index-tcdrain>:	 	Line Control <#Line-Control>
+	|tcflow| <#index-tcflow>:	 	Line Control <#Line-Control>
+	|tcflush| <#index-tcflush>:	 	Line Control <#Line-Control>
+	|tcgetattr| <#index-tcgetattr>:	 	Mode Functions <#Mode-Functions>
+	|tcgetpgrp| <#index-tcgetpgrp>:	 	Terminal Access Functions
+<#Terminal-Access-Functions>
+	|tcgetsid| <#index-tcgetsid>:	 	Terminal Access Functions
+<#Terminal-Access-Functions>
+	|tcsendbreak| <#index-tcsendbreak>:	 	Line Control <#Line-Control>
+	|tcsetattr| <#index-tcsetattr>:	 	Mode Functions <#Mode-Functions>
+	|tcsetpgrp| <#index-tcsetpgrp>:	 	Terminal Access Functions
+<#Terminal-Access-Functions>
+	|tdelete| <#index-tdelete>:	 	Tree Search Function <#Tree-Search-Function>
+	|tdestroy| <#index-tdestroy>:	 	Tree Search Function
+<#Tree-Search-Function>
+	|telldir| <#index-telldir>:	 	Random Access Directory
+<#Random-Access-Directory>
+	|tempnam| <#index-tempnam>:	 	Temporary Files <#Temporary-Files>
+	|TEMP_FAILURE_RETRY| <#index-TEMP_005fFAILURE_005fRETRY>:	 	Interrupted
+Primitives <#Interrupted-Primitives>
+	|textdomain| <#index-textdomain>:	 	Locating gettext catalog
+<#Locating-gettext-catalog>
+	|tfind| <#index-tfind>:	 	Tree Search Function <#Tree-Search-Function>
+	|tgamma| <#index-tgamma>:	 	Special Functions <#Special-Functions>
+	|tgammaf| <#index-tgammaf>:	 	Special Functions <#Special-Functions>
+	|tgammal| <#index-tgammal>:	 	Special Functions <#Special-Functions>
+	|time| <#index-time-1>:	 	Simple Calendar Time <#Simple-Calendar-Time>
+	|timegm| <#index-timegm>:	 	Broken-down Time <#Broken_002ddown-Time>
+	|timelocal| <#index-timelocal>:	 	Broken-down Time <#Broken_002ddown-Time>
+	|times| <#index-times>:	 	Processor Time <#Processor-Time>
+	|tmpfile| <#index-tmpfile>:	 	Temporary Files <#Temporary-Files>
+	|tmpfile64| <#index-tmpfile64>:	 	Temporary Files <#Temporary-Files>
+	|tmpnam| <#index-tmpnam>:	 	Temporary Files <#Temporary-Files>
+	|tmpnam_r| <#index-tmpnam_005fr>:	 	Temporary Files <#Temporary-Files>
+	|toascii| <#index-toascii>:	 	Case Conversion <#Case-Conversion>
+	|tolower| <#index-tolower>:	 	Case Conversion <#Case-Conversion>
+	|toupper| <#index-toupper>:	 	Case Conversion <#Case-Conversion>
+	|towctrans| <#index-towctrans>:	 	Wide Character Case Conversion
+<#Wide-Character-Case-Conversion>
+	|towlower| <#index-towlower>:	 	Wide Character Case Conversion
+<#Wide-Character-Case-Conversion>
+	|towupper| <#index-towupper>:	 	Wide Character Case Conversion
+<#Wide-Character-Case-Conversion>
+	|trunc| <#index-trunc>:	 	Rounding Functions <#Rounding-Functions>
+	|truncate| <#index-truncate>:	 	File Size <#File-Size>
+	|truncate64| <#index-truncate64>:	 	File Size <#File-Size>
+	|truncf| <#index-truncf>:	 	Rounding Functions <#Rounding-Functions>
+	|truncl| <#index-truncl>:	 	Rounding Functions <#Rounding-Functions>
+	|tryagain| <#index-tryagain>:	 	Actions in the NSS configuration
+<#Actions-in-the-NSS-configuration>
+	|tsearch| <#index-tsearch>:	 	Tree Search Function <#Tree-Search-Function>
+	|ttyname| <#index-ttyname>:	 	Is It a Terminal <#Is-It-a-Terminal>
+	|ttyname_r| <#index-ttyname_005fr>:	 	Is It a Terminal <#Is-It-a-Terminal>
+	|twalk| <#index-twalk>:	 	Tree Search Function <#Tree-Search-Function>
+	|tzset| <#index-tzset>:	 	Time Zone Functions <#Time-Zone-Functions>
+------------------------------------------------------------------------
+U		
+	|ulimit| <#index-ulimit>:	 	Limits on Resources <#Limits-on-Resources>
+	|umask| <#index-umask-1>:	 	Setting Permissions <#Setting-Permissions>
+	|umount| <#index-umount>:	 	Mount-Unmount-Remount
+<#Mount_002dUnmount_002dRemount>
+	|umount2| <#index-umount2>:	 	Mount-Unmount-Remount
+<#Mount_002dUnmount_002dRemount>
+	|uname| <#index-uname>:	 	Platform Type <#Platform-Type>
+	|unavail| <#index-unavail>:	 	Actions in the NSS configuration
+<#Actions-in-the-NSS-configuration>
+	|ungetc| <#index-ungetc>:	 	How Unread <#How-Unread>
+	|ungetwc| <#index-ungetwc>:	 	How Unread <#How-Unread>
+	|unlink| <#index-unlink>:	 	Deleting Files <#Deleting-Files>
+	|unlockpt| <#index-unlockpt>:	 	Allocation <#Allocation>
+	|unsetenv| <#index-unsetenv>:	 	Environment Access <#Environment-Access>
+	|updwtmp| <#index-updwtmp>:	 	Manipulating the Database
+<#Manipulating-the-Database>
+	|utime| <#index-utime>:	 	File Times <#File-Times>
+	|utimes| <#index-utimes>:	 	File Times <#File-Times>
+	|utmpname| <#index-utmpname>:	 	Manipulating the Database
+<#Manipulating-the-Database>
+	|utmpxname| <#index-utmpxname>:	 	XPG Functions <#XPG-Functions>
+------------------------------------------------------------------------
+V		
+	|valloc| <#index-valloc>:	 	Aligned Memory Blocks <#Aligned-Memory-Blocks>
+	|vasprintf| <#index-vasprintf>:	 	Variable Arguments Output
+<#Variable-Arguments-Output>
+	|va_arg| <#index-va_005farg>:	 	Argument Macros <#Argument-Macros>
+	|va_copy| <#index-va_005fcopy-1>:	 	Argument Macros <#Argument-Macros>
+	|va_end| <#index-va_005fend>:	 	Argument Macros <#Argument-Macros>
+	|va_start| <#index-va_005fstart>:	 	Argument Macros <#Argument-Macros>
+	|verr| <#index-verr>:	 	Error Messages <#Error-Messages>
+	|verrx| <#index-verrx>:	 	Error Messages <#Error-Messages>
+	|versionsort| <#index-versionsort>:	 	Scanning Directory Content
+<#Scanning-Directory-Content>
+	|versionsort64| <#index-versionsort64>:	 	Scanning Directory Content
+<#Scanning-Directory-Content>
+	|vfork| <#index-vfork>:	 	Creating a Process <#Creating-a-Process>
+	|vfprintf| <#index-vfprintf>:	 	Variable Arguments Output
+<#Variable-Arguments-Output>
+	|vfscanf| <#index-vfscanf>:	 	Variable Arguments Input
+<#Variable-Arguments-Input>
+	|vfwprintf| <#index-vfwprintf>:	 	Variable Arguments Output
+<#Variable-Arguments-Output>
+	|vfwscanf| <#index-vfwscanf>:	 	Variable Arguments Input
+<#Variable-Arguments-Input>
+	|vlimit| <#index-vlimit>:	 	Limits on Resources <#Limits-on-Resources>
+	|vprintf| <#index-vprintf>:	 	Variable Arguments Output
+<#Variable-Arguments-Output>
+	|vscanf| <#index-vscanf>:	 	Variable Arguments Input
+<#Variable-Arguments-Input>
+	|vsnprintf| <#index-vsnprintf>:	 	Variable Arguments Output
+<#Variable-Arguments-Output>
+	|vsprintf| <#index-vsprintf>:	 	Variable Arguments Output
+<#Variable-Arguments-Output>
+	|vsscanf| <#index-vsscanf>:	 	Variable Arguments Input
+<#Variable-Arguments-Input>
+	|vswprintf| <#index-vswprintf>:	 	Variable Arguments Output
+<#Variable-Arguments-Output>
+	|vswscanf| <#index-vswscanf>:	 	Variable Arguments Input
+<#Variable-Arguments-Input>
+	|vsyslog| <#index-vsyslog>:	 	syslog; vsyslog <#syslog_003b-vsyslog>
+	|vtimes| <#index-vtimes>:	 	Resource Usage <#Resource-Usage>
+	|vwarn| <#index-vwarn>:	 	Error Messages <#Error-Messages>
+	|vwarnx| <#index-vwarnx>:	 	Error Messages <#Error-Messages>
+	|vwprintf| <#index-vwprintf>:	 	Variable Arguments Output
+<#Variable-Arguments-Output>
+	|vwscanf| <#index-vwscanf>:	 	Variable Arguments Input
+<#Variable-Arguments-Input>
+------------------------------------------------------------------------
+W		
+	|wait| <#index-wait>:	 	Process Completion <#Process-Completion>
+	|wait3| <#index-wait3>:	 	BSD Wait Functions <#BSD-Wait-Functions>
+	|wait4| <#index-wait4>:	 	Process Completion <#Process-Completion>
+	|waitpid| <#index-waitpid>:	 	Process Completion <#Process-Completion>
+	|warn| <#index-warn>:	 	Error Messages <#Error-Messages>
+	|warnx| <#index-warnx>:	 	Error Messages <#Error-Messages>
+	|WCOREDUMP| <#index-WCOREDUMP>:	 	Process Completion Status
+<#Process-Completion-Status>
+	|wcpcpy| <#index-wcpcpy>:	 	Copying Strings and Arrays
+<#Copying-Strings-and-Arrays>
+	|wcpncpy| <#index-wcpncpy>:	 	Truncating Strings <#Truncating-Strings>
+	|wcrtomb| <#index-wcrtomb>:	 	Converting a Character
+<#Converting-a-Character>
+	|wcscasecmp| <#index-wcscasecmp>:	 	String/Array Comparison
+<#String_002fArray-Comparison>
+	|wcscat| <#index-wcscat>:	 	Concatenating Strings <#Concatenating-Strings>
+	|wcschr| <#index-wcschr>:	 	Search Functions <#Search-Functions>
+	|wcschrnul| <#index-wcschrnul>:	 	Search Functions <#Search-Functions>
+	|wcscmp| <#index-wcscmp>:	 	String/Array Comparison
+<#String_002fArray-Comparison>
+	|wcscoll| <#index-wcscoll>:	 	Collation Functions <#Collation-Functions>
+	|wcscpy| <#index-wcscpy>:	 	Copying Strings and Arrays
+<#Copying-Strings-and-Arrays>
+	|wcscspn| <#index-wcscspn>:	 	Search Functions <#Search-Functions>
+	|wcsdup| <#index-wcsdup>:	 	Copying Strings and Arrays
+<#Copying-Strings-and-Arrays>
+	|wcsftime| <#index-wcsftime>:	 	Formatting Calendar Time
+<#Formatting-Calendar-Time>
+	|wcslen| <#index-wcslen>:	 	String Length <#String-Length>
+	|wcsncasecmp| <#index-wcsncasecmp>:	 	String/Array Comparison
+<#String_002fArray-Comparison>
+	|wcsncat| <#index-wcsncat>:	 	Truncating Strings <#Truncating-Strings>
+	|wcsncmp| <#index-wcsncmp>:	 	String/Array Comparison
+<#String_002fArray-Comparison>
+	|wcsncpy| <#index-wcsncpy>:	 	Truncating Strings <#Truncating-Strings>
+	|wcsnlen| <#index-wcsnlen>:	 	String Length <#String-Length>
+	|wcsnrtombs| <#index-wcsnrtombs>:	 	Converting Strings
+<#Converting-Strings>
+	|wcspbrk| <#index-wcspbrk>:	 	Search Functions <#Search-Functions>
+	|wcsrchr| <#index-wcsrchr>:	 	Search Functions <#Search-Functions>
+	|wcsrtombs| <#index-wcsrtombs>:	 	Converting Strings <#Converting-Strings>
+	|wcsspn| <#index-wcsspn>:	 	Search Functions <#Search-Functions>
+	|wcsstr| <#index-wcsstr>:	 	Search Functions <#Search-Functions>
+	|wcstod| <#index-wcstod>:	 	Parsing of Floats <#Parsing-of-Floats>
+	|wcstof| <#index-wcstof>:	 	Parsing of Floats <#Parsing-of-Floats>
+	|wcstoimax| <#index-wcstoimax>:	 	Parsing of Integers
+<#Parsing-of-Integers>
+	|wcstok| <#index-wcstok>:	 	Finding Tokens in a String
+<#Finding-Tokens-in-a-String>
+	|wcstol| <#index-wcstol>:	 	Parsing of Integers <#Parsing-of-Integers>
+	|wcstold| <#index-wcstold>:	 	Parsing of Floats <#Parsing-of-Floats>
+	|wcstoll| <#index-wcstoll>:	 	Parsing of Integers <#Parsing-of-Integers>
+	|wcstombs| <#index-wcstombs>:	 	Non-reentrant String Conversion
+<#Non_002dreentrant-String-Conversion>
+	|wcstoq| <#index-wcstoq>:	 	Parsing of Integers <#Parsing-of-Integers>
+	|wcstoul| <#index-wcstoul>:	 	Parsing of Integers <#Parsing-of-Integers>
+	|wcstoull| <#index-wcstoull>:	 	Parsing of Integers <#Parsing-of-Integers>
+	|wcstoumax| <#index-wcstoumax>:	 	Parsing of Integers
+<#Parsing-of-Integers>
+	|wcstouq| <#index-wcstouq>:	 	Parsing of Integers <#Parsing-of-Integers>
+	|wcswcs| <#index-wcswcs>:	 	Search Functions <#Search-Functions>
+	|wcsxfrm| <#index-wcsxfrm>:	 	Collation Functions <#Collation-Functions>
+	|wctob| <#index-wctob>:	 	Converting a Character <#Converting-a-Character>
+	|wctomb| <#index-wctomb>:	 	Non-reentrant Character Conversion
+<#Non_002dreentrant-Character-Conversion>
+	|wctrans| <#index-wctrans>:	 	Wide Character Case Conversion
+<#Wide-Character-Case-Conversion>
+	|wctype| <#index-wctype>:	 	Classification of Wide Characters
+<#Classification-of-Wide-Characters>
+	|WEXITSTATUS| <#index-WEXITSTATUS>:	 	Process Completion Status
+<#Process-Completion-Status>
+	|WIFEXITED| <#index-WIFEXITED>:	 	Process Completion Status
+<#Process-Completion-Status>
+	|WIFSIGNALED| <#index-WIFSIGNALED>:	 	Process Completion Status
+<#Process-Completion-Status>
+	|WIFSTOPPED| <#index-WIFSTOPPED>:	 	Process Completion Status
+<#Process-Completion-Status>
+	|wmemchr| <#index-wmemchr>:	 	Search Functions <#Search-Functions>
+	|wmemcmp| <#index-wmemcmp>:	 	String/Array Comparison
+<#String_002fArray-Comparison>
+	|wmemcpy| <#index-wmemcpy>:	 	Copying Strings and Arrays
+<#Copying-Strings-and-Arrays>
+	|wmemmove| <#index-wmemmove>:	 	Copying Strings and Arrays
+<#Copying-Strings-and-Arrays>
+	|wmempcpy| <#index-wmempcpy>:	 	Copying Strings and Arrays
+<#Copying-Strings-and-Arrays>
+	|wmemset| <#index-wmemset>:	 	Copying Strings and Arrays
+<#Copying-Strings-and-Arrays>
+	|wordexp| <#index-wordexp>:	 	Calling Wordexp <#Calling-Wordexp>
+	|wordfree| <#index-wordfree>:	 	Calling Wordexp <#Calling-Wordexp>
+	|wprintf| <#index-wprintf>:	 	Formatted Output Functions
+<#Formatted-Output-Functions>
+	|write| <#index-write>:	 	I/O Primitives <#I_002fO-Primitives>
+	|writev| <#index-writev>:	 	Scatter-Gather <#Scatter_002dGather>
+	|wscanf| <#index-wscanf>:	 	Formatted Input Functions
+<#Formatted-Input-Functions>
+	|WSTOPSIG| <#index-WSTOPSIG>:	 	Process Completion Status
+<#Process-Completion-Status>
+	|WTERMSIG| <#index-WTERMSIG>:	 	Process Completion Status
+<#Process-Completion-Status>
+------------------------------------------------------------------------
+Y		
+	|y0| <#index-y0>:	 	Special Functions <#Special-Functions>
+	|y0f| <#index-y0f>:	 	Special Functions <#Special-Functions>
+	|y0l| <#index-y0l>:	 	Special Functions <#Special-Functions>
+	|y1| <#index-y1>:	 	Special Functions <#Special-Functions>
+	|y1f| <#index-y1f>:	 	Special Functions <#Special-Functions>
+	|y1l| <#index-y1l>:	 	Special Functions <#Special-Functions>
+	|yn| <#index-yn>:	 	Special Functions <#Special-Functions>
+	|ynf| <#index-ynf>:	 	Special Functions <#Special-Functions>
+	|ynl| <#index-ynl>:	 	Special Functions <#Special-Functions>
+------------------------------------------------------------------------
+
+Jump to:   	*** <#Function-Index_fn_symbol-1>   *_*
+<#Function-Index_fn_symbol-2>  
+*A* <#Function-Index_fn_letter-A>   *B* <#Function-Index_fn_letter-B>  
+*C* <#Function-Index_fn_letter-C>   *D* <#Function-Index_fn_letter-D>  
+*E* <#Function-Index_fn_letter-E>   *F* <#Function-Index_fn_letter-F>  
+*G* <#Function-Index_fn_letter-G>   *H* <#Function-Index_fn_letter-H>  
+*I* <#Function-Index_fn_letter-I>   *J* <#Function-Index_fn_letter-J>  
+*K* <#Function-Index_fn_letter-K>   *L* <#Function-Index_fn_letter-L>  
+*M* <#Function-Index_fn_letter-M>   *N* <#Function-Index_fn_letter-N>  
+*O* <#Function-Index_fn_letter-O>   *P* <#Function-Index_fn_letter-P>  
+*Q* <#Function-Index_fn_letter-Q>   *R* <#Function-Index_fn_letter-R>  
+*S* <#Function-Index_fn_letter-S>   *T* <#Function-Index_fn_letter-T>  
+*U* <#Function-Index_fn_letter-U>   *V* <#Function-Index_fn_letter-V>  
+*W* <#Function-Index_fn_letter-W>   *Y* <#Function-Index_fn_letter-Y>  
+
+------------------------------------------------------------------------
+
+Next: File Index <#File-Index>, Previous: Function Index
+<#Function-Index>, Up: Top <#Top>   [Contents <#SEC_Contents>][Index
+<#Concept-Index>]
+
+
+

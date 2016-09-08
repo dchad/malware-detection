@@ -1,0 +1,1747 @@
+(		
+	|(*__gconv_end_fct)|
+<#index-_0028_002a_005f_005fgconv_005fend_005ffct_0029>:	 	glibc iconv
+Implementation <#glibc-iconv-Implementation>
+	|(*__gconv_fct)| <#index-_0028_002a_005f_005fgconv_005ffct_0029>:	 
+glibc iconv Implementation <#glibc-iconv-Implementation>
+	|(*__gconv_init_fct)|
+<#index-_0028_002a_005f_005fgconv_005finit_005ffct_0029>:	 	glibc iconv
+Implementation <#glibc-iconv-Implementation>
+	|(void)| <#index-_0028void_0029>:	 	Error Messages <#Error-Messages>
+
+------------------------------------------------------------------------
+_		
+	|_Complex_I| <#index-_005fComplex_005fI>:	 	Complex Numbers
+<#Complex-Numbers>
+	|_DEFAULT_SOURCE| <#index-_005fDEFAULT_005fSOURCE>:	 	Feature Test
+Macros <#Feature-Test-Macros>
+	|_FILE_OFFSET_BITS| <#index-_005fFILE_005fOFFSET_005fBITS>:	 	Feature
+Test Macros <#Feature-Test-Macros>
+	|_GNU_SOURCE| <#index-_005fGNU_005fSOURCE>:	 	Feature Test Macros
+<#Feature-Test-Macros>
+	|_IOFBF| <#index-_005fIOFBF>:	 	Controlling Buffering
+<#Controlling-Buffering>
+	|_IOLBF| <#index-_005fIOLBF>:	 	Controlling Buffering
+<#Controlling-Buffering>
+	|_IONBF| <#index-_005fIONBF>:	 	Controlling Buffering
+<#Controlling-Buffering>
+	|_ISOC99_SOURCE| <#index-_005fISOC99_005fSOURCE>:	 	Feature Test Macros
+<#Feature-Test-Macros>
+	|_LARGEFILE64_SOURCE| <#index-_005fLARGEFILE64_005fSOURCE>:	 	Feature
+Test Macros <#Feature-Test-Macros>
+	|_LARGEFILE_SOURCE| <#index-_005fLARGEFILE_005fSOURCE>:	 	Feature Test
+Macros <#Feature-Test-Macros>
+	|_PATH_FSTAB| <#index-_005fPATH_005fFSTAB>:	 	Mount Information
+<#Mount-Information>
+	|_PATH_MNTTAB| <#index-_005fPATH_005fMNTTAB>:	 	Mount Information
+<#Mount-Information>
+	|_PATH_MOUNTED| <#index-_005fPATH_005fMOUNTED>:	 	Mount Information
+<#Mount-Information>
+	|_PATH_UTMP| <#index-_005fPATH_005fUTMP>:	 	Manipulating the Database
+<#Manipulating-the-Database>
+	|_PATH_WTMP| <#index-_005fPATH_005fWTMP>:	 	Manipulating the Database
+<#Manipulating-the-Database>
+	|_POSIX2_C_DEV| <#index-_005fPOSIX2_005fC_005fDEV>:	 	System Options
+<#System-Options>
+	|_POSIX2_C_VERSION| <#index-_005fPOSIX2_005fC_005fVERSION>:	 	Version
+Supported <#Version-Supported>
+	|_POSIX2_FORT_DEV| <#index-_005fPOSIX2_005fFORT_005fDEV>:	 	System
+Options <#System-Options>
+	|_POSIX2_FORT_RUN| <#index-_005fPOSIX2_005fFORT_005fRUN>:	 	System
+Options <#System-Options>
+	|_POSIX2_LOCALEDEF| <#index-_005fPOSIX2_005fLOCALEDEF>:	 	System
+Options <#System-Options>
+	|_POSIX2_SW_DEV| <#index-_005fPOSIX2_005fSW_005fDEV>:	 	System Options
+<#System-Options>
+	|_POSIX_CHOWN_RESTRICTED|
+<#index-_005fPOSIX_005fCHOWN_005fRESTRICTED>:	 	Options for Files
+<#Options-for-Files>
+	|_POSIX_C_SOURCE| <#index-_005fPOSIX_005fC_005fSOURCE>:	 	Feature Test
+Macros <#Feature-Test-Macros>
+	|_POSIX_JOB_CONTROL| <#index-_005fPOSIX_005fJOB_005fCONTROL>:	 	System
+Options <#System-Options>
+	|_POSIX_NO_TRUNC| <#index-_005fPOSIX_005fNO_005fTRUNC>:	 	Options for
+Files <#Options-for-Files>
+	|_POSIX_SAVED_IDS| <#index-_005fPOSIX_005fSAVED_005fIDS-1>:	 	System
+Options <#System-Options>
+	|_POSIX_SOURCE| <#index-_005fPOSIX_005fSOURCE>:	 	Feature Test Macros
+<#Feature-Test-Macros>
+	|_POSIX_VDISABLE| <#index-_005fPOSIX_005fVDISABLE>:	 	Special
+Characters <#Special-Characters>
+	|_POSIX_VDISABLE| <#index-_005fPOSIX_005fVDISABLE-1>:	 	Options for
+Files <#Options-for-Files>
+	|_POSIX_VERSION| <#index-_005fPOSIX_005fVERSION>:	 	Version Supported
+<#Version-Supported>
+	|_REENTRANT| <#index-_005fREENTRANT>:	 	Feature Test Macros
+<#Feature-Test-Macros>
+	|_SC_2_C_DEV| <#index-_005fSC_005f2_005fC_005fDEV>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_2_FORT_DEV| <#index-_005fSC_005f2_005fFORT_005fDEV>:	 	Constants
+for Sysconf <#Constants-for-Sysconf>
+	|_SC_2_FORT_RUN| <#index-_005fSC_005f2_005fFORT_005fRUN>:	 	Constants
+for Sysconf <#Constants-for-Sysconf>
+	|_SC_2_LOCALEDEF| <#index-_005fSC_005f2_005fLOCALEDEF>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_2_SW_DEV| <#index-_005fSC_005f2_005fSW_005fDEV>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_2_VERSION| <#index-_005fSC_005f2_005fVERSION>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_AIO_LISTIO_MAX| <#index-_005fSC_005fAIO_005fLISTIO_005fMAX>:	 
+Constants for Sysconf <#Constants-for-Sysconf>
+	|_SC_AIO_MAX| <#index-_005fSC_005fAIO_005fMAX>:	 	Constants for Sysconf
+<#Constants-for-Sysconf>
+	|_SC_AIO_PRIO_DELTA_MAX|
+<#index-_005fSC_005fAIO_005fPRIO_005fDELTA_005fMAX>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_ARG_MAX| <#index-_005fSC_005fARG_005fMAX>:	 	Constants for Sysconf
+<#Constants-for-Sysconf>
+	|_SC_ASYNCHRONOUS_IO| <#index-_005fSC_005fASYNCHRONOUS_005fIO>:	 
+Constants for Sysconf <#Constants-for-Sysconf>
+	|_SC_ATEXIT_MAX| <#index-_005fSC_005fATEXIT_005fMAX>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_AVPHYS_PAGES| <#index-_005fSC_005fAVPHYS_005fPAGES>:	 	Query
+Memory Parameters <#Query-Memory-Parameters>
+	|_SC_AVPHYS_PAGES| <#index-_005fSC_005fAVPHYS_005fPAGES-1>:	 	Constants
+for Sysconf <#Constants-for-Sysconf>
+	|_SC_BC_BASE_MAX| <#index-_005fSC_005fBC_005fBASE_005fMAX>:	 	Constants
+for Sysconf <#Constants-for-Sysconf>
+	|_SC_BC_DIM_MAX| <#index-_005fSC_005fBC_005fDIM_005fMAX>:	 	Constants
+for Sysconf <#Constants-for-Sysconf>
+	|_SC_BC_SCALE_MAX| <#index-_005fSC_005fBC_005fSCALE_005fMAX>:	 
+Constants for Sysconf <#Constants-for-Sysconf>
+	|_SC_BC_STRING_MAX| <#index-_005fSC_005fBC_005fSTRING_005fMAX>:	 
+Constants for Sysconf <#Constants-for-Sysconf>
+	|_SC_CHARCLASS_NAME_MAX|
+<#index-_005fSC_005fCHARCLASS_005fNAME_005fMAX>:	 	Constants for Sysconf
+<#Constants-for-Sysconf>
+	|_SC_CHAR_BIT| <#index-_005fSC_005fCHAR_005fBIT>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_CHAR_MAX| <#index-_005fSC_005fCHAR_005fMAX>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_CHAR_MIN| <#index-_005fSC_005fCHAR_005fMIN>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_CHILD_MAX| <#index-_005fSC_005fCHILD_005fMAX>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_CLK_TCK| <#index-_005fSC_005fCLK_005fTCK>:	 	Constants for Sysconf
+<#Constants-for-Sysconf>
+	|_SC_COLL_WEIGHTS_MAX|
+<#index-_005fSC_005fCOLL_005fWEIGHTS_005fMAX>:	 	Constants for Sysconf
+<#Constants-for-Sysconf>
+	|_SC_DELAYTIMER_MAX| <#index-_005fSC_005fDELAYTIMER_005fMAX>:	 
+Constants for Sysconf <#Constants-for-Sysconf>
+	|_SC_EQUIV_CLASS_MAX| <#index-_005fSC_005fEQUIV_005fCLASS_005fMAX>:	 
+Constants for Sysconf <#Constants-for-Sysconf>
+	|_SC_EXPR_NEST_MAX| <#index-_005fSC_005fEXPR_005fNEST_005fMAX>:	 
+Constants for Sysconf <#Constants-for-Sysconf>
+	|_SC_FSYNC| <#index-_005fSC_005fFSYNC>:	 	Constants for Sysconf
+<#Constants-for-Sysconf>
+	|_SC_GETGR_R_SIZE_MAX|
+<#index-_005fSC_005fGETGR_005fR_005fSIZE_005fMAX>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_GETPW_R_SIZE_MAX|
+<#index-_005fSC_005fGETPW_005fR_005fSIZE_005fMAX>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_INT_MAX| <#index-_005fSC_005fINT_005fMAX>:	 	Constants for Sysconf
+<#Constants-for-Sysconf>
+	|_SC_INT_MIN| <#index-_005fSC_005fINT_005fMIN>:	 	Constants for Sysconf
+<#Constants-for-Sysconf>
+	|_SC_JOB_CONTROL| <#index-_005fSC_005fJOB_005fCONTROL>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_LINE_MAX| <#index-_005fSC_005fLINE_005fMAX>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_LOGIN_NAME_MAX| <#index-_005fSC_005fLOGIN_005fNAME_005fMAX>:	 
+Constants for Sysconf <#Constants-for-Sysconf>
+	|_SC_LONG_BIT| <#index-_005fSC_005fLONG_005fBIT>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_MAPPED_FILES| <#index-_005fSC_005fMAPPED_005fFILES>:	 	Constants
+for Sysconf <#Constants-for-Sysconf>
+	|_SC_MB_LEN_MAX| <#index-_005fSC_005fMB_005fLEN_005fMAX>:	 	Constants
+for Sysconf <#Constants-for-Sysconf>
+	|_SC_MEMLOCK| <#index-_005fSC_005fMEMLOCK>:	 	Constants for Sysconf
+<#Constants-for-Sysconf>
+	|_SC_MEMLOCK_RANGE| <#index-_005fSC_005fMEMLOCK_005fRANGE>:	 	Constants
+for Sysconf <#Constants-for-Sysconf>
+	|_SC_MEMORY_PROTECTION| <#index-_005fSC_005fMEMORY_005fPROTECTION>:	 
+Constants for Sysconf <#Constants-for-Sysconf>
+	|_SC_MESSAGE_PASSING| <#index-_005fSC_005fMESSAGE_005fPASSING>:	 
+Constants for Sysconf <#Constants-for-Sysconf>
+	|_SC_MQ_OPEN_MAX| <#index-_005fSC_005fMQ_005fOPEN_005fMAX>:	 	Constants
+for Sysconf <#Constants-for-Sysconf>
+	|_SC_MQ_PRIO_MAX| <#index-_005fSC_005fMQ_005fPRIO_005fMAX>:	 	Constants
+for Sysconf <#Constants-for-Sysconf>
+	|_SC_NGROUPS_MAX| <#index-_005fSC_005fNGROUPS_005fMAX>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_NL_ARGMAX| <#index-_005fSC_005fNL_005fARGMAX>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_NL_LANGMAX| <#index-_005fSC_005fNL_005fLANGMAX>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_NL_MSGMAX| <#index-_005fSC_005fNL_005fMSGMAX>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_NL_NMAX| <#index-_005fSC_005fNL_005fNMAX>:	 	Constants for Sysconf
+<#Constants-for-Sysconf>
+	|_SC_NL_SETMAX| <#index-_005fSC_005fNL_005fSETMAX>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_NL_TEXTMAX| <#index-_005fSC_005fNL_005fTEXTMAX>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_NPROCESSORS_CONF| <#index-_005fSC_005fNPROCESSORS_005fCONF>:	 
+Processor Resources <#Processor-Resources>
+	|_SC_NPROCESSORS_CONF| <#index-_005fSC_005fNPROCESSORS_005fCONF-1>:	 
+Constants for Sysconf <#Constants-for-Sysconf>
+	|_SC_NPROCESSORS_ONLN| <#index-_005fSC_005fNPROCESSORS_005fONLN>:	 
+Processor Resources <#Processor-Resources>
+	|_SC_NPROCESSORS_ONLN| <#index-_005fSC_005fNPROCESSORS_005fONLN-1>:	 
+Constants for Sysconf <#Constants-for-Sysconf>
+	|_SC_NZERO| <#index-_005fSC_005fNZERO>:	 	Constants for Sysconf
+<#Constants-for-Sysconf>
+	|_SC_OPEN_MAX| <#index-_005fSC_005fOPEN_005fMAX>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_PAGESIZE| <#index-_005fSC_005fPAGESIZE>:	 	Memory-mapped I/O
+<#Memory_002dmapped-I_002fO>
+	|_SC_PAGESIZE| <#index-_005fSC_005fPAGESIZE-1>:	 	Query Memory
+Parameters <#Query-Memory-Parameters>
+	|_SC_PAGESIZE| <#index-_005fSC_005fPAGESIZE-2>:	 	Constants for Sysconf
+<#Constants-for-Sysconf>
+	|_SC_PHYS_PAGES| <#index-_005fSC_005fPHYS_005fPAGES>:	 	Query Memory
+Parameters <#Query-Memory-Parameters>
+	|_SC_PHYS_PAGES| <#index-_005fSC_005fPHYS_005fPAGES-1>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_PII| <#index-_005fSC_005fPII>:	 	Constants for Sysconf
+<#Constants-for-Sysconf>
+	|_SC_PII_INTERNET| <#index-_005fSC_005fPII_005fINTERNET>:	 	Constants
+for Sysconf <#Constants-for-Sysconf>
+	|_SC_PII_INTERNET_DGRAM|
+<#index-_005fSC_005fPII_005fINTERNET_005fDGRAM>:	 	Constants for Sysconf
+<#Constants-for-Sysconf>
+	|_SC_PII_INTERNET_STREAM|
+<#index-_005fSC_005fPII_005fINTERNET_005fSTREAM>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_PII_OSI| <#index-_005fSC_005fPII_005fOSI>:	 	Constants for Sysconf
+<#Constants-for-Sysconf>
+	|_SC_PII_OSI_CLTS| <#index-_005fSC_005fPII_005fOSI_005fCLTS>:	 
+Constants for Sysconf <#Constants-for-Sysconf>
+	|_SC_PII_OSI_COTS| <#index-_005fSC_005fPII_005fOSI_005fCOTS>:	 
+Constants for Sysconf <#Constants-for-Sysconf>
+	|_SC_PII_OSI_M| <#index-_005fSC_005fPII_005fOSI_005fM>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_PII_SOCKET| <#index-_005fSC_005fPII_005fSOCKET>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_PII_XTI| <#index-_005fSC_005fPII_005fXTI>:	 	Constants for Sysconf
+<#Constants-for-Sysconf>
+	|_SC_PRIORITIZED_IO| <#index-_005fSC_005fPRIORITIZED_005fIO>:	 
+Constants for Sysconf <#Constants-for-Sysconf>
+	|_SC_PRIORITY_SCHEDULING|
+<#index-_005fSC_005fPRIORITY_005fSCHEDULING>:	 	Constants for Sysconf
+<#Constants-for-Sysconf>
+	|_SC_REALTIME_SIGNALS| <#index-_005fSC_005fREALTIME_005fSIGNALS>:	 
+Constants for Sysconf <#Constants-for-Sysconf>
+	|_SC_RTSIG_MAX| <#index-_005fSC_005fRTSIG_005fMAX>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_SAVED_IDS| <#index-_005fSC_005fSAVED_005fIDS>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_SCHAR_MAX| <#index-_005fSC_005fSCHAR_005fMAX>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_SCHAR_MIN| <#index-_005fSC_005fSCHAR_005fMIN>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_SELECT| <#index-_005fSC_005fSELECT>:	 	Constants for Sysconf
+<#Constants-for-Sysconf>
+	|_SC_SEMAPHORES| <#index-_005fSC_005fSEMAPHORES>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_SEM_NSEMS_MAX| <#index-_005fSC_005fSEM_005fNSEMS_005fMAX>:	 
+Constants for Sysconf <#Constants-for-Sysconf>
+	|_SC_SEM_VALUE_MAX| <#index-_005fSC_005fSEM_005fVALUE_005fMAX>:	 
+Constants for Sysconf <#Constants-for-Sysconf>
+	|_SC_SHARED_MEMORY_OBJECTS|
+<#index-_005fSC_005fSHARED_005fMEMORY_005fOBJECTS>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_SHRT_MAX| <#index-_005fSC_005fSHRT_005fMAX>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_SHRT_MIN| <#index-_005fSC_005fSHRT_005fMIN>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_SIGQUEUE_MAX| <#index-_005fSC_005fSIGQUEUE_005fMAX>:	 	Constants
+for Sysconf <#Constants-for-Sysconf>
+	|_SC_STREAM_MAX| <#index-_005fSC_005fSTREAM_005fMAX>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_SYNCHRONIZED_IO| <#index-_005fSC_005fSYNCHRONIZED_005fIO>:	 
+Constants for Sysconf <#Constants-for-Sysconf>
+	|_SC_THREADS| <#index-_005fSC_005fTHREADS>:	 	Constants for Sysconf
+<#Constants-for-Sysconf>
+	|_SC_THREAD_ATTR_STACKADDR|
+<#index-_005fSC_005fTHREAD_005fATTR_005fSTACKADDR>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_THREAD_ATTR_STACKSIZE|
+<#index-_005fSC_005fTHREAD_005fATTR_005fSTACKSIZE>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_THREAD_DESTRUCTOR_ITERATIONS|
+<#index-_005fSC_005fTHREAD_005fDESTRUCTOR_005fITERATIONS>:	 	Constants
+for Sysconf <#Constants-for-Sysconf>
+	|_SC_THREAD_KEYS_MAX| <#index-_005fSC_005fTHREAD_005fKEYS_005fMAX>:	 
+Constants for Sysconf <#Constants-for-Sysconf>
+	|_SC_THREAD_PRIORITY_SCHEDULING|
+<#index-_005fSC_005fTHREAD_005fPRIORITY_005fSCHEDULING>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_THREAD_PRIO_INHERIT|
+<#index-_005fSC_005fTHREAD_005fPRIO_005fINHERIT>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_THREAD_PRIO_PROTECT|
+<#index-_005fSC_005fTHREAD_005fPRIO_005fPROTECT>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_THREAD_PROCESS_SHARED|
+<#index-_005fSC_005fTHREAD_005fPROCESS_005fSHARED>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_THREAD_SAFE_FUNCTIONS|
+<#index-_005fSC_005fTHREAD_005fSAFE_005fFUNCTIONS>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_THREAD_STACK_MIN|
+<#index-_005fSC_005fTHREAD_005fSTACK_005fMIN>:	 	Constants for Sysconf
+<#Constants-for-Sysconf>
+	|_SC_THREAD_THREADS_MAX|
+<#index-_005fSC_005fTHREAD_005fTHREADS_005fMAX>:	 	Constants for Sysconf
+<#Constants-for-Sysconf>
+	|_SC_TIMERS| <#index-_005fSC_005fTIMERS>:	 	Constants for Sysconf
+<#Constants-for-Sysconf>
+	|_SC_TIMER_MAX| <#index-_005fSC_005fTIMER_005fMAX>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_TTY_NAME_MAX| <#index-_005fSC_005fTTY_005fNAME_005fMAX>:	 
+Constants for Sysconf <#Constants-for-Sysconf>
+	|_SC_TZNAME_MAX| <#index-_005fSC_005fTZNAME_005fMAX>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_T_IOV_MAX| <#index-_005fSC_005fT_005fIOV_005fMAX>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_UCHAR_MAX| <#index-_005fSC_005fUCHAR_005fMAX>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_UINT_MAX| <#index-_005fSC_005fUINT_005fMAX>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_UIO_MAXIOV| <#index-_005fSC_005fUIO_005fMAXIOV>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_ULONG_MAX| <#index-_005fSC_005fULONG_005fMAX>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_USHRT_MAX| <#index-_005fSC_005fUSHRT_005fMAX>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_VERSION| <#index-_005fSC_005fVERSION>:	 	Constants for Sysconf
+<#Constants-for-Sysconf>
+	|_SC_VERSION| <#index-_005fSC_005fVERSION-1>:	 	Constants for Sysconf
+<#Constants-for-Sysconf>
+	|_SC_WORD_BIT| <#index-_005fSC_005fWORD_005fBIT>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_XOPEN_CRYPT| <#index-_005fSC_005fXOPEN_005fCRYPT>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_XOPEN_ENH_I18N| <#index-_005fSC_005fXOPEN_005fENH_005fI18N>:	 
+Constants for Sysconf <#Constants-for-Sysconf>
+	|_SC_XOPEN_LEGACY| <#index-_005fSC_005fXOPEN_005fLEGACY>:	 	Constants
+for Sysconf <#Constants-for-Sysconf>
+	|_SC_XOPEN_REALTIME| <#index-_005fSC_005fXOPEN_005fREALTIME>:	 
+Constants for Sysconf <#Constants-for-Sysconf>
+	|_SC_XOPEN_REALTIME_THREADS|
+<#index-_005fSC_005fXOPEN_005fREALTIME_005fTHREADS>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_XOPEN_SHM| <#index-_005fSC_005fXOPEN_005fSHM>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_XOPEN_UNIX| <#index-_005fSC_005fXOPEN_005fUNIX>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_XOPEN_VERSION| <#index-_005fSC_005fXOPEN_005fVERSION>:	 	Constants
+for Sysconf <#Constants-for-Sysconf>
+	|_SC_XOPEN_XCU_VERSION|
+<#index-_005fSC_005fXOPEN_005fXCU_005fVERSION>:	 	Constants for Sysconf
+<#Constants-for-Sysconf>
+	|_SC_XOPEN_XPG2| <#index-_005fSC_005fXOPEN_005fXPG2>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_XOPEN_XPG3| <#index-_005fSC_005fXOPEN_005fXPG3>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_SC_XOPEN_XPG4| <#index-_005fSC_005fXOPEN_005fXPG4>:	 	Constants for
+Sysconf <#Constants-for-Sysconf>
+	|_THREAD_SAFE| <#index-_005fTHREAD_005fSAFE>:	 	Feature Test Macros
+<#Feature-Test-Macros>
+	|_XOPEN_SOURCE| <#index-_005fXOPEN_005fSOURCE>:	 	Feature Test Macros
+<#Feature-Test-Macros>
+	|_XOPEN_SOURCE_EXTENDED|
+<#index-_005fXOPEN_005fSOURCE_005fEXTENDED>:	 	Feature Test Macros
+<#Feature-Test-Macros>
+	|__free_hook| <#index-_005f_005ffree_005fhook>:	 	Hooks for Malloc
+<#Hooks-for-Malloc>
+	|__malloc_hook| <#index-_005f_005fmalloc_005fhook>:	 	Hooks for Malloc
+<#Hooks-for-Malloc>
+	|__memalign_hook| <#index-_005f_005fmemalign_005fhook>:	 	Hooks for
+Malloc <#Hooks-for-Malloc>
+	|__realloc_hook| <#index-_005f_005frealloc_005fhook>:	 	Hooks for
+Malloc <#Hooks-for-Malloc>
+------------------------------------------------------------------------
+A		
+	|ABDAY_1| <#index-ABDAY_005f1>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|ABDAY_2| <#index-ABDAY_005f2>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|ABDAY_3| <#index-ABDAY_005f3>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|ABDAY_4| <#index-ABDAY_005f4>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|ABDAY_5| <#index-ABDAY_005f5>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|ABDAY_6| <#index-ABDAY_005f6>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|ABDAY_7| <#index-ABDAY_005f7>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|ABMON_1| <#index-ABMON_005f1>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|ABMON_10| <#index-ABMON_005f10>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|ABMON_11| <#index-ABMON_005f11>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|ABMON_12| <#index-ABMON_005f12>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|ABMON_2| <#index-ABMON_005f2>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|ABMON_3| <#index-ABMON_005f3>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|ABMON_4| <#index-ABMON_005f4>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|ABMON_5| <#index-ABMON_005f5>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|ABMON_6| <#index-ABMON_005f6>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|ABMON_7| <#index-ABMON_005f7>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|ABMON_8| <#index-ABMON_005f8>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|ABMON_9| <#index-ABMON_005f9>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|ACCOUNTING| <#index-ACCOUNTING>:	 	Manipulating the Database
+<#Manipulating-the-Database>
+	|AF_FILE| <#index-AF_005fFILE>:	 	Address Formats <#Address-Formats>
+	|AF_INET| <#index-AF_005fINET>:	 	Address Formats <#Address-Formats>
+	|AF_LOCAL| <#index-AF_005fLOCAL>:	 	Address Formats <#Address-Formats>
+	|AF_UNIX| <#index-AF_005fUNIX>:	 	Address Formats <#Address-Formats>
+	|AF_UNSPEC| <#index-AF_005fUNSPEC>:	 	Address Formats <#Address-Formats>
+	|aliases| <#index-aliases>:	 	NSS Basics <#NSS-Basics>
+	|ALTWERASE| <#index-ALTWERASE>:	 	Local Modes <#Local-Modes>
+	|ALT_DIGITS| <#index-ALT_005fDIGITS>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|AM_STR| <#index-AM_005fSTR>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|argp_err_exit_status| <#index-argp_005ferr_005fexit_005fstatus>:	 
+Argp Global Variables <#Argp-Global-Variables>
+	|ARGP_ERR_UNKNOWN| <#index-ARGP_005fERR_005fUNKNOWN>:	 	Argp Parser
+Functions <#Argp-Parser-Functions>
+	|ARGP_HELP_BUG_ADDR| <#index-ARGP_005fHELP_005fBUG_005fADDR>:	 	Argp
+Help Flags <#Argp-Help-Flags>
+	|ARGP_HELP_DOC| <#index-ARGP_005fHELP_005fDOC>:	 	Argp Help Flags
+<#Argp-Help-Flags>
+	|ARGP_HELP_EXIT_ERR| <#index-ARGP_005fHELP_005fEXIT_005fERR>:	 	Argp
+Help Flags <#Argp-Help-Flags>
+	|ARGP_HELP_EXIT_OK| <#index-ARGP_005fHELP_005fEXIT_005fOK>:	 	Argp Help
+Flags <#Argp-Help-Flags>
+	|ARGP_HELP_LONG| <#index-ARGP_005fHELP_005fLONG>:	 	Argp Help Flags
+<#Argp-Help-Flags>
+	|ARGP_HELP_LONG_ONLY| <#index-ARGP_005fHELP_005fLONG_005fONLY>:	 	Argp
+Help Flags <#Argp-Help-Flags>
+	|ARGP_HELP_POST_DOC| <#index-ARGP_005fHELP_005fPOST_005fDOC>:	 	Argp
+Help Flags <#Argp-Help-Flags>
+	|ARGP_HELP_PRE_DOC| <#index-ARGP_005fHELP_005fPRE_005fDOC>:	 	Argp Help
+Flags <#Argp-Help-Flags>
+	|ARGP_HELP_SEE| <#index-ARGP_005fHELP_005fSEE>:	 	Argp Help Flags
+<#Argp-Help-Flags>
+	|ARGP_HELP_SHORT_USAGE| <#index-ARGP_005fHELP_005fSHORT_005fUSAGE>:	 
+Argp Help Flags <#Argp-Help-Flags>
+	|ARGP_HELP_STD_ERR| <#index-ARGP_005fHELP_005fSTD_005fERR>:	 	Argp Help
+Flags <#Argp-Help-Flags>
+	|ARGP_HELP_STD_HELP| <#index-ARGP_005fHELP_005fSTD_005fHELP>:	 	Argp
+Help Flags <#Argp-Help-Flags>
+	|ARGP_HELP_STD_USAGE| <#index-ARGP_005fHELP_005fSTD_005fUSAGE>:	 	Argp
+Help Flags <#Argp-Help-Flags>
+	|ARGP_HELP_USAGE| <#index-ARGP_005fHELP_005fUSAGE>:	 	Argp Help Flags
+<#Argp-Help-Flags>
+	|ARGP_IN_ORDER| <#index-ARGP_005fIN_005fORDER>:	 	Argp Flags <#Argp-Flags>
+	|ARGP_KEY_ARG| <#index-ARGP_005fKEY_005fARG>:	 	Argp Special Keys
+<#Argp-Special-Keys>
+	|ARGP_KEY_ARGS| <#index-ARGP_005fKEY_005fARGS>:	 	Argp Special Keys
+<#Argp-Special-Keys>
+	|ARGP_KEY_END| <#index-ARGP_005fKEY_005fEND>:	 	Argp Special Keys
+<#Argp-Special-Keys>
+	|ARGP_KEY_ERROR| <#index-ARGP_005fKEY_005fERROR>:	 	Argp Special Keys
+<#Argp-Special-Keys>
+	|ARGP_KEY_FINI| <#index-ARGP_005fKEY_005fFINI>:	 	Argp Special Keys
+<#Argp-Special-Keys>
+	|ARGP_KEY_HELP_ARGS_DOC|
+<#index-ARGP_005fKEY_005fHELP_005fARGS_005fDOC>:	 	Argp Help Filter Keys
+<#Argp-Help-Filter-Keys>
+	|ARGP_KEY_HELP_DUP_ARGS_NOTE|
+<#index-ARGP_005fKEY_005fHELP_005fDUP_005fARGS_005fNOTE>:	 	Argp Help
+Filter Keys <#Argp-Help-Filter-Keys>
+	|ARGP_KEY_HELP_EXTRA| <#index-ARGP_005fKEY_005fHELP_005fEXTRA>:	 	Argp
+Help Filter Keys <#Argp-Help-Filter-Keys>
+	|ARGP_KEY_HELP_HEADER| <#index-ARGP_005fKEY_005fHELP_005fHEADER>:	 
+Argp Help Filter Keys <#Argp-Help-Filter-Keys>
+	|ARGP_KEY_HELP_POST_DOC|
+<#index-ARGP_005fKEY_005fHELP_005fPOST_005fDOC>:	 	Argp Help Filter Keys
+<#Argp-Help-Filter-Keys>
+	|ARGP_KEY_HELP_PRE_DOC|
+<#index-ARGP_005fKEY_005fHELP_005fPRE_005fDOC>:	 	Argp Help Filter Keys
+<#Argp-Help-Filter-Keys>
+	|ARGP_KEY_INIT| <#index-ARGP_005fKEY_005fINIT>:	 	Argp Special Keys
+<#Argp-Special-Keys>
+	|ARGP_KEY_NO_ARGS| <#index-ARGP_005fKEY_005fNO_005fARGS>:	 	Argp
+Special Keys <#Argp-Special-Keys>
+	|ARGP_KEY_SUCCESS| <#index-ARGP_005fKEY_005fSUCCESS>:	 	Argp Special
+Keys <#Argp-Special-Keys>
+	|ARGP_LONG_ONLY| <#index-ARGP_005fLONG_005fONLY>:	 	Argp Flags
+<#Argp-Flags>
+	|ARGP_NO_ARGS| <#index-ARGP_005fNO_005fARGS>:	 	Argp Flags <#Argp-Flags>
+	|ARGP_NO_ERRS| <#index-ARGP_005fNO_005fERRS>:	 	Argp Flags <#Argp-Flags>
+	|ARGP_NO_EXIT| <#index-ARGP_005fNO_005fEXIT>:	 	Argp Flags <#Argp-Flags>
+	|ARGP_NO_HELP| <#index-ARGP_005fNO_005fHELP>:	 	Argp Flags <#Argp-Flags>
+	|ARGP_PARSE_ARGV0| <#index-ARGP_005fPARSE_005fARGV0>:	 	Argp Flags
+<#Argp-Flags>
+	|argp_program_bug_address|
+<#index-argp_005fprogram_005fbug_005faddress>:	 	Argp Global Variables
+<#Argp-Global-Variables>
+	|argp_program_version| <#index-argp_005fprogram_005fversion>:	 	Argp
+Global Variables <#Argp-Global-Variables>
+	|argp_program_version_hook|
+<#index-argp_005fprogram_005fversion_005fhook>:	 	Argp Global Variables
+<#Argp-Global-Variables>
+	|ARGP_SILENT| <#index-ARGP_005fSILENT>:	 	Argp Flags <#Argp-Flags>
+	|ARG_MAX| <#index-ARG_005fMAX>:	 	General Limits <#General-Limits>
+	|AUTH_DES| <#index-AUTH_005fDES>:	 	Cryptographic Functions
+<#Cryptographic-Functions>
+------------------------------------------------------------------------
+B		
+	|B0| <#index-B0>:	 	Line Speed <#Line-Speed>
+	|B110| <#index-B110>:	 	Line Speed <#Line-Speed>
+	|B115200| <#index-B115200>:	 	Line Speed <#Line-Speed>
+	|B1200| <#index-B1200>:	 	Line Speed <#Line-Speed>
+	|B134| <#index-B134>:	 	Line Speed <#Line-Speed>
+	|B150| <#index-B150>:	 	Line Speed <#Line-Speed>
+	|B1800| <#index-B1800>:	 	Line Speed <#Line-Speed>
+	|B19200| <#index-B19200>:	 	Line Speed <#Line-Speed>
+	|B200| <#index-B200>:	 	Line Speed <#Line-Speed>
+	|B230400| <#index-B230400>:	 	Line Speed <#Line-Speed>
+	|B2400| <#index-B2400>:	 	Line Speed <#Line-Speed>
+	|B300| <#index-B300>:	 	Line Speed <#Line-Speed>
+	|B38400| <#index-B38400>:	 	Line Speed <#Line-Speed>
+	|B460800| <#index-B460800>:	 	Line Speed <#Line-Speed>
+	|B4800| <#index-B4800>:	 	Line Speed <#Line-Speed>
+	|B50| <#index-B50>:	 	Line Speed <#Line-Speed>
+	|B57600| <#index-B57600>:	 	Line Speed <#Line-Speed>
+	|B600| <#index-B600>:	 	Line Speed <#Line-Speed>
+	|B75| <#index-B75>:	 	Line Speed <#Line-Speed>
+	|B9600| <#index-B9600>:	 	Line Speed <#Line-Speed>
+	|BC_BASE_MAX| <#index-BC_005fBASE_005fMAX>:	 	Utility Limits
+<#Utility-Limits>
+	|BC_DIM_MAX| <#index-BC_005fDIM_005fMAX>:	 	Utility Limits
+<#Utility-Limits>
+	|BC_SCALE_MAX| <#index-BC_005fSCALE_005fMAX>:	 	Utility Limits
+<#Utility-Limits>
+	|BC_STRING_MAX| <#index-BC_005fSTRING_005fMAX>:	 	Utility Limits
+<#Utility-Limits>
+	|BOOT_TIME| <#index-BOOT_005fTIME>:	 	Manipulating the Database
+<#Manipulating-the-Database>
+	|BOOT_TIME| <#index-BOOT_005fTIME-1>:	 	XPG Functions <#XPG-Functions>
+	|BRKINT| <#index-BRKINT>:	 	Input Modes <#Input-Modes>
+	|BUFSIZ| <#index-BUFSIZ>:	 	Controlling Buffering <#Controlling-Buffering>
+------------------------------------------------------------------------
+C		
+	|CCTS_OFLOW| <#index-CCTS_005fOFLOW>:	 	Control Modes <#Control-Modes>
+	|CHAR_MAX| <#index-CHAR_005fMAX>:	 	Range of Type <#Range-of-Type>
+	|CHAR_MIN| <#index-CHAR_005fMIN>:	 	Range of Type <#Range-of-Type>
+	|CHILD_MAX| <#index-CHILD_005fMAX>:	 	General Limits <#General-Limits>
+	|CIGNORE| <#index-CIGNORE>:	 	Control Modes <#Control-Modes>
+	|CLK_TCK| <#index-CLK_005fTCK>:	 	Processor Time <#Processor-Time>
+	|CLOCAL| <#index-CLOCAL>:	 	Control Modes <#Control-Modes>
+	|CLOCKS_PER_SEC| <#index-CLOCKS_005fPER_005fSEC>:	 	CPU Time <#CPU-Time>
+	|CODESET| <#index-CODESET>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|COLL_WEIGHTS_MAX| <#index-COLL_005fWEIGHTS_005fMAX>:	 	Utility Limits
+<#Utility-Limits>
+	|COREFILE| <#index-COREFILE>:	 	Program Error Signals
+<#Program-Error-Signals>
+	|CPU_SETSIZE| <#index-CPU_005fSETSIZE>:	 	CPU Affinity <#CPU-Affinity>
+	|CREAD| <#index-CREAD>:	 	Control Modes <#Control-Modes>
+	|CRNCYSTR| <#index-CRNCYSTR>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|CRTS_IFLOW| <#index-CRTS_005fIFLOW>:	 	Control Modes <#Control-Modes>
+	|CS5| <#index-CS5>:	 	Control Modes <#Control-Modes>
+	|CS6| <#index-CS6>:	 	Control Modes <#Control-Modes>
+	|CS7| <#index-CS7>:	 	Control Modes <#Control-Modes>
+	|CS8| <#index-CS8>:	 	Control Modes <#Control-Modes>
+	|CSIZE| <#index-CSIZE>:	 	Control Modes <#Control-Modes>
+	|CSTOPB| <#index-CSTOPB>:	 	Control Modes <#Control-Modes>
+	|CURRENCY_SYMBOL| <#index-CURRENCY_005fSYMBOL>:	 	The Elegant and Fast
+Way <#The-Elegant-and-Fast-Way>
+------------------------------------------------------------------------
+D		
+	|daylight| <#index-daylight>:	 	Time Zone Functions <#Time-Zone-Functions>
+	|DAY_1| <#index-DAY_005f1>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|DAY_2| <#index-DAY_005f2>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|DAY_3| <#index-DAY_005f3>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|DAY_4| <#index-DAY_005f4>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|DAY_5| <#index-DAY_005f5>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|DAY_6| <#index-DAY_005f6>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|DAY_7| <#index-DAY_005f7>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|DBL_DIG| <#index-DBL_005fDIG>:	 	Floating Point Parameters
+<#Floating-Point-Parameters>
+	|DBL_EPSILON| <#index-DBL_005fEPSILON>:	 	Floating Point Parameters
+<#Floating-Point-Parameters>
+	|DBL_MANT_DIG| <#index-DBL_005fMANT_005fDIG>:	 	Floating Point
+Parameters <#Floating-Point-Parameters>
+	|DBL_MAX| <#index-DBL_005fMAX>:	 	Floating Point Parameters
+<#Floating-Point-Parameters>
+	|DBL_MAX_10_EXP| <#index-DBL_005fMAX_005f10_005fEXP>:	 	Floating Point
+Parameters <#Floating-Point-Parameters>
+	|DBL_MAX_EXP| <#index-DBL_005fMAX_005fEXP>:	 	Floating Point Parameters
+<#Floating-Point-Parameters>
+	|DBL_MIN| <#index-DBL_005fMIN>:	 	Floating Point Parameters
+<#Floating-Point-Parameters>
+	|DBL_MIN_10_EXP| <#index-DBL_005fMIN_005f10_005fEXP>:	 	Floating Point
+Parameters <#Floating-Point-Parameters>
+	|DBL_MIN_EXP| <#index-DBL_005fMIN_005fEXP>:	 	Floating Point Parameters
+<#Floating-Point-Parameters>
+	|DEAD_PROCESS| <#index-DEAD_005fPROCESS>:	 	Manipulating the Database
+<#Manipulating-the-Database>
+	|DEAD_PROCESS| <#index-DEAD_005fPROCESS-1>:	 	XPG Functions
+<#XPG-Functions>
+	|DECIMAL_POINT| <#index-DECIMAL_005fPOINT>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|DESERR_BADPARAM| <#index-DESERR_005fBADPARAM>:	 	DES Encryption
+<#DES-Encryption>
+	|DESERR_HWERROR| <#index-DESERR_005fHWERROR>:	 	DES Encryption
+<#DES-Encryption>
+	|DESERR_NOHWDEVICE| <#index-DESERR_005fNOHWDEVICE>:	 	DES Encryption
+<#DES-Encryption>
+	|DESERR_NONE| <#index-DESERR_005fNONE>:	 	DES Encryption <#DES-Encryption>
+	|DES_DECRYPT| <#index-DES_005fDECRYPT>:	 	DES Encryption <#DES-Encryption>
+	|DES_ENCRYPT| <#index-DES_005fENCRYPT>:	 	DES Encryption <#DES-Encryption>
+	|DES_HW| <#index-DES_005fHW>:	 	DES Encryption <#DES-Encryption>
+	|DES_SW| <#index-DES_005fSW>:	 	DES Encryption <#DES-Encryption>
+	|DT_BLK| <#index-DT_005fBLK>:	 	Directory Entries <#Directory-Entries>
+	|DT_CHR| <#index-DT_005fCHR>:	 	Directory Entries <#Directory-Entries>
+	|DT_DIR| <#index-DT_005fDIR>:	 	Directory Entries <#Directory-Entries>
+	|DT_FIFO| <#index-DT_005fFIFO>:	 	Directory Entries <#Directory-Entries>
+	|DT_LNK| <#index-DT_005fLNK>:	 	Directory Entries <#Directory-Entries>
+	|DT_REG| <#index-DT_005fREG>:	 	Directory Entries <#Directory-Entries>
+	|DT_SOCK| <#index-DT_005fSOCK>:	 	Directory Entries <#Directory-Entries>
+	|DT_UNKNOWN| <#index-DT_005fUNKNOWN>:	 	Directory Entries
+<#Directory-Entries>
+	|D_FMT| <#index-D_005fFMT>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|D_T_FMT| <#index-D_005fT_005fFMT>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+------------------------------------------------------------------------
+E		
+	|E2BIG| <#index-E2BIG>:	 	Error Codes <#Error-Codes>
+	|EACCES| <#index-EACCES>:	 	Error Codes <#Error-Codes>
+	|EADDRINUSE| <#index-EADDRINUSE>:	 	Error Codes <#Error-Codes>
+	|EADDRNOTAVAIL| <#index-EADDRNOTAVAIL>:	 	Error Codes <#Error-Codes>
+	|EADV| <#index-EADV>:	 	Error Codes <#Error-Codes>
+	|EAFNOSUPPORT| <#index-EAFNOSUPPORT>:	 	Error Codes <#Error-Codes>
+	|EAGAIN| <#index-EAGAIN>:	 	Error Codes <#Error-Codes>
+	|EALREADY| <#index-EALREADY>:	 	Error Codes <#Error-Codes>
+	|EAUTH| <#index-EAUTH>:	 	Error Codes <#Error-Codes>
+	|EBACKGROUND| <#index-EBACKGROUND>:	 	Error Codes <#Error-Codes>
+	|EBADE| <#index-EBADE>:	 	Error Codes <#Error-Codes>
+	|EBADF| <#index-EBADF>:	 	Error Codes <#Error-Codes>
+	|EBADF| <#index-EBADF-1>:	 	Line Control <#Line-Control>
+	|EBADFD| <#index-EBADFD>:	 	Error Codes <#Error-Codes>
+	|EBADMSG| <#index-EBADMSG>:	 	Error Codes <#Error-Codes>
+	|EBADR| <#index-EBADR>:	 	Error Codes <#Error-Codes>
+	|EBADRPC| <#index-EBADRPC>:	 	Error Codes <#Error-Codes>
+	|EBADRQC| <#index-EBADRQC>:	 	Error Codes <#Error-Codes>
+	|EBADSLT| <#index-EBADSLT>:	 	Error Codes <#Error-Codes>
+	|EBFONT| <#index-EBFONT>:	 	Error Codes <#Error-Codes>
+	|EBUSY| <#index-EBUSY>:	 	Error Codes <#Error-Codes>
+	|ECANCELED| <#index-ECANCELED>:	 	Error Codes <#Error-Codes>
+	|ECHILD| <#index-ECHILD>:	 	Error Codes <#Error-Codes>
+	|ECHO| <#index-ECHO>:	 	Local Modes <#Local-Modes>
+	|ECHOCTL| <#index-ECHOCTL>:	 	Local Modes <#Local-Modes>
+	|ECHOE| <#index-ECHOE>:	 	Local Modes <#Local-Modes>
+	|ECHOK| <#index-ECHOK>:	 	Local Modes <#Local-Modes>
+	|ECHOKE| <#index-ECHOKE>:	 	Local Modes <#Local-Modes>
+	|ECHONL| <#index-ECHONL>:	 	Local Modes <#Local-Modes>
+	|ECHOPRT| <#index-ECHOPRT>:	 	Local Modes <#Local-Modes>
+	|ECHRNG| <#index-ECHRNG>:	 	Error Codes <#Error-Codes>
+	|ECOMM| <#index-ECOMM>:	 	Error Codes <#Error-Codes>
+	|ECONNABORTED| <#index-ECONNABORTED>:	 	Error Codes <#Error-Codes>
+	|ECONNREFUSED| <#index-ECONNREFUSED>:	 	Error Codes <#Error-Codes>
+	|ECONNRESET| <#index-ECONNRESET>:	 	Error Codes <#Error-Codes>
+	|ED| <#index-ED>:	 	Error Codes <#Error-Codes>
+	|EDEADLK| <#index-EDEADLK>:	 	Error Codes <#Error-Codes>
+	|EDEADLOCK| <#index-EDEADLOCK>:	 	Error Codes <#Error-Codes>
+	|EDESTADDRREQ| <#index-EDESTADDRREQ>:	 	Error Codes <#Error-Codes>
+	|EDIED| <#index-EDIED>:	 	Error Codes <#Error-Codes>
+	|EDOM| <#index-EDOM>:	 	Error Codes <#Error-Codes>
+	|EDOTDOT| <#index-EDOTDOT>:	 	Error Codes <#Error-Codes>
+	|EDQUOT| <#index-EDQUOT>:	 	Error Codes <#Error-Codes>
+	|EEXIST| <#index-EEXIST>:	 	Error Codes <#Error-Codes>
+	|EFAULT| <#index-EFAULT>:	 	Error Codes <#Error-Codes>
+	|EFBIG| <#index-EFBIG>:	 	Error Codes <#Error-Codes>
+	|EFTYPE| <#index-EFTYPE>:	 	Error Codes <#Error-Codes>
+	|EGRATUITOUS| <#index-EGRATUITOUS>:	 	Error Codes <#Error-Codes>
+	|EGREGIOUS| <#index-EGREGIOUS>:	 	Error Codes <#Error-Codes>
+	|EHOSTDOWN| <#index-EHOSTDOWN>:	 	Error Codes <#Error-Codes>
+	|EHOSTUNREACH| <#index-EHOSTUNREACH>:	 	Error Codes <#Error-Codes>
+	|EHWPOISON| <#index-EHWPOISON>:	 	Error Codes <#Error-Codes>
+	|EIDRM| <#index-EIDRM>:	 	Error Codes <#Error-Codes>
+	|EIEIO| <#index-EIEIO>:	 	Error Codes <#Error-Codes>
+	|EILSEQ| <#index-EILSEQ>:	 	Error Codes <#Error-Codes>
+	|EINPROGRESS| <#index-EINPROGRESS>:	 	Error Codes <#Error-Codes>
+	|EINTR| <#index-EINTR>:	 	Error Codes <#Error-Codes>
+	|EINVAL| <#index-EINVAL>:	 	Error Codes <#Error-Codes>
+	|EINVAL| <#index-EINVAL-1>:	 	Line Control <#Line-Control>
+	|EIO| <#index-EIO>:	 	Error Codes <#Error-Codes>
+	|EISCONN| <#index-EISCONN>:	 	Error Codes <#Error-Codes>
+	|EISDIR| <#index-EISDIR>:	 	Error Codes <#Error-Codes>
+	|EISNAM| <#index-EISNAM>:	 	Error Codes <#Error-Codes>
+	|EKEYEXPIRED| <#index-EKEYEXPIRED>:	 	Error Codes <#Error-Codes>
+	|EKEYREJECTED| <#index-EKEYREJECTED>:	 	Error Codes <#Error-Codes>
+	|EKEYREVOKED| <#index-EKEYREVOKED>:	 	Error Codes <#Error-Codes>
+	|EL2HLT| <#index-EL2HLT>:	 	Error Codes <#Error-Codes>
+	|EL2NSYNC| <#index-EL2NSYNC>:	 	Error Codes <#Error-Codes>
+	|EL3HLT| <#index-EL3HLT>:	 	Error Codes <#Error-Codes>
+	|EL3RST| <#index-EL3RST>:	 	Error Codes <#Error-Codes>
+	|ELIBACC| <#index-ELIBACC>:	 	Error Codes <#Error-Codes>
+	|ELIBBAD| <#index-ELIBBAD>:	 	Error Codes <#Error-Codes>
+	|ELIBEXEC| <#index-ELIBEXEC>:	 	Error Codes <#Error-Codes>
+	|ELIBMAX| <#index-ELIBMAX>:	 	Error Codes <#Error-Codes>
+	|ELIBSCN| <#index-ELIBSCN>:	 	Error Codes <#Error-Codes>
+	|ELNRNG| <#index-ELNRNG>:	 	Error Codes <#Error-Codes>
+	|ELOOP| <#index-ELOOP>:	 	Error Codes <#Error-Codes>
+	|EMEDIUMTYPE| <#index-EMEDIUMTYPE>:	 	Error Codes <#Error-Codes>
+	|EMFILE| <#index-EMFILE>:	 	Error Codes <#Error-Codes>
+	|EMLINK| <#index-EMLINK>:	 	Error Codes <#Error-Codes>
+	|EMPTY| <#index-EMPTY>:	 	Manipulating the Database
+<#Manipulating-the-Database>
+	|EMPTY| <#index-EMPTY-1>:	 	XPG Functions <#XPG-Functions>
+	|EMSGSIZE| <#index-EMSGSIZE>:	 	Error Codes <#Error-Codes>
+	|EMULTIHOP| <#index-EMULTIHOP>:	 	Error Codes <#Error-Codes>
+	|ENAMETOOLONG| <#index-ENAMETOOLONG>:	 	Error Codes <#Error-Codes>
+	|ENAVAIL| <#index-ENAVAIL>:	 	Error Codes <#Error-Codes>
+	|ENEEDAUTH| <#index-ENEEDAUTH>:	 	Error Codes <#Error-Codes>
+	|ENETDOWN| <#index-ENETDOWN>:	 	Error Codes <#Error-Codes>
+	|ENETRESET| <#index-ENETRESET>:	 	Error Codes <#Error-Codes>
+	|ENETUNREACH| <#index-ENETUNREACH>:	 	Error Codes <#Error-Codes>
+	|ENFILE| <#index-ENFILE>:	 	Error Codes <#Error-Codes>
+	|ENOANO| <#index-ENOANO>:	 	Error Codes <#Error-Codes>
+	|ENOBUFS| <#index-ENOBUFS>:	 	Error Codes <#Error-Codes>
+	|ENOCSI| <#index-ENOCSI>:	 	Error Codes <#Error-Codes>
+	|ENODATA| <#index-ENODATA>:	 	Error Codes <#Error-Codes>
+	|ENODEV| <#index-ENODEV>:	 	Error Codes <#Error-Codes>
+	|ENOENT| <#index-ENOENT>:	 	Error Codes <#Error-Codes>
+	|ENOEXEC| <#index-ENOEXEC>:	 	Error Codes <#Error-Codes>
+	|ENOKEY| <#index-ENOKEY>:	 	Error Codes <#Error-Codes>
+	|ENOLCK| <#index-ENOLCK>:	 	Error Codes <#Error-Codes>
+	|ENOLINK| <#index-ENOLINK>:	 	Error Codes <#Error-Codes>
+	|ENOMEDIUM| <#index-ENOMEDIUM>:	 	Error Codes <#Error-Codes>
+	|ENOMEM| <#index-ENOMEM>:	 	Error Codes <#Error-Codes>
+	|ENOMSG| <#index-ENOMSG>:	 	Error Codes <#Error-Codes>
+	|ENONET| <#index-ENONET>:	 	Error Codes <#Error-Codes>
+	|ENOPKG| <#index-ENOPKG>:	 	Error Codes <#Error-Codes>
+	|ENOPROTOOPT| <#index-ENOPROTOOPT>:	 	Error Codes <#Error-Codes>
+	|ENOSPC| <#index-ENOSPC>:	 	Error Codes <#Error-Codes>
+	|ENOSR| <#index-ENOSR>:	 	Error Codes <#Error-Codes>
+	|ENOSTR| <#index-ENOSTR>:	 	Error Codes <#Error-Codes>
+	|ENOSYS| <#index-ENOSYS>:	 	Error Codes <#Error-Codes>
+	|ENOTBLK| <#index-ENOTBLK>:	 	Error Codes <#Error-Codes>
+	|ENOTCONN| <#index-ENOTCONN>:	 	Error Codes <#Error-Codes>
+	|ENOTDIR| <#index-ENOTDIR>:	 	Error Codes <#Error-Codes>
+	|ENOTEMPTY| <#index-ENOTEMPTY>:	 	Error Codes <#Error-Codes>
+	|ENOTNAM| <#index-ENOTNAM>:	 	Error Codes <#Error-Codes>
+	|ENOTRECOVERABLE| <#index-ENOTRECOVERABLE>:	 	Error Codes <#Error-Codes>
+	|ENOTSOCK| <#index-ENOTSOCK>:	 	Error Codes <#Error-Codes>
+	|ENOTSUP| <#index-ENOTSUP>:	 	Error Codes <#Error-Codes>
+	|ENOTTY| <#index-ENOTTY>:	 	Error Codes <#Error-Codes>
+	|ENOTTY| <#index-ENOTTY-1>:	 	Line Control <#Line-Control>
+	|ENOTUNIQ| <#index-ENOTUNIQ>:	 	Error Codes <#Error-Codes>
+	|environ| <#index-environ>:	 	Environment Access <#Environment-Access>
+	|ENXIO| <#index-ENXIO>:	 	Error Codes <#Error-Codes>
+	|EOF| <#index-EOF>:	 	EOF and Errors <#EOF-and-Errors>
+	|EOPNOTSUPP| <#index-EOPNOTSUPP>:	 	Error Codes <#Error-Codes>
+	|EOVERFLOW| <#index-EOVERFLOW>:	 	Error Codes <#Error-Codes>
+	|EOWNERDEAD| <#index-EOWNERDEAD>:	 	Error Codes <#Error-Codes>
+	|EPERM| <#index-EPERM>:	 	Error Codes <#Error-Codes>
+	|EPFNOSUPPORT| <#index-EPFNOSUPPORT>:	 	Error Codes <#Error-Codes>
+	|EPIPE| <#index-EPIPE>:	 	Error Codes <#Error-Codes>
+	|EPROCLIM| <#index-EPROCLIM>:	 	Error Codes <#Error-Codes>
+	|EPROCUNAVAIL| <#index-EPROCUNAVAIL>:	 	Error Codes <#Error-Codes>
+	|EPROGMISMATCH| <#index-EPROGMISMATCH>:	 	Error Codes <#Error-Codes>
+	|EPROGUNAVAIL| <#index-EPROGUNAVAIL>:	 	Error Codes <#Error-Codes>
+	|EPROTO| <#index-EPROTO>:	 	Error Codes <#Error-Codes>
+	|EPROTONOSUPPORT| <#index-EPROTONOSUPPORT>:	 	Error Codes <#Error-Codes>
+	|EPROTOTYPE| <#index-EPROTOTYPE>:	 	Error Codes <#Error-Codes>
+	|EQUIV_CLASS_MAX| <#index-EQUIV_005fCLASS_005fMAX>:	 	Utility Limits
+<#Utility-Limits>
+	|ERA| <#index-ERA>:	 	The Elegant and Fast Way <#The-Elegant-and-Fast-Way>
+	|ERANGE| <#index-ERANGE>:	 	Error Codes <#Error-Codes>
+	|ERA_D_FMT| <#index-ERA_005fD_005fFMT>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|ERA_D_T_FMT| <#index-ERA_005fD_005fT_005fFMT>:	 	The Elegant and Fast
+Way <#The-Elegant-and-Fast-Way>
+	|ERA_T_FMT| <#index-ERA_005fT_005fFMT>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|ERA_YEAR| <#index-ERA_005fYEAR>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|EREMCHG| <#index-EREMCHG>:	 	Error Codes <#Error-Codes>
+	|EREMOTE| <#index-EREMOTE>:	 	Error Codes <#Error-Codes>
+	|EREMOTEIO| <#index-EREMOTEIO>:	 	Error Codes <#Error-Codes>
+	|ERESTART| <#index-ERESTART>:	 	Error Codes <#Error-Codes>
+	|ERFKILL| <#index-ERFKILL>:	 	Error Codes <#Error-Codes>
+	|EROFS| <#index-EROFS>:	 	Error Codes <#Error-Codes>
+	|ERPCMISMATCH| <#index-ERPCMISMATCH>:	 	Error Codes <#Error-Codes>
+	|errno| <#index-errno-1>:	 	Checking for Errors <#Checking-for-Errors>
+	|error_message_count| <#index-error_005fmessage_005fcount>:	 	Error
+Messages <#Error-Messages>
+	|error_one_per_line| <#index-error_005fone_005fper_005fline>:	 	Error
+Messages <#Error-Messages>
+	|ESHUTDOWN| <#index-ESHUTDOWN>:	 	Error Codes <#Error-Codes>
+	|ESOCKTNOSUPPORT| <#index-ESOCKTNOSUPPORT>:	 	Error Codes <#Error-Codes>
+	|ESPIPE| <#index-ESPIPE>:	 	Error Codes <#Error-Codes>
+	|ESRCH| <#index-ESRCH>:	 	Error Codes <#Error-Codes>
+	|ESRMNT| <#index-ESRMNT>:	 	Error Codes <#Error-Codes>
+	|ESTALE| <#index-ESTALE>:	 	Error Codes <#Error-Codes>
+	|ESTRPIPE| <#index-ESTRPIPE>:	 	Error Codes <#Error-Codes>
+	|ethers| <#index-ethers-1>:	 	NSS Basics <#NSS-Basics>
+	|ETIME| <#index-ETIME>:	 	Error Codes <#Error-Codes>
+	|ETIMEDOUT| <#index-ETIMEDOUT>:	 	Error Codes <#Error-Codes>
+	|ETOOMANYREFS| <#index-ETOOMANYREFS>:	 	Error Codes <#Error-Codes>
+	|ETXTBSY| <#index-ETXTBSY>:	 	Error Codes <#Error-Codes>
+	|EUCLEAN| <#index-EUCLEAN>:	 	Error Codes <#Error-Codes>
+	|EUNATCH| <#index-EUNATCH>:	 	Error Codes <#Error-Codes>
+	|EUSERS| <#index-EUSERS>:	 	Error Codes <#Error-Codes>
+	|EWOULDBLOCK| <#index-EWOULDBLOCK>:	 	Error Codes <#Error-Codes>
+	|EXDEV| <#index-EXDEV>:	 	Error Codes <#Error-Codes>
+	|EXFULL| <#index-EXFULL>:	 	Error Codes <#Error-Codes>
+	|EXIT_FAILURE| <#index-EXIT_005fFAILURE>:	 	Exit Status <#Exit-Status>
+	|EXIT_SUCCESS| <#index-EXIT_005fSUCCESS>:	 	Exit Status <#Exit-Status>
+	|EXPR_NEST_MAX| <#index-EXPR_005fNEST_005fMAX>:	 	Utility Limits
+<#Utility-Limits>
+	|EXTA| <#index-EXTA>:	 	Line Speed <#Line-Speed>
+	|EXTB| <#index-EXTB>:	 	Line Speed <#Line-Speed>
+------------------------------------------------------------------------
+F		
+	|FD_CLOEXEC| <#index-FD_005fCLOEXEC>:	 	Descriptor Flags
+<#Descriptor-Flags>
+	|FD_SETSIZE| <#index-FD_005fSETSIZE>:	 	Waiting for I/O
+<#Waiting-for-I_002fO>
+	|FE_DFL_ENV| <#index-FE_005fDFL_005fENV>:	 	Control Functions
+<#Control-Functions>
+	|FE_DIVBYZERO| <#index-FE_005fDIVBYZERO>:	 	Status bit operations
+<#Status-bit-operations>
+	|FE_DOWNWARD| <#index-FE_005fDOWNWARD>:	 	Rounding <#Rounding>
+	|FE_INEXACT| <#index-FE_005fINEXACT>:	 	Status bit operations
+<#Status-bit-operations>
+	|FE_INVALID| <#index-FE_005fINVALID>:	 	Status bit operations
+<#Status-bit-operations>
+	|FE_NOMASK_ENV| <#index-FE_005fNOMASK_005fENV>:	 	Control Functions
+<#Control-Functions>
+	|FE_OVERFLOW| <#index-FE_005fOVERFLOW>:	 	Status bit operations
+<#Status-bit-operations>
+	|FE_TONEAREST| <#index-FE_005fTONEAREST>:	 	Rounding <#Rounding>
+	|FE_TOWARDZERO| <#index-FE_005fTOWARDZERO>:	 	Rounding <#Rounding>
+	|FE_UNDERFLOW| <#index-FE_005fUNDERFLOW>:	 	Status bit operations
+<#Status-bit-operations>
+	|FE_UPWARD| <#index-FE_005fUPWARD>:	 	Rounding <#Rounding>
+	|FILENAME_MAX| <#index-FILENAME_005fMAX>:	 	Limits for Files
+<#Limits-for-Files>
+	|FLT_DIG| <#index-FLT_005fDIG>:	 	Floating Point Parameters
+<#Floating-Point-Parameters>
+	|FLT_EPSILON| <#index-FLT_005fEPSILON>:	 	Floating Point Parameters
+<#Floating-Point-Parameters>
+	|FLT_MANT_DIG| <#index-FLT_005fMANT_005fDIG>:	 	Floating Point
+Parameters <#Floating-Point-Parameters>
+	|FLT_MAX| <#index-FLT_005fMAX>:	 	Floating Point Parameters
+<#Floating-Point-Parameters>
+	|FLT_MAX_10_EXP| <#index-FLT_005fMAX_005f10_005fEXP>:	 	Floating Point
+Parameters <#Floating-Point-Parameters>
+	|FLT_MAX_EXP| <#index-FLT_005fMAX_005fEXP>:	 	Floating Point Parameters
+<#Floating-Point-Parameters>
+	|FLT_MIN| <#index-FLT_005fMIN>:	 	Floating Point Parameters
+<#Floating-Point-Parameters>
+	|FLT_MIN_10_EXP| <#index-FLT_005fMIN_005f10_005fEXP>:	 	Floating Point
+Parameters <#Floating-Point-Parameters>
+	|FLT_MIN_EXP| <#index-FLT_005fMIN_005fEXP>:	 	Floating Point Parameters
+<#Floating-Point-Parameters>
+	|FLT_RADIX| <#index-FLT_005fRADIX>:	 	Floating Point Parameters
+<#Floating-Point-Parameters>
+	|FLT_ROUNDS| <#index-FLT_005fROUNDS>:	 	Floating Point Parameters
+<#Floating-Point-Parameters>
+	|FLUSHO| <#index-FLUSHO>:	 	Local Modes <#Local-Modes>
+	|FOPEN_MAX| <#index-FOPEN_005fMAX>:	 	Opening Streams <#Opening-Streams>
+	|FPE_DECOVF_TRAP| <#index-FPE_005fDECOVF_005fTRAP>:	 	Program Error
+Signals <#Program-Error-Signals>
+	|FPE_FLTDIV_TRAP| <#index-FPE_005fFLTDIV_005fTRAP>:	 	Program Error
+Signals <#Program-Error-Signals>
+	|FPE_FLTOVF_TRAP| <#index-FPE_005fFLTOVF_005fTRAP>:	 	Program Error
+Signals <#Program-Error-Signals>
+	|FPE_FLTUND_TRAP| <#index-FPE_005fFLTUND_005fTRAP>:	 	Program Error
+Signals <#Program-Error-Signals>
+	|FPE_INTDIV_TRAP| <#index-FPE_005fINTDIV_005fTRAP>:	 	Program Error
+Signals <#Program-Error-Signals>
+	|FPE_INTOVF_TRAP| <#index-FPE_005fINTOVF_005fTRAP>:	 	Program Error
+Signals <#Program-Error-Signals>
+	|FPE_SUBRNG_TRAP| <#index-FPE_005fSUBRNG_005fTRAP>:	 	Program Error
+Signals <#Program-Error-Signals>
+	|FP_FAST_FMA| <#index-FP_005fFAST_005fFMA>:	 	Misc FP Arithmetic
+<#Misc-FP-Arithmetic>
+	|FP_ILOGB0| <#index-FP_005fILOGB0>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|FP_ILOGBNAN| <#index-FP_005fILOGBNAN>:	 	Exponents and Logarithms
+<#Exponents-and-Logarithms>
+	|FP_INFINITE| <#index-FP_005fINFINITE>:	 	Floating Point Classes
+<#Floating-Point-Classes>
+	|FP_NAN| <#index-FP_005fNAN>:	 	Floating Point Classes
+<#Floating-Point-Classes>
+	|FP_NORMAL| <#index-FP_005fNORMAL>:	 	Floating Point Classes
+<#Floating-Point-Classes>
+	|FP_SUBNORMAL| <#index-FP_005fSUBNORMAL>:	 	Floating Point Classes
+<#Floating-Point-Classes>
+	|FP_ZERO| <#index-FP_005fZERO>:	 	Floating Point Classes
+<#Floating-Point-Classes>
+	|FRAC_DIGITS| <#index-FRAC_005fDIGITS>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|FSETLOCKING_BYCALLER| <#index-FSETLOCKING_005fBYCALLER>:	 	Streams and
+Threads <#Streams-and-Threads>
+	|FSETLOCKING_INTERNAL| <#index-FSETLOCKING_005fINTERNAL>:	 	Streams and
+Threads <#Streams-and-Threads>
+	|FSETLOCKING_QUERY| <#index-FSETLOCKING_005fQUERY>:	 	Streams and
+Threads <#Streams-and-Threads>
+	|FSTAB| <#index-FSTAB>:	 	Mount Information <#Mount-Information>
+	|FSTAB_RO| <#index-FSTAB_005fRO>:	 	fstab <#fstab>
+	|FSTAB_RQ| <#index-FSTAB_005fRQ>:	 	fstab <#fstab>
+	|FSTAB_RW| <#index-FSTAB_005fRW>:	 	fstab <#fstab>
+	|FSTAB_SW| <#index-FSTAB_005fSW>:	 	fstab <#fstab>
+	|FSTAB_XX| <#index-FSTAB_005fXX>:	 	fstab <#fstab>
+	|FTW_ACTIONRETVAL| <#index-FTW_005fACTIONRETVAL>:	 	Working with
+Directory Trees <#Working-with-Directory-Trees>
+	|FTW_CHDIR| <#index-FTW_005fCHDIR>:	 	Working with Directory Trees
+<#Working-with-Directory-Trees>
+	|FTW_D| <#index-FTW_005fD>:	 	Working with Directory Trees
+<#Working-with-Directory-Trees>
+	|FTW_DEPTH| <#index-FTW_005fDEPTH>:	 	Working with Directory Trees
+<#Working-with-Directory-Trees>
+	|FTW_DNR| <#index-FTW_005fDNR>:	 	Working with Directory Trees
+<#Working-with-Directory-Trees>
+	|FTW_DP| <#index-FTW_005fDP>:	 	Working with Directory Trees
+<#Working-with-Directory-Trees>
+	|FTW_F| <#index-FTW_005fF>:	 	Working with Directory Trees
+<#Working-with-Directory-Trees>
+	|FTW_MOUNT| <#index-FTW_005fMOUNT>:	 	Working with Directory Trees
+<#Working-with-Directory-Trees>
+	|FTW_NS| <#index-FTW_005fNS>:	 	Working with Directory Trees
+<#Working-with-Directory-Trees>
+	|FTW_PHYS| <#index-FTW_005fPHYS>:	 	Working with Directory Trees
+<#Working-with-Directory-Trees>
+	|FTW_SL| <#index-FTW_005fSL>:	 	Working with Directory Trees
+<#Working-with-Directory-Trees>
+	|FTW_SLN| <#index-FTW_005fSLN>:	 	Working with Directory Trees
+<#Working-with-Directory-Trees>
+	|F_DUPFD| <#index-F_005fDUPFD>:	 	Duplicating Descriptors
+<#Duplicating-Descriptors>
+	|F_GETFD| <#index-F_005fGETFD>:	 	Descriptor Flags <#Descriptor-Flags>
+	|F_GETFL| <#index-F_005fGETFL>:	 	Getting File Status Flags
+<#Getting-File-Status-Flags>
+	|F_GETLK| <#index-F_005fGETLK>:	 	File Locks <#File-Locks>
+	|F_GETOWN| <#index-F_005fGETOWN>:	 	Interrupt Input <#Interrupt-Input>
+	|F_OFD_GETLK| <#index-F_005fOFD_005fGETLK>:	 	Open File Description
+Locks <#Open-File-Description-Locks>
+	|F_OFD_SETLK| <#index-F_005fOFD_005fSETLK>:	 	Open File Description
+Locks <#Open-File-Description-Locks>
+	|F_OFD_SETLKW| <#index-F_005fOFD_005fSETLKW>:	 	Open File Description
+Locks <#Open-File-Description-Locks>
+	|F_OK| <#index-F_005fOK>:	 	Testing File Access <#Testing-File-Access>
+	|F_RDLCK| <#index-F_005fRDLCK>:	 	File Locks <#File-Locks>
+	|F_SETFD| <#index-F_005fSETFD>:	 	Descriptor Flags <#Descriptor-Flags>
+	|F_SETFL| <#index-F_005fSETFL>:	 	Getting File Status Flags
+<#Getting-File-Status-Flags>
+	|F_SETLK| <#index-F_005fSETLK>:	 	File Locks <#File-Locks>
+	|F_SETLKW| <#index-F_005fSETLKW>:	 	File Locks <#File-Locks>
+	|F_SETOWN| <#index-F_005fSETOWN>:	 	Interrupt Input <#Interrupt-Input>
+	|F_UNLCK| <#index-F_005fUNLCK>:	 	File Locks <#File-Locks>
+	|F_WRLCK| <#index-F_005fWRLCK>:	 	File Locks <#File-Locks>
+------------------------------------------------------------------------
+G		
+	|getdate_err| <#index-getdate_005ferr>:	 	General Time String Parsing
+<#General-Time-String-Parsing>
+	|GLOB_ABORTED| <#index-GLOB_005fABORTED>:	 	Calling Glob <#Calling-Glob>
+	|GLOB_ALTDIRFUNC| <#index-GLOB_005fALTDIRFUNC>:	 	More Flags for
+Globbing <#More-Flags-for-Globbing>
+	|GLOB_APPEND| <#index-GLOB_005fAPPEND>:	 	Flags for Globbing
+<#Flags-for-Globbing>
+	|GLOB_BRACE| <#index-GLOB_005fBRACE>:	 	More Flags for Globbing
+<#More-Flags-for-Globbing>
+	|GLOB_DOOFFS| <#index-GLOB_005fDOOFFS>:	 	Flags for Globbing
+<#Flags-for-Globbing>
+	|GLOB_ERR| <#index-GLOB_005fERR>:	 	Flags for Globbing
+<#Flags-for-Globbing>
+	|GLOB_MAGCHAR| <#index-GLOB_005fMAGCHAR>:	 	More Flags for Globbing
+<#More-Flags-for-Globbing>
+	|GLOB_MARK| <#index-GLOB_005fMARK>:	 	Flags for Globbing
+<#Flags-for-Globbing>
+	|GLOB_NOCHECK| <#index-GLOB_005fNOCHECK>:	 	Flags for Globbing
+<#Flags-for-Globbing>
+	|GLOB_NOESCAPE| <#index-GLOB_005fNOESCAPE>:	 	Flags for Globbing
+<#Flags-for-Globbing>
+	|GLOB_NOMAGIC| <#index-GLOB_005fNOMAGIC>:	 	More Flags for Globbing
+<#More-Flags-for-Globbing>
+	|GLOB_NOMATCH| <#index-GLOB_005fNOMATCH>:	 	Calling Glob <#Calling-Glob>
+	|GLOB_NOSORT| <#index-GLOB_005fNOSORT>:	 	Flags for Globbing
+<#Flags-for-Globbing>
+	|GLOB_NOSPACE| <#index-GLOB_005fNOSPACE>:	 	Calling Glob <#Calling-Glob>
+	|GLOB_ONLYDIR| <#index-GLOB_005fONLYDIR>:	 	More Flags for Globbing
+<#More-Flags-for-Globbing>
+	|GLOB_PERIOD| <#index-GLOB_005fPERIOD>:	 	More Flags for Globbing
+<#More-Flags-for-Globbing>
+	|GLOB_TILDE| <#index-GLOB_005fTILDE>:	 	More Flags for Globbing
+<#More-Flags-for-Globbing>
+	|GLOB_TILDE_CHECK| <#index-GLOB_005fTILDE_005fCHECK>:	 	More Flags for
+Globbing <#More-Flags-for-Globbing>
+	|group| <#index-group-1>:	 	NSS Basics <#NSS-Basics>
+	|GROUPING| <#index-GROUPING>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+------------------------------------------------------------------------
+H		
+	|hosts| <#index-hosts-1>:	 	NSS Basics <#NSS-Basics>
+	|HOST_NOT_FOUND| <#index-HOST_005fNOT_005fFOUND>:	 	Host Names
+<#Host-Names>
+	|HUGE_VAL| <#index-HUGE_005fVAL>:	 	Math Error Reporting
+<#Math-Error-Reporting>
+	|HUGE_VALF| <#index-HUGE_005fVALF>:	 	Math Error Reporting
+<#Math-Error-Reporting>
+	|HUGE_VALL| <#index-HUGE_005fVALL>:	 	Math Error Reporting
+<#Math-Error-Reporting>
+	|HUPCL| <#index-HUPCL>:	 	Control Modes <#Control-Modes>
+	|h_errno| <#index-h_005ferrno>:	 	Host Names <#Host-Names>
+------------------------------------------------------------------------
+I		
+	|I| <#index-I>:	 	Complex Numbers <#Complex-Numbers>
+	|ICANON| <#index-ICANON>:	 	Local Modes <#Local-Modes>
+	|ICRNL| <#index-ICRNL>:	 	Input Modes <#Input-Modes>
+	|IEXTEN| <#index-IEXTEN>:	 	Local Modes <#Local-Modes>
+	|IFNAMSIZ| <#index-IFNAMSIZ>:	 	Interface Naming <#Interface-Naming>
+	|IGNBRK| <#index-IGNBRK>:	 	Input Modes <#Input-Modes>
+	|IGNCR| <#index-IGNCR>:	 	Input Modes <#Input-Modes>
+	|IGNPAR| <#index-IGNPAR>:	 	Input Modes <#Input-Modes>
+	|IMAXBEL| <#index-IMAXBEL>:	 	Input Modes <#Input-Modes>
+	|in6addr_any| <#index-in6addr_005fany>:	 	Host Address Data Type
+<#Host-Address-Data-Type>
+	|in6addr_loopback| <#index-in6addr_005floopback>:	 	Host Address Data
+Type <#Host-Address-Data-Type>
+	|INADDR_ANY| <#index-INADDR_005fANY>:	 	Host Address Data Type
+<#Host-Address-Data-Type>
+	|INADDR_BROADCAST| <#index-INADDR_005fBROADCAST>:	 	Host Address Data
+Type <#Host-Address-Data-Type>
+	|INADDR_LOOPBACK| <#index-INADDR_005fLOOPBACK>:	 	Host Address Data
+Type <#Host-Address-Data-Type>
+	|INADDR_NONE| <#index-INADDR_005fNONE>:	 	Host Address Data Type
+<#Host-Address-Data-Type>
+	|INFINITY| <#index-INFINITY>:	 	Infinity and NaN <#Infinity-and-NaN>
+	|INIT_PROCESS| <#index-INIT_005fPROCESS>:	 	Manipulating the Database
+<#Manipulating-the-Database>
+	|INIT_PROCESS| <#index-INIT_005fPROCESS-1>:	 	XPG Functions
+<#XPG-Functions>
+	|INLCR| <#index-INLCR>:	 	Input Modes <#Input-Modes>
+	|INPCK| <#index-INPCK>:	 	Input Modes <#Input-Modes>
+	|INT_CURR_SYMBOL| <#index-INT_005fCURR_005fSYMBOL>:	 	The Elegant and
+Fast Way <#The-Elegant-and-Fast-Way>
+	|INT_FRAC_DIGITS| <#index-INT_005fFRAC_005fDIGITS>:	 	The Elegant and
+Fast Way <#The-Elegant-and-Fast-Way>
+	|INT_MAX| <#index-INT_005fMAX>:	 	Range of Type <#Range-of-Type>
+	|INT_MIN| <#index-INT_005fMIN>:	 	Range of Type <#Range-of-Type>
+	|INT_N_CS_PRECEDES| <#index-INT_005fN_005fCS_005fPRECEDES>:	 	The
+Elegant and Fast Way <#The-Elegant-and-Fast-Way>
+	|INT_N_SEP_BY_SPACE| <#index-INT_005fN_005fSEP_005fBY_005fSPACE>:	 	The
+Elegant and Fast Way <#The-Elegant-and-Fast-Way>
+	|INT_N_SIGN_POSN| <#index-INT_005fN_005fSIGN_005fPOSN>:	 	The Elegant
+and Fast Way <#The-Elegant-and-Fast-Way>
+	|INT_P_CS_PRECEDES| <#index-INT_005fP_005fCS_005fPRECEDES>:	 	The
+Elegant and Fast Way <#The-Elegant-and-Fast-Way>
+	|INT_P_SEP_BY_SPACE| <#index-INT_005fP_005fSEP_005fBY_005fSPACE>:	 	The
+Elegant and Fast Way <#The-Elegant-and-Fast-Way>
+	|INT_P_SIGN_POSN| <#index-INT_005fP_005fSIGN_005fPOSN>:	 	The Elegant
+and Fast Way <#The-Elegant-and-Fast-Way>
+	|IPPORT_RESERVED| <#index-IPPORT_005fRESERVED>:	 	Ports <#Ports>
+	|IPPORT_USERRESERVED| <#index-IPPORT_005fUSERRESERVED>:	 	Ports <#Ports>
+	|ISIG| <#index-ISIG>:	 	Local Modes <#Local-Modes>
+	|ISTRIP| <#index-ISTRIP>:	 	Input Modes <#Input-Modes>
+	|ITIMER_PROF| <#index-ITIMER_005fPROF>:	 	Setting an Alarm
+<#Setting-an-Alarm>
+	|ITIMER_REAL| <#index-ITIMER_005fREAL>:	 	Setting an Alarm
+<#Setting-an-Alarm>
+	|ITIMER_VIRTUAL| <#index-ITIMER_005fVIRTUAL>:	 	Setting an Alarm
+<#Setting-an-Alarm>
+	|IXANY| <#index-IXANY>:	 	Input Modes <#Input-Modes>
+	|IXOFF| <#index-IXOFF>:	 	Input Modes <#Input-Modes>
+	|IXON| <#index-IXON>:	 	Input Modes <#Input-Modes>
+------------------------------------------------------------------------
+L		
+	|LANG| <#index-LANG>:	 	Locale Categories <#Locale-Categories>
+	|LANGUAGE| <#index-LANGUAGE>:	 	Locale Categories <#Locale-Categories>
+	|LC_ALL| <#index-LC_005fALL>:	 	Locale Categories <#Locale-Categories>
+	|LC_COLLATE| <#index-LC_005fCOLLATE>:	 	Locale Categories
+<#Locale-Categories>
+	|LC_CTYPE| <#index-LC_005fCTYPE>:	 	Locale Categories <#Locale-Categories>
+	|LC_MESSAGES| <#index-LC_005fMESSAGES>:	 	Locale Categories
+<#Locale-Categories>
+	|LC_MONETARY| <#index-LC_005fMONETARY>:	 	Locale Categories
+<#Locale-Categories>
+	|LC_NUMERIC| <#index-LC_005fNUMERIC>:	 	Locale Categories
+<#Locale-Categories>
+	|LC_TIME| <#index-LC_005fTIME>:	 	Locale Categories <#Locale-Categories>
+	|LDBL_DIG| <#index-LDBL_005fDIG>:	 	Floating Point Parameters
+<#Floating-Point-Parameters>
+	|LDBL_EPSILON| <#index-LDBL_005fEPSILON>:	 	Floating Point Parameters
+<#Floating-Point-Parameters>
+	|LDBL_MANT_DIG| <#index-LDBL_005fMANT_005fDIG>:	 	Floating Point
+Parameters <#Floating-Point-Parameters>
+	|LDBL_MAX| <#index-LDBL_005fMAX>:	 	Floating Point Parameters
+<#Floating-Point-Parameters>
+	|LDBL_MAX_10_EXP| <#index-LDBL_005fMAX_005f10_005fEXP>:	 	Floating
+Point Parameters <#Floating-Point-Parameters>
+	|LDBL_MAX_EXP| <#index-LDBL_005fMAX_005fEXP>:	 	Floating Point
+Parameters <#Floating-Point-Parameters>
+	|LDBL_MIN| <#index-LDBL_005fMIN>:	 	Floating Point Parameters
+<#Floating-Point-Parameters>
+	|LDBL_MIN_10_EXP| <#index-LDBL_005fMIN_005f10_005fEXP>:	 	Floating
+Point Parameters <#Floating-Point-Parameters>
+	|LDBL_MIN_EXP| <#index-LDBL_005fMIN_005fEXP>:	 	Floating Point
+Parameters <#Floating-Point-Parameters>
+	|LINE_MAX| <#index-LINE_005fMAX>:	 	Utility Limits <#Utility-Limits>
+	|LINK_MAX| <#index-LINK_005fMAX>:	 	Limits for Files <#Limits-for-Files>
+	|LIO_NOP| <#index-LIO_005fNOP>:	 	Asynchronous I/O <#Asynchronous-I_002fO>
+	|LIO_READ| <#index-LIO_005fREAD>:	 	Asynchronous I/O
+<#Asynchronous-I_002fO>
+	|LIO_WRITE| <#index-LIO_005fWRITE>:	 	Asynchronous I/O
+<#Asynchronous-I_002fO>
+	|LLONG_MAX| <#index-LLONG_005fMAX>:	 	Range of Type <#Range-of-Type>
+	|LLONG_MIN| <#index-LLONG_005fMIN>:	 	Range of Type <#Range-of-Type>
+	|LOCPATH| <#index-LOCPATH>:	 	Locale Names <#Locale-Names>
+	|LOGIN_PROCESS| <#index-LOGIN_005fPROCESS>:	 	Manipulating the Database
+<#Manipulating-the-Database>
+	|LOGIN_PROCESS| <#index-LOGIN_005fPROCESS-1>:	 	XPG Functions
+<#XPG-Functions>
+	|LOG_ALERT| <#index-LOG_005fALERT>:	 	syslog; vsyslog
+<#syslog_003b-vsyslog>
+	|LOG_AUTH| <#index-LOG_005fAUTH>:	 	syslog; vsyslog <#syslog_003b-vsyslog>
+	|LOG_AUTHPRIV| <#index-LOG_005fAUTHPRIV>:	 	syslog; vsyslog
+<#syslog_003b-vsyslog>
+	|LOG_CRIT| <#index-LOG_005fCRIT>:	 	syslog; vsyslog <#syslog_003b-vsyslog>
+	|LOG_CRON| <#index-LOG_005fCRON>:	 	syslog; vsyslog <#syslog_003b-vsyslog>
+	|LOG_DAEMON| <#index-LOG_005fDAEMON>:	 	syslog; vsyslog
+<#syslog_003b-vsyslog>
+	|LOG_DEBUG| <#index-LOG_005fDEBUG>:	 	syslog; vsyslog
+<#syslog_003b-vsyslog>
+	|LOG_EMERG| <#index-LOG_005fEMERG>:	 	syslog; vsyslog
+<#syslog_003b-vsyslog>
+	|LOG_ERR| <#index-LOG_005fERR>:	 	syslog; vsyslog <#syslog_003b-vsyslog>
+	|LOG_FTP| <#index-LOG_005fFTP>:	 	syslog; vsyslog <#syslog_003b-vsyslog>
+	|LOG_INFO| <#index-LOG_005fINFO>:	 	syslog; vsyslog <#syslog_003b-vsyslog>
+	|LOG_LOCAL0| <#index-LOG_005fLOCAL0>:	 	syslog; vsyslog
+<#syslog_003b-vsyslog>
+	|LOG_LOCAL1| <#index-LOG_005fLOCAL1>:	 	syslog; vsyslog
+<#syslog_003b-vsyslog>
+	|LOG_LOCAL2| <#index-LOG_005fLOCAL2>:	 	syslog; vsyslog
+<#syslog_003b-vsyslog>
+	|LOG_LOCAL3| <#index-LOG_005fLOCAL3>:	 	syslog; vsyslog
+<#syslog_003b-vsyslog>
+	|LOG_LOCAL4| <#index-LOG_005fLOCAL4>:	 	syslog; vsyslog
+<#syslog_003b-vsyslog>
+	|LOG_LOCAL5| <#index-LOG_005fLOCAL5>:	 	syslog; vsyslog
+<#syslog_003b-vsyslog>
+	|LOG_LOCAL6| <#index-LOG_005fLOCAL6>:	 	syslog; vsyslog
+<#syslog_003b-vsyslog>
+	|LOG_LOCAL7| <#index-LOG_005fLOCAL7>:	 	syslog; vsyslog
+<#syslog_003b-vsyslog>
+	|LOG_LPR| <#index-LOG_005fLPR>:	 	syslog; vsyslog <#syslog_003b-vsyslog>
+	|LOG_MAIL| <#index-LOG_005fMAIL>:	 	syslog; vsyslog <#syslog_003b-vsyslog>
+	|LOG_NEWS| <#index-LOG_005fNEWS>:	 	syslog; vsyslog <#syslog_003b-vsyslog>
+	|LOG_NOTICE| <#index-LOG_005fNOTICE>:	 	syslog; vsyslog
+<#syslog_003b-vsyslog>
+	|LOG_SYSLOG| <#index-LOG_005fSYSLOG>:	 	syslog; vsyslog
+<#syslog_003b-vsyslog>
+	|LOG_USER| <#index-LOG_005fUSER>:	 	syslog; vsyslog <#syslog_003b-vsyslog>
+	|LOG_UUCP| <#index-LOG_005fUUCP>:	 	syslog; vsyslog <#syslog_003b-vsyslog>
+	|LOG_WARNING| <#index-LOG_005fWARNING>:	 	syslog; vsyslog
+<#syslog_003b-vsyslog>
+	|LONG_LONG_MAX| <#index-LONG_005fLONG_005fMAX>:	 	Range of Type
+<#Range-of-Type>
+	|LONG_LONG_MIN| <#index-LONG_005fLONG_005fMIN>:	 	Range of Type
+<#Range-of-Type>
+	|LONG_MAX| <#index-LONG_005fMAX>:	 	Range of Type <#Range-of-Type>
+	|LONG_MIN| <#index-LONG_005fMIN>:	 	Range of Type <#Range-of-Type>
+	|L_ctermid| <#index-L_005fctermid>:	 	Identifying the Terminal
+<#Identifying-the-Terminal>
+	|L_cuserid| <#index-L_005fcuserid>:	 	Who Logged In <#Who-Logged-In>
+	|L_INCR| <#index-L_005fINCR>:	 	File Positioning <#File-Positioning>
+	|L_SET| <#index-L_005fSET>:	 	File Positioning <#File-Positioning>
+	|L_tmpnam| <#index-L_005ftmpnam>:	 	Temporary Files <#Temporary-Files>
+	|L_XTND| <#index-L_005fXTND>:	 	File Positioning <#File-Positioning>
+------------------------------------------------------------------------
+M		
+	|MAP_ANON| <#index-MAP_005fANON>:	 	Memory-mapped I/O
+<#Memory_002dmapped-I_002fO>
+	|MAP_ANONYMOUS| <#index-MAP_005fANONYMOUS>:	 	Memory-mapped I/O
+<#Memory_002dmapped-I_002fO>
+	|MAP_FIXED| <#index-MAP_005fFIXED>:	 	Memory-mapped I/O
+<#Memory_002dmapped-I_002fO>
+	|MAP_PRIVATE| <#index-MAP_005fPRIVATE>:	 	Memory-mapped I/O
+<#Memory_002dmapped-I_002fO>
+	|MAP_SHARED| <#index-MAP_005fSHARED>:	 	Memory-mapped I/O
+<#Memory_002dmapped-I_002fO>
+	|MAXNAMLEN| <#index-MAXNAMLEN>:	 	Limits for Files <#Limits-for-Files>
+	|MAXSYMLINKS| <#index-MAXSYMLINKS>:	 	Symbolic Links <#Symbolic-Links>
+	|MAX_CANON| <#index-MAX_005fCANON>:	 	Limits for Files <#Limits-for-Files>
+	|MAX_INPUT| <#index-MAX_005fINPUT>:	 	Limits for Files <#Limits-for-Files>
+	|MB_CUR_MAX| <#index-MB_005fCUR_005fMAX>:	 	Selecting the Conversion
+<#Selecting-the-Conversion>
+	|MB_LEN_MAX| <#index-MB_005fLEN_005fMAX>:	 	Selecting the Conversion
+<#Selecting-the-Conversion>
+	|MDMBUF| <#index-MDMBUF>:	 	Control Modes <#Control-Modes>
+	|MINSIGSTKSZ| <#index-MINSIGSTKSZ>:	 	Signal Stack <#Signal-Stack>
+	|MM_APPL| <#index-MM_005fAPPL>:	 	Printing Formatted Messages
+<#Printing-Formatted-Messages>
+	|MM_CONSOLE| <#index-MM_005fCONSOLE>:	 	Printing Formatted Messages
+<#Printing-Formatted-Messages>
+	|MM_ERROR| <#index-MM_005fERROR>:	 	Printing Formatted Messages
+<#Printing-Formatted-Messages>
+	|MM_FIRM| <#index-MM_005fFIRM>:	 	Printing Formatted Messages
+<#Printing-Formatted-Messages>
+	|MM_HALT| <#index-MM_005fHALT>:	 	Printing Formatted Messages
+<#Printing-Formatted-Messages>
+	|MM_HARD| <#index-MM_005fHARD>:	 	Printing Formatted Messages
+<#Printing-Formatted-Messages>
+	|MM_INFO| <#index-MM_005fINFO>:	 	Printing Formatted Messages
+<#Printing-Formatted-Messages>
+	|MM_NOSEV| <#index-MM_005fNOSEV>:	 	Printing Formatted Messages
+<#Printing-Formatted-Messages>
+	|MM_NRECOV| <#index-MM_005fNRECOV>:	 	Printing Formatted Messages
+<#Printing-Formatted-Messages>
+	|MM_NULLACT| <#index-MM_005fNULLACT>:	 	Printing Formatted Messages
+<#Printing-Formatted-Messages>
+	|MM_NULLLBL| <#index-MM_005fNULLLBL>:	 	Printing Formatted Messages
+<#Printing-Formatted-Messages>
+	|MM_NULLMC| <#index-MM_005fNULLMC>:	 	Printing Formatted Messages
+<#Printing-Formatted-Messages>
+	|MM_NULLSEV| <#index-MM_005fNULLSEV>:	 	Printing Formatted Messages
+<#Printing-Formatted-Messages>
+	|MM_NULLTAG| <#index-MM_005fNULLTAG>:	 	Printing Formatted Messages
+<#Printing-Formatted-Messages>
+	|MM_NULLTXT| <#index-MM_005fNULLTXT>:	 	Printing Formatted Messages
+<#Printing-Formatted-Messages>
+	|MM_OPSYS| <#index-MM_005fOPSYS>:	 	Printing Formatted Messages
+<#Printing-Formatted-Messages>
+	|MM_PRINT| <#index-MM_005fPRINT>:	 	Printing Formatted Messages
+<#Printing-Formatted-Messages>
+	|MM_RECOVER| <#index-MM_005fRECOVER>:	 	Printing Formatted Messages
+<#Printing-Formatted-Messages>
+	|MM_SOFT| <#index-MM_005fSOFT>:	 	Printing Formatted Messages
+<#Printing-Formatted-Messages>
+	|MM_UTIL| <#index-MM_005fUTIL>:	 	Printing Formatted Messages
+<#Printing-Formatted-Messages>
+	|MM_WARNING| <#index-MM_005fWARNING>:	 	Printing Formatted Messages
+<#Printing-Formatted-Messages>
+	|MNTOPT_DEFAULTS| <#index-MNTOPT_005fDEFAULTS>:	 	mtab <#mtab>
+	|MNTOPT_NOAUTO| <#index-MNTOPT_005fNOAUTO>:	 	mtab <#mtab>
+	|MNTOPT_NOSUID| <#index-MNTOPT_005fNOSUID>:	 	mtab <#mtab>
+	|MNTOPT_RO| <#index-MNTOPT_005fRO>:	 	mtab <#mtab>
+	|MNTOPT_RW| <#index-MNTOPT_005fRW>:	 	mtab <#mtab>
+	|MNTOPT_SUID| <#index-MNTOPT_005fSUID>:	 	mtab <#mtab>
+	|MNTTAB| <#index-MNTTAB>:	 	Mount Information <#Mount-Information>
+	|MNTTYPE_IGNORE| <#index-MNTTYPE_005fIGNORE>:	 	mtab <#mtab>
+	|MNTTYPE_NFS| <#index-MNTTYPE_005fNFS>:	 	mtab <#mtab>
+	|MNTTYPE_SWAP| <#index-MNTTYPE_005fSWAP>:	 	mtab <#mtab>
+	|MON_1| <#index-MON_005f1>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|MON_10| <#index-MON_005f10>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|MON_11| <#index-MON_005f11>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|MON_12| <#index-MON_005f12>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|MON_2| <#index-MON_005f2>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|MON_3| <#index-MON_005f3>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|MON_4| <#index-MON_005f4>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|MON_5| <#index-MON_005f5>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|MON_6| <#index-MON_005f6>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|MON_7| <#index-MON_005f7>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|MON_8| <#index-MON_005f8>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|MON_9| <#index-MON_005f9>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|MON_DECIMAL_POINT| <#index-MON_005fDECIMAL_005fPOINT>:	 	The Elegant
+and Fast Way <#The-Elegant-and-Fast-Way>
+	|MON_GROUPING| <#index-MON_005fGROUPING>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|MON_THOUSANDS_SEP| <#index-MON_005fTHOUSANDS_005fSEP>:	 	The Elegant
+and Fast Way <#The-Elegant-and-Fast-Way>
+	|MOUNTED| <#index-MOUNTED>:	 	Mount Information <#Mount-Information>
+	|MSG_DONTROUTE| <#index-MSG_005fDONTROUTE>:	 	Socket Data Options
+<#Socket-Data-Options>
+	|MSG_OOB| <#index-MSG_005fOOB>:	 	Socket Data Options
+<#Socket-Data-Options>
+	|MSG_PEEK| <#index-MSG_005fPEEK>:	 	Socket Data Options
+<#Socket-Data-Options>
+	|MS_ASYNC| <#index-MS_005fASYNC>:	 	Memory-mapped I/O
+<#Memory_002dmapped-I_002fO>
+	|MS_SYNC| <#index-MS_005fSYNC>:	 	Memory-mapped I/O
+<#Memory_002dmapped-I_002fO>
+	|M_1_PI| <#index-M_005f1_005fPI>:	 	Mathematical Constants
+<#Mathematical-Constants>
+	|M_2_PI| <#index-M_005f2_005fPI>:	 	Mathematical Constants
+<#Mathematical-Constants>
+	|M_2_SQRTPI| <#index-M_005f2_005fSQRTPI>:	 	Mathematical Constants
+<#Mathematical-Constants>
+	|M_E| <#index-M_005fE>:	 	Mathematical Constants <#Mathematical-Constants>
+	|M_LN10| <#index-M_005fLN10>:	 	Mathematical Constants
+<#Mathematical-Constants>
+	|M_LN2| <#index-M_005fLN2>:	 	Mathematical Constants
+<#Mathematical-Constants>
+	|M_LOG10E| <#index-M_005fLOG10E>:	 	Mathematical Constants
+<#Mathematical-Constants>
+	|M_LOG2E| <#index-M_005fLOG2E>:	 	Mathematical Constants
+<#Mathematical-Constants>
+	|M_PI| <#index-M_005fPI>:	 	Mathematical Constants
+<#Mathematical-Constants>
+	|M_PI_2| <#index-M_005fPI_005f2>:	 	Mathematical Constants
+<#Mathematical-Constants>
+	|M_PI_4| <#index-M_005fPI_005f4>:	 	Mathematical Constants
+<#Mathematical-Constants>
+	|M_SQRT1_2| <#index-M_005fSQRT1_005f2>:	 	Mathematical Constants
+<#Mathematical-Constants>
+	|M_SQRT2| <#index-M_005fSQRT2>:	 	Mathematical Constants
+<#Mathematical-Constants>
+------------------------------------------------------------------------
+N		
+	|NAME_MAX| <#index-NAME_005fMAX>:	 	Limits for Files <#Limits-for-Files>
+	|NAN| <#index-NAN>:	 	Infinity and NaN <#Infinity-and-NaN>
+	|NCCS| <#index-NCCS>:	 	Mode Data Types <#Mode-Data-Types>
+	|NDEBUG| <#index-NDEBUG>:	 	Consistency Checking <#Consistency-Checking>
+	|NEGATIVE_SIGN| <#index-NEGATIVE_005fSIGN>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|netgroup| <#index-netgroup-1>:	 	NSS Basics <#NSS-Basics>
+	|networks| <#index-networks-1>:	 	NSS Basics <#NSS-Basics>
+	|NEW_TIME| <#index-NEW_005fTIME>:	 	Manipulating the Database
+<#Manipulating-the-Database>
+	|NEW_TIME| <#index-NEW_005fTIME-1>:	 	XPG Functions <#XPG-Functions>
+	|NGROUPS_MAX| <#index-NGROUPS_005fMAX>:	 	General Limits <#General-Limits>
+	|NL_ARGMAX| <#index-NL_005fARGMAX>:	 	Output Conversion Syntax
+<#Output-Conversion-Syntax>
+	|NOEXPR| <#index-NOEXPR>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|NOFLSH| <#index-NOFLSH>:	 	Local Modes <#Local-Modes>
+	|NOKERNINFO| <#index-NOKERNINFO>:	 	Local Modes <#Local-Modes>
+	|NOSTR| <#index-NOSTR>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|NO_ADDRESS| <#index-NO_005fADDRESS>:	 	Host Names <#Host-Names>
+	|NO_RECOVERY| <#index-NO_005fRECOVERY>:	 	Host Names <#Host-Names>
+	|NSIG| <#index-NSIG>:	 	Standard Signals <#Standard-Signals>
+	|NSS_STATUS_NOTFOUND| <#index-NSS_005fSTATUS_005fNOTFOUND>:	 	NSS
+Modules Interface <#NSS-Modules-Interface>
+	|NSS_STATUS_SUCCESS| <#index-NSS_005fSTATUS_005fSUCCESS>:	 	NSS Modules
+Interface <#NSS-Modules-Interface>
+	|NSS_STATUS_TRYAGAIN| <#index-NSS_005fSTATUS_005fTRYAGAIN>:	 	NSS
+Modules Interface <#NSS-Modules-Interface>
+	|NSS_STATUS_UNAVAIL| <#index-NSS_005fSTATUS_005fUNAVAIL>:	 	NSS Modules
+Interface <#NSS-Modules-Interface>
+	|NULL| <#index-NULL>:	 	Null Pointer Constant <#Null-Pointer-Constant>
+	|N_CS_PRECEDES| <#index-N_005fCS_005fPRECEDES>:	 	The Elegant and Fast
+Way <#The-Elegant-and-Fast-Way>
+	|N_SEP_BY_SPACE| <#index-N_005fSEP_005fBY_005fSPACE>:	 	The Elegant and
+Fast Way <#The-Elegant-and-Fast-Way>
+	|N_SIGN_POSN| <#index-N_005fSIGN_005fPOSN>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+------------------------------------------------------------------------
+O		
+	|obstack_alloc_failed_handler|
+<#index-obstack_005falloc_005ffailed_005fhandler>:	 	Preparing for
+Obstacks <#Preparing-for-Obstacks>
+	|OLD_TIME| <#index-OLD_005fTIME>:	 	Manipulating the Database
+<#Manipulating-the-Database>
+	|OLD_TIME| <#index-OLD_005fTIME-1>:	 	XPG Functions <#XPG-Functions>
+	|ONLCR| <#index-ONLCR>:	 	Output Modes <#Output-Modes>
+	|ONOEOT| <#index-ONOEOT>:	 	Output Modes <#Output-Modes>
+	|OPEN_MAX| <#index-OPEN_005fMAX>:	 	General Limits <#General-Limits>
+	|OPOST| <#index-OPOST>:	 	Output Modes <#Output-Modes>
+	|optarg| <#index-optarg>:	 	Using Getopt <#Using-Getopt>
+	|opterr| <#index-opterr>:	 	Using Getopt <#Using-Getopt>
+	|optind| <#index-optind>:	 	Using Getopt <#Using-Getopt>
+	|OPTION_ALIAS| <#index-OPTION_005fALIAS>:	 	Argp Option Flags
+<#Argp-Option-Flags>
+	|OPTION_ARG_OPTIONAL| <#index-OPTION_005fARG_005fOPTIONAL>:	 	Argp
+Option Flags <#Argp-Option-Flags>
+	|OPTION_DOC| <#index-OPTION_005fDOC>:	 	Argp Option Flags
+<#Argp-Option-Flags>
+	|OPTION_HIDDEN| <#index-OPTION_005fHIDDEN>:	 	Argp Option Flags
+<#Argp-Option-Flags>
+	|OPTION_NO_USAGE| <#index-OPTION_005fNO_005fUSAGE>:	 	Argp Option Flags
+<#Argp-Option-Flags>
+	|optopt| <#index-optopt>:	 	Using Getopt <#Using-Getopt>
+	|OXTABS| <#index-OXTABS>:	 	Output Modes <#Output-Modes>
+	|O_ACCMODE| <#index-O_005fACCMODE>:	 	Access Modes <#Access-Modes>
+	|O_APPEND| <#index-O_005fAPPEND>:	 	Operating Modes <#Operating-Modes>
+	|O_ASYNC| <#index-O_005fASYNC>:	 	Operating Modes <#Operating-Modes>
+	|O_CREAT| <#index-O_005fCREAT>:	 	Open-time Flags <#Open_002dtime-Flags>
+	|O_EXCL| <#index-O_005fEXCL>:	 	Open-time Flags <#Open_002dtime-Flags>
+	|O_EXEC| <#index-O_005fEXEC>:	 	Access Modes <#Access-Modes>
+	|O_EXLOCK| <#index-O_005fEXLOCK>:	 	Open-time Flags <#Open_002dtime-Flags>
+	|O_FSYNC| <#index-O_005fFSYNC>:	 	Operating Modes <#Operating-Modes>
+	|O_IGNORE_CTTY| <#index-O_005fIGNORE_005fCTTY>:	 	Open-time Flags
+<#Open_002dtime-Flags>
+	|O_NDELAY| <#index-O_005fNDELAY>:	 	Operating Modes <#Operating-Modes>
+	|O_NOATIME| <#index-O_005fNOATIME>:	 	Operating Modes <#Operating-Modes>
+	|O_NOCTTY| <#index-O_005fNOCTTY>:	 	Open-time Flags <#Open_002dtime-Flags>
+	|O_NOLINK| <#index-O_005fNOLINK>:	 	Open-time Flags <#Open_002dtime-Flags>
+	|O_NONBLOCK| <#index-O_005fNONBLOCK>:	 	Open-time Flags
+<#Open_002dtime-Flags>
+	|O_NONBLOCK| <#index-O_005fNONBLOCK-1>:	 	Operating Modes
+<#Operating-Modes>
+	|O_NOTRANS| <#index-O_005fNOTRANS>:	 	Open-time Flags
+<#Open_002dtime-Flags>
+	|O_RDONLY| <#index-O_005fRDONLY>:	 	Access Modes <#Access-Modes>
+	|O_RDWR| <#index-O_005fRDWR>:	 	Access Modes <#Access-Modes>
+	|O_READ| <#index-O_005fREAD>:	 	Access Modes <#Access-Modes>
+	|O_SHLOCK| <#index-O_005fSHLOCK>:	 	Open-time Flags <#Open_002dtime-Flags>
+	|O_SYNC| <#index-O_005fSYNC>:	 	Operating Modes <#Operating-Modes>
+	|O_TRUNC| <#index-O_005fTRUNC>:	 	Open-time Flags <#Open_002dtime-Flags>
+	|O_WRITE| <#index-O_005fWRITE>:	 	Access Modes <#Access-Modes>
+	|O_WRONLY| <#index-O_005fWRONLY>:	 	Access Modes <#Access-Modes>
+------------------------------------------------------------------------
+P		
+	|PARENB| <#index-PARENB>:	 	Control Modes <#Control-Modes>
+	|PARMRK| <#index-PARMRK>:	 	Input Modes <#Input-Modes>
+	|PARODD| <#index-PARODD>:	 	Control Modes <#Control-Modes>
+	|passwd| <#index-passwd-1>:	 	NSS Basics <#NSS-Basics>
+	|PATH_MAX| <#index-PATH_005fMAX>:	 	Limits for Files <#Limits-for-Files>
+	|PA_CHAR| <#index-PA_005fCHAR>:	 	Parsing a Template String
+<#Parsing-a-Template-String>
+	|PA_DOUBLE| <#index-PA_005fDOUBLE>:	 	Parsing a Template String
+<#Parsing-a-Template-String>
+	|PA_FLAG_LONG| <#index-PA_005fFLAG_005fLONG>:	 	Parsing a Template
+String <#Parsing-a-Template-String>
+	|PA_FLAG_LONG_DOUBLE| <#index-PA_005fFLAG_005fLONG_005fDOUBLE>:	 
+Parsing a Template String <#Parsing-a-Template-String>
+	|PA_FLAG_LONG_LONG| <#index-PA_005fFLAG_005fLONG_005fLONG>:	 	Parsing a
+Template String <#Parsing-a-Template-String>
+	|PA_FLAG_MASK| <#index-PA_005fFLAG_005fMASK>:	 	Parsing a Template
+String <#Parsing-a-Template-String>
+	|PA_FLAG_PTR| <#index-PA_005fFLAG_005fPTR>:	 	Parsing a Template String
+<#Parsing-a-Template-String>
+	|PA_FLAG_SHORT| <#index-PA_005fFLAG_005fSHORT>:	 	Parsing a Template
+String <#Parsing-a-Template-String>
+	|PA_FLOAT| <#index-PA_005fFLOAT>:	 	Parsing a Template String
+<#Parsing-a-Template-String>
+	|PA_INT| <#index-PA_005fINT>:	 	Parsing a Template String
+<#Parsing-a-Template-String>
+	|PA_LAST| <#index-PA_005fLAST>:	 	Parsing a Template String
+<#Parsing-a-Template-String>
+	|PA_POINTER| <#index-PA_005fPOINTER>:	 	Parsing a Template String
+<#Parsing-a-Template-String>
+	|PA_STRING| <#index-PA_005fSTRING>:	 	Parsing a Template String
+<#Parsing-a-Template-String>
+	|PENDIN| <#index-PENDIN>:	 	Local Modes <#Local-Modes>
+	|PF_CCITT| <#index-PF_005fCCITT>:	 	Misc Namespaces <#Misc-Namespaces>
+	|PF_FILE| <#index-PF_005fFILE>:	 	Local Namespace Details
+<#Local-Namespace-Details>
+	|PF_IMPLINK| <#index-PF_005fIMPLINK>:	 	Misc Namespaces <#Misc-Namespaces>
+	|PF_INET| <#index-PF_005fINET>:	 	Internet Namespace <#Internet-Namespace>
+	|PF_INET6| <#index-PF_005fINET6>:	 	Internet Namespace
+<#Internet-Namespace>
+	|PF_ISO| <#index-PF_005fISO>:	 	Misc Namespaces <#Misc-Namespaces>
+	|PF_LOCAL| <#index-PF_005fLOCAL>:	 	Local Namespace Details
+<#Local-Namespace-Details>
+	|PF_NS| <#index-PF_005fNS>:	 	Misc Namespaces <#Misc-Namespaces>
+	|PF_ROUTE| <#index-PF_005fROUTE>:	 	Misc Namespaces <#Misc-Namespaces>
+	|PF_UNIX| <#index-PF_005fUNIX>:	 	Local Namespace Details
+<#Local-Namespace-Details>
+	|PI| <#index-PI>:	 	Mathematical Constants <#Mathematical-Constants>
+	|PIPE_BUF| <#index-PIPE_005fBUF>:	 	Limits for Files <#Limits-for-Files>
+	|PM_STR| <#index-PM_005fSTR>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|POSITIVE_SIGN| <#index-POSITIVE_005fSIGN>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|PRIO_MAX| <#index-PRIO_005fMAX>:	 	Traditional Scheduling Functions
+<#Traditional-Scheduling-Functions>
+	|PRIO_MIN| <#index-PRIO_005fMIN>:	 	Traditional Scheduling Functions
+<#Traditional-Scheduling-Functions>
+	|PRIO_PGRP| <#index-PRIO_005fPGRP>:	 	Traditional Scheduling Functions
+<#Traditional-Scheduling-Functions>
+	|PRIO_PROCESS| <#index-PRIO_005fPROCESS>:	 	Traditional Scheduling
+Functions <#Traditional-Scheduling-Functions>
+	|PRIO_USER| <#index-PRIO_005fUSER>:	 	Traditional Scheduling Functions
+<#Traditional-Scheduling-Functions>
+	|program_invocation_name| <#index-program_005finvocation_005fname>:	 
+Error Messages <#Error-Messages>
+	|program_invocation_short_name|
+<#index-program_005finvocation_005fshort_005fname>:	 	Error Messages
+<#Error-Messages>
+	|protocols| <#index-protocols-1>:	 	NSS Basics <#NSS-Basics>
+	|PROT_EXEC| <#index-PROT_005fEXEC>:	 	Memory-mapped I/O
+<#Memory_002dmapped-I_002fO>
+	|PROT_READ| <#index-PROT_005fREAD>:	 	Memory-mapped I/O
+<#Memory_002dmapped-I_002fO>
+	|PROT_WRITE| <#index-PROT_005fWRITE>:	 	Memory-mapped I/O
+<#Memory_002dmapped-I_002fO>
+	|PWD| <#index-PWD>:	 	Working Directory <#Working-Directory>
+	|P_CS_PRECEDES| <#index-P_005fCS_005fPRECEDES>:	 	The Elegant and Fast
+Way <#The-Elegant-and-Fast-Way>
+	|P_SEP_BY_SPACE| <#index-P_005fSEP_005fBY_005fSPACE>:	 	The Elegant and
+Fast Way <#The-Elegant-and-Fast-Way>
+	|P_SIGN_POSN| <#index-P_005fSIGN_005fPOSN>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|P_tmpdir| <#index-P_005ftmpdir>:	 	Temporary Files <#Temporary-Files>
+------------------------------------------------------------------------
+R		
+	|RADIXCHAR| <#index-RADIXCHAR>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|RAND_MAX| <#index-RAND_005fMAX>:	 	ISO Random <#ISO-Random>
+	|RE_DUP_MAX| <#index-RE_005fDUP_005fMAX>:	 	General Limits
+<#General-Limits>
+	|RLIMIT_AS| <#index-RLIMIT_005fAS>:	 	Limits on Resources
+<#Limits-on-Resources>
+	|RLIMIT_CORE| <#index-RLIMIT_005fCORE>:	 	Limits on Resources
+<#Limits-on-Resources>
+	|RLIMIT_CPU| <#index-RLIMIT_005fCPU>:	 	Limits on Resources
+<#Limits-on-Resources>
+	|RLIMIT_DATA| <#index-RLIMIT_005fDATA>:	 	Limits on Resources
+<#Limits-on-Resources>
+	|RLIMIT_FSIZE| <#index-RLIMIT_005fFSIZE>:	 	Limits on Resources
+<#Limits-on-Resources>
+	|RLIMIT_NOFILE| <#index-RLIMIT_005fNOFILE>:	 	Limits on Resources
+<#Limits-on-Resources>
+	|RLIMIT_OFILE| <#index-RLIMIT_005fOFILE>:	 	Limits on Resources
+<#Limits-on-Resources>
+	|RLIMIT_RSS| <#index-RLIMIT_005fRSS>:	 	Limits on Resources
+<#Limits-on-Resources>
+	|RLIMIT_STACK| <#index-RLIMIT_005fSTACK>:	 	Limits on Resources
+<#Limits-on-Resources>
+	|RLIM_INFINITY| <#index-RLIM_005fINFINITY>:	 	Limits on Resources
+<#Limits-on-Resources>
+	|RLIM_NLIMITS| <#index-RLIM_005fNLIMITS>:	 	Limits on Resources
+<#Limits-on-Resources>
+	|rpc| <#index-rpc-1>:	 	NSS Basics <#NSS-Basics>
+	|RUN_LVL| <#index-RUN_005fLVL>:	 	Manipulating the Database
+<#Manipulating-the-Database>
+	|RUN_LVL| <#index-RUN_005fLVL-1>:	 	XPG Functions <#XPG-Functions>
+	|R_OK| <#index-R_005fOK>:	 	Testing File Access <#Testing-File-Access>
+------------------------------------------------------------------------
+S		
+	|SA_NOCLDSTOP| <#index-SA_005fNOCLDSTOP>:	 	Flags for Sigaction
+<#Flags-for-Sigaction>
+	|SA_ONSTACK| <#index-SA_005fONSTACK>:	 	Flags for Sigaction
+<#Flags-for-Sigaction>
+	|SA_RESTART| <#index-SA_005fRESTART>:	 	Flags for Sigaction
+<#Flags-for-Sigaction>
+	|SCHAR_MAX| <#index-SCHAR_005fMAX>:	 	Range of Type <#Range-of-Type>
+	|SCHAR_MIN| <#index-SCHAR_005fMIN>:	 	Range of Type <#Range-of-Type>
+	|SC_SSIZE_MAX| <#index-SC_005fSSIZE_005fMAX>:	 	Constants for Sysconf
+<#Constants-for-Sysconf>
+	|SEEK_CUR| <#index-SEEK_005fCUR>:	 	File Positioning <#File-Positioning>
+	|SEEK_END| <#index-SEEK_005fEND>:	 	File Positioning <#File-Positioning>
+	|SEEK_SET| <#index-SEEK_005fSET>:	 	File Positioning <#File-Positioning>
+	|services| <#index-services-1>:	 	NSS Basics <#NSS-Basics>
+	|shadow| <#index-shadow-1>:	 	NSS Basics <#NSS-Basics>
+	|SHRT_MAX| <#index-SHRT_005fMAX>:	 	Range of Type <#Range-of-Type>
+	|SHRT_MIN| <#index-SHRT_005fMIN>:	 	Range of Type <#Range-of-Type>
+	|SIGABRT| <#index-SIGABRT>:	 	Program Error Signals
+<#Program-Error-Signals>
+	|SIGALRM| <#index-SIGALRM>:	 	Alarm Signals <#Alarm-Signals>
+	|SIGBUS| <#index-SIGBUS>:	 	Program Error Signals <#Program-Error-Signals>
+	|SIGCHLD| <#index-SIGCHLD>:	 	Job Control Signals <#Job-Control-Signals>
+	|SIGCLD| <#index-SIGCLD>:	 	Job Control Signals <#Job-Control-Signals>
+	|SIGCONT| <#index-SIGCONT>:	 	Job Control Signals <#Job-Control-Signals>
+	|SIGEMT| <#index-SIGEMT>:	 	Program Error Signals <#Program-Error-Signals>
+	|SIGFPE| <#index-SIGFPE>:	 	Program Error Signals <#Program-Error-Signals>
+	|SIGHUP| <#index-SIGHUP>:	 	Termination Signals <#Termination-Signals>
+	|SIGILL| <#index-SIGILL>:	 	Program Error Signals <#Program-Error-Signals>
+	|SIGINFO| <#index-SIGINFO>:	 	Miscellaneous Signals
+<#Miscellaneous-Signals>
+	|SIGINT| <#index-SIGINT>:	 	Termination Signals <#Termination-Signals>
+	|SIGIO| <#index-SIGIO>:	 	Asynchronous I/O Signals
+<#Asynchronous-I_002fO-Signals>
+	|SIGIOT| <#index-SIGIOT>:	 	Program Error Signals <#Program-Error-Signals>
+	|SIGKILL| <#index-SIGKILL>:	 	Termination Signals <#Termination-Signals>
+	|SIGLOST| <#index-SIGLOST>:	 	Operation Error Signals
+<#Operation-Error-Signals>
+	|signgam| <#index-signgam>:	 	Special Functions <#Special-Functions>
+	|SIGPIPE| <#index-SIGPIPE>:	 	Operation Error Signals
+<#Operation-Error-Signals>
+	|SIGPOLL| <#index-SIGPOLL>:	 	Asynchronous I/O Signals
+<#Asynchronous-I_002fO-Signals>
+	|SIGPROF| <#index-SIGPROF>:	 	Alarm Signals <#Alarm-Signals>
+	|SIGQUIT| <#index-SIGQUIT>:	 	Termination Signals <#Termination-Signals>
+	|SIGSEGV| <#index-SIGSEGV>:	 	Program Error Signals
+<#Program-Error-Signals>
+	|SIGSTKSZ| <#index-SIGSTKSZ>:	 	Signal Stack <#Signal-Stack>
+	|SIGSTOP| <#index-SIGSTOP>:	 	Job Control Signals <#Job-Control-Signals>
+	|SIGSYS| <#index-SIGSYS>:	 	Program Error Signals <#Program-Error-Signals>
+	|SIGTERM| <#index-SIGTERM>:	 	Termination Signals <#Termination-Signals>
+	|SIGTRAP| <#index-SIGTRAP>:	 	Program Error Signals
+<#Program-Error-Signals>
+	|SIGTSTP| <#index-SIGTSTP>:	 	Job Control Signals <#Job-Control-Signals>
+	|SIGTTIN| <#index-SIGTTIN>:	 	Job Control Signals <#Job-Control-Signals>
+	|SIGTTOU| <#index-SIGTTOU>:	 	Job Control Signals <#Job-Control-Signals>
+	|SIGURG| <#index-SIGURG>:	 	Asynchronous I/O Signals
+<#Asynchronous-I_002fO-Signals>
+	|SIGUSR1| <#index-SIGUSR1>:	 	Miscellaneous Signals
+<#Miscellaneous-Signals>
+	|SIGUSR2| <#index-SIGUSR2>:	 	Miscellaneous Signals
+<#Miscellaneous-Signals>
+	|SIGVTALRM| <#index-SIGVTALRM>:	 	Alarm Signals <#Alarm-Signals>
+	|SIGWINCH| <#index-SIGWINCH>:	 	Miscellaneous Signals
+<#Miscellaneous-Signals>
+	|SIGXCPU| <#index-SIGXCPU>:	 	Operation Error Signals
+<#Operation-Error-Signals>
+	|SIGXFSZ| <#index-SIGXFSZ>:	 	Operation Error Signals
+<#Operation-Error-Signals>
+	|SIG_BLOCK| <#index-SIG_005fBLOCK>:	 	Process Signal Mask
+<#Process-Signal-Mask>
+	|SIG_DFL| <#index-SIG_005fDFL>:	 	Basic Signal Handling
+<#Basic-Signal-Handling>
+	|SIG_ERR| <#index-SIG_005fERR>:	 	Basic Signal Handling
+<#Basic-Signal-Handling>
+	|SIG_IGN| <#index-SIG_005fIGN>:	 	Basic Signal Handling
+<#Basic-Signal-Handling>
+	|SIG_SETMASK| <#index-SIG_005fSETMASK>:	 	Process Signal Mask
+<#Process-Signal-Mask>
+	|SIG_UNBLOCK| <#index-SIG_005fUNBLOCK>:	 	Process Signal Mask
+<#Process-Signal-Mask>
+	|SOCK_DGRAM| <#index-SOCK_005fDGRAM>:	 	Communication Styles
+<#Communication-Styles>
+	|SOCK_RAW| <#index-SOCK_005fRAW>:	 	Communication Styles
+<#Communication-Styles>
+	|SOCK_STREAM| <#index-SOCK_005fSTREAM>:	 	Communication Styles
+<#Communication-Styles>
+	|SOL_SOCKET| <#index-SOL_005fSOCKET>:	 	Socket-Level Options
+<#Socket_002dLevel-Options>
+	|SSIZE_MAX| <#index-SSIZE_005fMAX>:	 	General Limits <#General-Limits>
+	|SS_DISABLE| <#index-SS_005fDISABLE>:	 	Signal Stack <#Signal-Stack>
+	|SS_ONSTACK| <#index-SS_005fONSTACK>:	 	Signal Stack <#Signal-Stack>
+	|stderr| <#index-stderr>:	 	Standard Streams <#Standard-Streams>
+	|STDERR_FILENO| <#index-STDERR_005fFILENO>:	 	Descriptors and Streams
+<#Descriptors-and-Streams>
+	|stdin| <#index-stdin>:	 	Standard Streams <#Standard-Streams>
+	|STDIN_FILENO| <#index-STDIN_005fFILENO>:	 	Descriptors and Streams
+<#Descriptors-and-Streams>
+	|stdout| <#index-stdout>:	 	Standard Streams <#Standard-Streams>
+	|STDOUT_FILENO| <#index-STDOUT_005fFILENO>:	 	Descriptors and Streams
+<#Descriptors-and-Streams>
+	|STREAM_MAX| <#index-STREAM_005fMAX>:	 	General Limits <#General-Limits>
+	|sys_siglist| <#index-sys_005fsiglist>:	 	Signal Messages
+<#Signal-Messages>
+	|S_IEXEC| <#index-S_005fIEXEC>:	 	Permission Bits <#Permission-Bits>
+	|S_IFBLK| <#index-S_005fIFBLK>:	 	Testing File Type <#Testing-File-Type>
+	|S_IFCHR| <#index-S_005fIFCHR>:	 	Testing File Type <#Testing-File-Type>
+	|S_IFDIR| <#index-S_005fIFDIR>:	 	Testing File Type <#Testing-File-Type>
+	|S_IFIFO| <#index-S_005fIFIFO>:	 	Testing File Type <#Testing-File-Type>
+	|S_IFLNK| <#index-S_005fIFLNK>:	 	Testing File Type <#Testing-File-Type>
+	|S_IFMT| <#index-S_005fIFMT>:	 	Testing File Type <#Testing-File-Type>
+	|S_IFREG| <#index-S_005fIFREG>:	 	Testing File Type <#Testing-File-Type>
+	|S_IFSOCK| <#index-S_005fIFSOCK>:	 	Testing File Type <#Testing-File-Type>
+	|S_IREAD| <#index-S_005fIREAD>:	 	Permission Bits <#Permission-Bits>
+	|S_IRGRP| <#index-S_005fIRGRP>:	 	Permission Bits <#Permission-Bits>
+	|S_IROTH| <#index-S_005fIROTH>:	 	Permission Bits <#Permission-Bits>
+	|S_IRUSR| <#index-S_005fIRUSR>:	 	Permission Bits <#Permission-Bits>
+	|S_IRWXG| <#index-S_005fIRWXG>:	 	Permission Bits <#Permission-Bits>
+	|S_IRWXO| <#index-S_005fIRWXO>:	 	Permission Bits <#Permission-Bits>
+	|S_IRWXU| <#index-S_005fIRWXU>:	 	Permission Bits <#Permission-Bits>
+	|S_ISGID| <#index-S_005fISGID>:	 	Permission Bits <#Permission-Bits>
+	|S_ISUID| <#index-S_005fISUID>:	 	Permission Bits <#Permission-Bits>
+	|S_ISVTX| <#index-S_005fISVTX>:	 	Permission Bits <#Permission-Bits>
+	|S_IWGRP| <#index-S_005fIWGRP>:	 	Permission Bits <#Permission-Bits>
+	|S_IWOTH| <#index-S_005fIWOTH>:	 	Permission Bits <#Permission-Bits>
+	|S_IWRITE| <#index-S_005fIWRITE>:	 	Permission Bits <#Permission-Bits>
+	|S_IWUSR| <#index-S_005fIWUSR>:	 	Permission Bits <#Permission-Bits>
+	|S_IXGRP| <#index-S_005fIXGRP>:	 	Permission Bits <#Permission-Bits>
+	|S_IXOTH| <#index-S_005fIXOTH>:	 	Permission Bits <#Permission-Bits>
+	|S_IXUSR| <#index-S_005fIXUSR>:	 	Permission Bits <#Permission-Bits>
+------------------------------------------------------------------------
+T		
+	|TCIFLUSH| <#index-TCIFLUSH>:	 	Line Control <#Line-Control>
+	|TCIOFF| <#index-TCIOFF>:	 	Line Control <#Line-Control>
+	|TCIOFLUSH| <#index-TCIOFLUSH>:	 	Line Control <#Line-Control>
+	|TCION| <#index-TCION>:	 	Line Control <#Line-Control>
+	|TCOFLUSH| <#index-TCOFLUSH>:	 	Line Control <#Line-Control>
+	|TCOOFF| <#index-TCOOFF>:	 	Line Control <#Line-Control>
+	|TCOON| <#index-TCOON>:	 	Line Control <#Line-Control>
+	|TCSADRAIN| <#index-TCSADRAIN>:	 	Mode Functions <#Mode-Functions>
+	|TCSAFLUSH| <#index-TCSAFLUSH>:	 	Mode Functions <#Mode-Functions>
+	|TCSANOW| <#index-TCSANOW>:	 	Mode Functions <#Mode-Functions>
+	|TCSASOFT| <#index-TCSASOFT>:	 	Mode Functions <#Mode-Functions>
+	|THOUSANDS_SEP| <#index-THOUSANDS_005fSEP>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|THOUSEP| <#index-THOUSEP>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|timezone| <#index-timezone>:	 	Time Zone Functions <#Time-Zone-Functions>
+	|TMP_MAX| <#index-TMP_005fMAX>:	 	Temporary Files <#Temporary-Files>
+	|TOSTOP| <#index-TOSTOP>:	 	Local Modes <#Local-Modes>
+	|TRY_AGAIN| <#index-TRY_005fAGAIN>:	 	Host Names <#Host-Names>
+	|tzname| <#index-tzname>:	 	Time Zone Functions <#Time-Zone-Functions>
+	|TZNAME_MAX| <#index-TZNAME_005fMAX>:	 	General Limits <#General-Limits>
+	|T_FMT| <#index-T_005fFMT>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|T_FMT_AMPM| <#index-T_005fFMT_005fAMPM>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+------------------------------------------------------------------------
+U		
+	|UCHAR_MAX| <#index-UCHAR_005fMAX>:	 	Range of Type <#Range-of-Type>
+	|UINT_MAX| <#index-UINT_005fMAX>:	 	Range of Type <#Range-of-Type>
+	|ULLONG_MAX| <#index-ULLONG_005fMAX>:	 	Range of Type <#Range-of-Type>
+	|ULONG_LONG_MAX| <#index-ULONG_005fLONG_005fMAX>:	 	Range of Type
+<#Range-of-Type>
+	|ULONG_MAX| <#index-ULONG_005fMAX>:	 	Range of Type <#Range-of-Type>
+	|USER_PROCESS| <#index-USER_005fPROCESS>:	 	Manipulating the Database
+<#Manipulating-the-Database>
+	|USER_PROCESS| <#index-USER_005fPROCESS-1>:	 	XPG Functions
+<#XPG-Functions>
+	|USHRT_MAX| <#index-USHRT_005fMAX>:	 	Range of Type <#Range-of-Type>
+------------------------------------------------------------------------
+V		
+	|VDISCARD| <#index-VDISCARD>:	 	Other Special <#Other-Special>
+	|VDSUSP| <#index-VDSUSP>:	 	Signal Characters <#Signal-Characters>
+	|VEOF| <#index-VEOF>:	 	Editing Characters <#Editing-Characters>
+	|VEOL| <#index-VEOL>:	 	Editing Characters <#Editing-Characters>
+	|VEOL2| <#index-VEOL2>:	 	Editing Characters <#Editing-Characters>
+	|VERASE| <#index-VERASE>:	 	Editing Characters <#Editing-Characters>
+	|VINTR| <#index-VINTR>:	 	Signal Characters <#Signal-Characters>
+	|VKILL| <#index-VKILL>:	 	Editing Characters <#Editing-Characters>
+	|VLNEXT| <#index-VLNEXT>:	 	Other Special <#Other-Special>
+	|VMIN| <#index-VMIN>:	 	Noncanonical Input <#Noncanonical-Input>
+	|VQUIT| <#index-VQUIT>:	 	Signal Characters <#Signal-Characters>
+	|VREPRINT| <#index-VREPRINT>:	 	Editing Characters <#Editing-Characters>
+	|VSTART| <#index-VSTART>:	 	Start/Stop Characters
+<#Start_002fStop-Characters>
+	|VSTATUS| <#index-VSTATUS>:	 	Other Special <#Other-Special>
+	|VSTOP| <#index-VSTOP>:	 	Start/Stop Characters
+<#Start_002fStop-Characters>
+	|VSUSP| <#index-VSUSP>:	 	Signal Characters <#Signal-Characters>
+	|VTIME| <#index-VTIME>:	 	Noncanonical Input <#Noncanonical-Input>
+	|VWERASE| <#index-VWERASE>:	 	Editing Characters <#Editing-Characters>
+------------------------------------------------------------------------
+W		
+	|WCHAR_MAX| <#index-WCHAR_005fMAX>:	 	Extended Char Intro
+<#Extended-Char-Intro>
+	|WCHAR_MAX| <#index-WCHAR_005fMAX-1>:	 	Range of Type <#Range-of-Type>
+	|WCHAR_MIN| <#index-WCHAR_005fMIN>:	 	Extended Char Intro
+<#Extended-Char-Intro>
+	|WEOF| <#index-WEOF>:	 	Extended Char Intro <#Extended-Char-Intro>
+	|WEOF| <#index-WEOF-1>:	 	EOF and Errors <#EOF-and-Errors>
+	|W_OK| <#index-W_005fOK>:	 	Testing File Access <#Testing-File-Access>
+------------------------------------------------------------------------
+X		
+	|X_OK| <#index-X_005fOK>:	 	Testing File Access <#Testing-File-Access>
+------------------------------------------------------------------------
+Y		
+	|YESEXPR| <#index-YESEXPR>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+	|YESSTR| <#index-YESSTR>:	 	The Elegant and Fast Way
+<#The-Elegant-and-Fast-Way>
+------------------------------------------------------------------------
+
