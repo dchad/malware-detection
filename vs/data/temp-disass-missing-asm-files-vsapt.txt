@@ -1,0 +1,4 @@
+VirusShare_d8b7b276710127d233abcdb7313aac36.pe.asm
+VirusShare_d4ba6430996fb4021241efc97c607504.pe.asm
+VirusShare_af719814507fdca4b96184f33b6b92ea.pe.asm
+VirusShare_6a4fbcfb44717eae2145c761c1c99b6a.pe.asm
