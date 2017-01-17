@@ -1,0 +1,163 @@
+# generate_html_tokens.py
+#
+# Parse a bunch of HTML files and extract keywords such as HTML tag names, javascript functions etc.
+#
+# Inputs : list of HTML files.
+#          Temp file name for token counts.
+#          File name for token counts.
+#          File containing a list of HTML/CSS tag definitions.
+#
+# Outputs: html-tokens.txt
+#          html-token-counts.csv
+#          row format = [token_name, count]
+#
+# Author: Derek Chadwick
+# Date  : 17/01/2017
+
+
+
+import os
+import re
+from csv import writer
+
+
+
+def save_token_counts(token_counter_map, out_file_name):
+    # Output the HTML token counts.
+    pid = os.getpid()
+    out_file = "data/" + str(pid) + "-" + out_file_name
+    fop = open(out_file, 'w')
+    csv_wouter = writer(fop)
+    csv_wouter.writerow(["token_name","count"])
+
+    outlines = []
+    sorted_keys = token_counter_map.keys()
+    sorted_keys.sort()
+    counter = 0
+    
+    for key in sorted_keys:
+        outlines.append([key, token_counter_map[key]])
+        counter += 1
+        if (counter % 100) == 0: # write out some lines
+            csv_wouter.writerows(outlines)
+            outlines = []
+            print("Processed token {:s} -> {:d}.".format(key, token_counter_map[key]))
+
+    # Finish off.
+    if (len(outlines) > 0):
+        csv_wouter.writerows(outlines)
+        outlines = []
+
+
+    fop.close()
+    
+    print("Completed writing HTML {:d} tokens.".format(len(sorted_keys)))
+
+    return
+    
+
+
+def is_ascii(s):
+    return all(ord(c) < 128 for c in s)
+
+
+def is_printable_ascii(s):
+    return all(ord(c) > 31 and ord(c) < 127 for c in s)
+
+    
+def generate_html_tokens(mp_params):
+    # Parse a bunch of HTML files and generate tokens for names and objects in the file.
+    file_list = mp_params.file_list
+    out_count_file = mp_params.count_file
+    out_token_file = mp_params.token_file
+    
+    token_counter_map = {}
+    counter = 0
+    pid = os.getpid()
+    
+    # Load in the HTML/CSS tag list.
+    # TODO: all the things
+    # ???
+    # Profit.
+    
+    for idx, fname in enumerate(file_list):
+
+        fip = open(fname, 'r')
+        in_lines = fip.readlines()
+        
+        counter += 1
+        
+        for line in in_lines:
+
+            line = line.rstrip() # get rid of newlines they are annoying.
+            line = line.replace(',', ' ').replace('\t', ' ').replace('\\', ' ').replace('-',' ')
+            line = line.replace(';', ' ').replace(':', ' ') #.replace('<', ' ').replace('>', ' ')
+            line = line.replace('(', ' ').replace('[', ' ').replace(']', ' ').replace(')',' ')
+            line = line.replace('\"', ' ').replace('\'', ' ').replace('\n',' ')
+            if len(line) < 4: # Ignore all the chaff and crap.
+                continue
+
+
+            # Check for the objects we are interested in, mostly names and streams
+            # in the HTML document.
+            if line.startswith("/") or line.startswith("end"):
+                tokens = line.split(" ")
+                for token_val in tokens:
+                    if len(token_val) < 4 or len(token_val) > 32:
+                        continue
+                    # Count the token type.
+                    if token_val.startswith("/") or token_val.startswith("end"):
+                        if token_val in token_counter_map.keys():
+                            token_counter_map[token_val] += 1
+                        else:
+                            token_counter_map[token_val] = 1
+
+
+        if (counter % 10) == 0:
+            print("{:d} Processed {:d} PDF files.".format(pid, counter))
+
+        fip.close()
+        
+        
+    save_token_counts(token_counter_map, out_count_file)
+    
+    return
+    
+    
+    
+class Multi_Params(object):
+    def __init__(self, tokenfile="", countfile="", filelist=[]):
+        self.token_file = tokenfile
+        self.count_file = countfile
+        self.file_list = filelist
+    
+    
+# Start of Program.
+
+
+#token_file = 'pe-header-tokens-vs264.txt'
+#count_file = 'pe-header-token-counts-vs264.csv'
+#ext_drive = '/opt/vs/train4hdr/'
+
+token_file = "pdf-tokens-non-malicious-set.csv"
+count_file = "pdf-token-counts-non-malicious-set.csv"
+ext_drive = "/opt/vs/pdfset/"
+
+file_list = os.listdir(ext_drive)
+tfiles = []
+
+for fname in file_list:
+    if fname.endswith(".pdf"):
+        tfiles.append(ext_drive + fname)
+
+print("Got {:d} PDF files.".format(len(tfiles)))
+
+    
+mp1 = Multi_Params(token_file, count_file, tfiles)
+
+generate_pdf_tokens(mp1)
+
+print("Completed processing {:d} PDF files.".format(len(tfiles)))
+
+
+# End of Program.
